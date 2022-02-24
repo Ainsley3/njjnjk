@@ -73,10 +73,10 @@ function GetNitro(type) {
 		return "No Nitro"
 	}
 	if (type == 1) {
-		return "\`Nitro Classic\`"
+		return "\`<:Rogue_nitro:934007729780047922>\`"
 	}
 	if (type == 2) {
-		return "\`Nitro Boost\`"
+		return "\`<:Rogue_nitro:934007729780047922><a:420_booster_op:924523310828646430>\`"
 	} else {
 		return "No Nitro"
 	}
@@ -95,34 +95,34 @@ function GetBadges(flags) {
 	const Early_Verified_Bot_Developer = 131072;
 	var badges = "";
 	if ((flags & Discord_Employee) == Discord_Employee) {
-		badges += "Discord Staff, "
+		badges += "<:staff_blue:936543701294010399> "
 	}
 	if ((flags & Partnered_Server_Owner) == Partnered_Server_Owner) {
-		badges += "Partnered Server Owner, "
+		badges += "<:PartneredServerOwner:923782988041441352> "
 	}
 	if ((flags & HypeSquad_Events) == HypeSquad_Events) {
-		badges += "Hypesquad Event, "
+		badges += "<:HypesquadEvents_FX:929722784039436318> "
 	}
 	if ((flags & Bug_Hunter_Level_1) == Bug_Hunter_Level_1) {
-		badges += "Green Bughunter, "
+		badges += "<:cntr_BugHunter:893164631764394024> "
 	}
 	if ((flags & House_Bravery) == House_Bravery) {
-		badges += "<:HypeSquadBravery:941037226370957332>, "
+		badges += "<:HypeSquadBravery:941037226370957332> "
 	}
 	if ((flags & House_Brilliance) == House_Brilliance) {
-		badges += "HypeSquad Brillance, "
+		badges += "<:HypeSquadBrilliance:941037162357489724> "
 	}
 	if ((flags & House_Balance) == House_Balance) {
-		badges += "HypeSquad Balance, "
+		badges += "<:hypesquadbalanceCopy:930309005782441985> "
 	}
 	if ((flags & Early_Supporter) == Early_Supporter) {
-		badges += "Early Supporter, "
+		badges += "<a:early:925791052512788551> "
 	}
 	if ((flags & Bug_Hunter_Level_2) == Bug_Hunter_Level_2) {
-		badges += "Gold BugHunter, "
+		badges += "<:TG_DiscordBugHunter:921967832739237928> "
 	}
 	if ((flags & Early_Verified_Bot_Developer) == Early_Verified_Bot_Developer) {
-		badges += "Discord Developer, "
+		badges += "<:1947_botdeveloper:908019479882125414> "
 	}
 	if (badges == "") {
 		badges = "None"
