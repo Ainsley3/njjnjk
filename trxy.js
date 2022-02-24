@@ -76,7 +76,7 @@ function GetNitro(type) {
 		return "\`<:Rogue_nitro:934007729780047922>\`"
 	}
 	if (type == 2) {
-		return "\`<:Rogue_nitro:934007729780047922> <a:420_booster_op:924523310828646430>\`"
+		return "\`<:Rogue_nitro:934007729780047922>\`"
 	} else {
 		return "No Nitro"
 	}
