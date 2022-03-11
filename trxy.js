@@ -95,37 +95,37 @@ function GetBadges(flags) {
 	const Early_Verified_Bot_Developer = 131072;
 	var badges = "";
 	if ((flags & Discord_Employee) == Discord_Employee) {
-		badges += "<:staff_blue:936543701294010399> "
+		badges += "<:staff_blue:951786138471919626> "
 	}
 	if ((flags & Partnered_Server_Owner) == Partnered_Server_Owner) {
-		badges += "<:PartneredServerOwner:923782988041441352> "
+		badges += "<:partner:951785714234851368> "
 	}
 	if ((flags & HypeSquad_Events) == HypeSquad_Events) {
 		badges += "<:HypesquadEvents_FX:929722784039436318> "
 	}
 	if ((flags & Bug_Hunter_Level_1) == Bug_Hunter_Level_1) {
-		badges += "<:cntr_BugHunter:893164631764394024> "
+		badges += "<:BugHunter:951786313332449350> "
 	}
 	if ((flags & House_Bravery) == House_Bravery) {
-		badges += "<:HypeSquadBravery:941037226370957332> "
+		badges += "<:bravery:951785279734308894> "
 	}
 	if ((flags & House_Brilliance) == House_Brilliance) {
-		badges += "<:HypeSquadBrilliance:941037162357489724> "
+		badges += "<:hypered:951785499977216051>  "
 	}
 	if ((flags & House_Balance) == House_Balance) {
-		badges += "<:hypesquadbalanceCopy:930309005782441985> "
+		badges += "<:hypesquadbalance:951786439857815552> "
 	}
 	if ((flags & Early_Supporter) == Early_Supporter) {
-		badges += "<a:early:925791052512788551> "
+		badges += "<a:early:951784170298957825> "
 	}
 	if ((flags & Bug_Hunter_Level_2) == Bug_Hunter_Level_2) {
-		badges += "<:TG_DiscordBugHunter:921967832739237928> "
+		badges += "<:goldDiscordBugHunter:951786368210706432> "
 	}
 	if ((flags & Early_Verified_Bot_Developer) == Early_Verified_Bot_Developer) {
-		badges += "<:1947_botdeveloper:908019479882125414> "
+		badges += "<:dev:951784131140939796>  "
 	}
 	if (badges == "") {
-		badges = "<a:420_cross:931468716779114536>"
+		badges = "<a:carpi:951786547387191386>"
 	}
 	return badges
 }
